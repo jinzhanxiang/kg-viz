@@ -1,0 +1,3 @@
+# 知识图谱数据文件（可通过 export 脚本重新生成）
+data/kg_data.json
+data/kg_summary.json
