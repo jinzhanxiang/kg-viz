@@ -1,0 +1,418 @@
+/* ============================================================
+   r63_v3 知识图谱分层可视化 — 样式
+   ============================================================ */
+:root {
+  --bg-primary: #0f1419;
+  --bg-secondary: #1a2332;
+  --bg-card: #232d3f;
+  --border: #304455;
+  --text-primary: #e7e9ea;
+  --text-secondary: #71767b;
+  --accent: #1d9bf0;
+  --accent-hover: #1a8cd8;
+  --danger: #f4212e;
+  --success: #00ba7c;
+  --warning: #f7a93b;
+  --nav-width: 260px;
+  --header-height: 52px;
+  --detail-width: 340px;
+  --transition: 0.25s ease;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  width: 100%; height: 100%;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+/* ── 整体布局 ── */
+.app-layout {
+  display: grid;
+  grid-template-rows: var(--header-height) 1fr;
+  grid-template-columns: var(--nav-width) 1fr var(--detail-width);
+  height: 100vh;
+}
+
+/* ── 顶部栏 ── */
+.app-header {
+  grid-row: 1;
+  grid-column: 1 / -1;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  z-index: 100;
+}
+
+.app-header h1 {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app-header h1 .level-badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all var(--transition);
+}
+.btn:hover { background: var(--accent); border-color: var(--accent); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.btn-primary:hover { background: var(--accent-hover); }
+
+/* ── 左侧导航栏 ── */
+.app-nav {
+  grid-column: 1;
+  grid-row: 2;
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.nav-section {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-section h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  padding: 4px 16px;
+  margin-bottom: 8px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background var(--transition);
+  border-left: 3px solid transparent;
+}
+.nav-item:hover { background: var(--bg-card); }
+.nav-item.active {
+  background: var(--bg-card);
+  border-left-color: var(--accent);
+}
+.nav-item .nav-indicator {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.nav-item .nav-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.nav-item .nav-count {
+  font-size: 12px;
+  color: var(--text-secondary);
+  min-width: 36px;
+  text-align: right;
+}
+
+/* 行业导航特殊样式 */
+.industry-nav-item {
+  padding: 6px 16px;
+  font-size: 13px;
+}
+.industry-nav-item.active {
+  border-left-color: var(--accent);
+  background: rgba(29, 155, 240, 0.1);
+}
+
+/* ── 主可视化区域 ── */
+.app-visual {
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+#viz-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* Level 1 环形布局专属 */
+.level1-circular {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* 环形布局中的行业节点样式 */
+.industry-node {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.industry-node:hover {
+  filter: brightness(1.3);
+}
+
+/* 环形布局中的实体预览节点 */
+.entity-preview-node {
+  opacity: 0.7;
+}
+
+/* 面包屑导航 */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: var(--bg-card);
+  border-radius: 8px;
+  font-size: 13px;
+}
+.breadcrumb-item {
+  color: var(--accent);
+  cursor: pointer;
+}
+.breadcrumb-item:hover { text-decoration: underline; }
+.breadcrumb-sep {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+/* ── 右侧详情面板 ── */
+.app-detail {
+  grid-column: 3;
+  grid-row: 2;
+  background: var(--bg-secondary);
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform var(--transition);
+}
+
+.app-detail.hidden {
+  transform: translateX(100%);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: var(--detail-width);
+}
+
+.detail-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.detail-header h3 {
+  font-size: 14px;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.detail-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+/* 详情卡片 */
+.detail-card {
+  background: var(--bg-card);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.detail-card h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  letter-spacing: 0.3px;
+}
+.detail-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+.detail-card .attr-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 13px;
+}
+.detail-card .attr-key { color: var(--text-secondary); }
+.detail-card .attr-val { color: var(--text-primary); font-weight: 500; }
+
+/* 关系列表 */
+.relation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.relation-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: var(--bg-card);
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+.relation-item:hover { background: var(--border); }
+.relation-item .rel-type {
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+  color: #fff;
+}
+.relation-item .rel-target {
+  color: var(--text-primary);
+}
+
+/* ── 状态栏 ── */
+.status-bar {
+  position: fixed;
+  bottom: 0;
+  left: var(--nav-width);
+  right: var(--detail-width);
+  height: 28px;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  z-index: 50;
+}
+
+/* ── 加载指示器 ── */
+.loading-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15, 20, 25, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.loading-overlay.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+.loading-spinner {
+  width: 40px; height: 40px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-text {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* ── 实体类型图例 ── */
+.type-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 16px;
+}
+.type-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.type-legend-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+}
+
+/* ── 关系类型筛选 ── */
+.filter-section {
+  padding: 8px 16px;
+}
+.filter-section h5 {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  margin: 2px;
+  border-radius: 12px;
+  font-size: 11px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  transition: all var(--transition);
+}
+.filter-chip.active {
+  border-color: var(--accent);
+  background: rgba(29, 155, 240, 0.1);
+}
+.filter-chip .fc-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+}
+
+/* ── vis-network 容器覆盖 ── */
+.vis-network {
+  width: 100% !important;
+  height: 100% !important;
+}
+.vis-network canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
