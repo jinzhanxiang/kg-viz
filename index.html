@@ -16,6 +16,10 @@
         <span class="level-badge" id="level-badge">Level 1 · 行业全景</span>
       </h1>
       <div class="header-right">
+        <label class="toggle-label" title="显示没有关联关系的孤立节点">
+          <input type="checkbox" id="toggle-isolated" onchange="window.onToggleIsolatedNodes()">
+          <span>孤立节点</span>
+        </label>
         <button class="btn" id="btn-reset" title="重置视图">🔄 重置</button>
         <button class="btn" id="btn-fit" title="适应屏幕">🔍 适应</button>
         <button class="btn" id="btn-export" title="导出PNG">💾 导出</button>

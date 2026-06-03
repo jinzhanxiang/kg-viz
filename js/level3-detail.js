@@ -172,7 +172,7 @@ const Level3Detail = (function() {
     if (wikiLink) {
       wikiLink.onclick = function() {
         const wikiPath = `entities/${safeFilename(entity.name)}.md`;
-        const wikiUrl = `../wiki-viewer.html?path=${encodeURIComponent(wikiPath)}`;
+        const wikiUrl = `../../wiki/wiki-viewer.html?path=${encodeURIComponent(wikiPath)}`;
         window.open(wikiUrl, '_blank');
       };
     }

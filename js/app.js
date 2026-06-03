@@ -233,6 +233,16 @@
     });
   };
 
+  window.onToggleIsolatedNodes = function() {
+    window._showIsolatedNodes = document.getElementById('toggle-isolated').checked;
+    if (currentLevel === 2 && breadcrumbPath.length >= 2) {
+      const industryName = breadcrumbPath[breadcrumbPath.length - 1]?.name;
+      if (industryName) {
+        navigateTo(2, industryName);
+      }
+    }
+  };
+
   window.onHighlightEntity = function(entityId, relType) {
     Level2Progressive.highlightEntity(entityId);
     // 在详情面板中高亮对应关系项

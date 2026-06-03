@@ -59,16 +59,24 @@ const Level2Progressive = (function() {
     return labels[type] || labels[type.toUpperCase()] || type;
   }
 
-  // 构建行业内部节点和边
-  function buildIndustryData(industryName, fullData) {
+  // 构建行业内部节点和边（支持过滤孤立节点）
+  function buildIndustryData(industryName, fullData, showIsolated) {
     const industryMap = fullData.industries_map[industryName];
     if (!industryMap) return { nodes: [], edges: [], entityCount: 0, relationCount: 0 };
+
+    // 先统计有关系的实体 ID
+    const connectedIds = new Set();
+    industryMap.relations.forEach(r => {
+      connectedIds.add(r.from);
+      connectedIds.add(r.to);
+    });
 
     const entityNodes = [];
     const edgeMap = new Map();
 
-    // 实体节点
+    // 实体节点（可选过滤孤立节点）
     industryMap.entities.forEach(e => {
+      if (showIsolated !== true && !connectedIds.has(e.id)) return;
       const color = getEntityColor(e.type);
       entityNodes.push({
         id: e.id,
@@ -158,7 +166,8 @@ const Level2Progressive = (function() {
     containerEl.innerHTML = '';
 
     // 阶段1：仅加载核心实体
-    const full = buildIndustryData(industryName, fullData);
+    const showIsolated = window._showIsolatedNodes === true;
+    const full = buildIndustryData(industryName, fullData, showIsolated);
     const coreNodes = full.nodes.filter(n => n.is_core);
     const coreIds = new Set(coreNodes.map(n => n.id));
     const coreEdges = full.edges.filter(e => coreIds.has(e.from) && coreIds.has(e.to));
