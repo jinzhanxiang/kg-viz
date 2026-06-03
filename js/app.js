@@ -115,14 +115,20 @@
   }
 
   function renderStats(data) {
-    const totalEnt = data.meta.total_entities;
-    const totalRel = data.meta.total_relations;
-    const totalInd = data.industries.length;
+    const totalEnt = data.meta.total_entities || 0;
+    const totalRel = data.meta.total_relations || 0;
+    const totalInd = data.industries.length || 0;
+    const totalFw = data.meta.total_frameworks || 0;
+    const totalLc = data.meta.total_logic_chains || 0;
+    const totalIndicators = data.meta.total_indicators || 0;
 
     els.statsSummary.innerHTML = `
-      <div class="attr-row"><span class="attr-key">实体</span><span class="attr-val">${totalEnt}</span></div>
-      <div class="attr-row"><span class="attr-key">关系</span><span class="attr-val">${totalRel}</span></div>
-      <div class="attr-row"><span class="attr-key">行业</span><span class="attr-val">${totalInd}</span></div>
+      <div class="attr-row"><span class="attr-key">📦 实体</span><span class="attr-val">${totalEnt}</span></div>
+      <div class="attr-row"><span class="attr-key">🔗 关系</span><span class="attr-val">${totalRel}</span></div>
+      <div class="attr-row"><span class="attr-key">🏭 行业</span><span class="attr-val">${totalInd}</span></div>
+      <div class="attr-row"><span class="attr-key">📐 框架</span><span class="attr-val" style="color:#F39C12">${totalFw}</span></div>
+      <div class="attr-row"><span class="attr-key">🧠 逻辑链</span><span class="attr-val" style="color:#9B59B6">${totalLc}</span></div>
+      <div class="attr-row"><span class="attr-key">📊 指标</span><span class="attr-val" style="color:#2ECC71">${totalIndicators}</span></div>
     `;
   }
 
@@ -199,7 +205,9 @@
             breadcrumbPath.push({ level: 1, name: '行业全景', type: 'root' });
           }
           breadcrumbPath.push({ level: 2, name: name, type: 'industry' });
-          setStatus(`Level 2 · ${name}`, `${fullData.industries_map[name]?.entity_count || 0} 实体 | ${fullData.industries_map[name]?.relation_count || 0} 关系`);
+          const im = fullData.industries_map[name] || {};
+          setStatus(`Level 2 · ${name}`,
+            `${im.entity_count || 0} 实体 · ${im.relation_count || 0} 关系 · ${im.framework_count || 0} 框架 · ${im.logic_count || 0} 逻辑 · ${im.indicator_count || 0} 指标`);
           Level3Detail.hide();
           updateBreadcrumb();
 
