@@ -1,18 +1,17 @@
 /**
- * app.js — 知识图谱分层可视化主应用
+ * app.js — 知识图谱分层可视化主应用 v4.1
  * 
- * 协调 Level 1 → Level 2 → Level 3 三级探索流程。
- * 负责数据加载、导航更新、面包屑管理、全局事件绑定。
+ * v4.1 分片加载：只加载摘要(2KB) → 点击行业再加载分片数据
  */
-
 (function() {
   'use strict';
 
   // ── 全局状态 ──
   let summaryData = null;
-  let fullData = null;
+  let fullData = null;           // 完整数据（后台懒加载）
   let currentLevel = 1;
-  let breadcrumbPath = [];  // [{level, name, type}]
+  let currentIndustryData = null; // 当前加载的行业分片数据
+  let breadcrumbPath = [];
 
   // ── DOM 元素 ──
   const els = {
@@ -32,7 +31,7 @@
     btnCloseDetail: document.getElementById('btn-close-detail'),
   };
 
-  // ── 工具函数 ──
+  // ── 工具 ──
   function showLoading(msg) {
     els.loadingText.textContent = msg;
     els.loading.classList.add('visible');
@@ -61,8 +60,6 @@
         : `<span class="breadcrumb-item" style="color:#e7e9ea">${escapeHtml(item.name)}</span>`
       }`;
     }).join('');
-
-    // 面包屑点击导航
     document.querySelectorAll('.breadcrumb-item').forEach(item => {
       item.onclick = function() {
         const lvl = parseInt(this.dataset.lvl);
@@ -71,13 +68,16 @@
       };
     });
   }
-
   function escapeHtml(s) {
     if (!s) return '';
     return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
   function escapeAttr(s) {
     return escapeHtml(s).replace(/'/g, '&#39;');
+  }
+  // 安全文件名（与导出脚本一致）
+  function safeIndustryName(name) {
+    return name.replace(/\//g, '_').replace(/\\/g, '_').replace(/ /g, '_');
   }
 
   // ── 数据加载 ──
@@ -88,10 +88,24 @@
     return resp.json();
   }
 
-  async function loadFullData() {
-    showLoading('加载完整数据（请稍候）...');
-    const resp = await fetch('data/kg_data.json');
-    if (!resp.ok) throw new Error('完整数据加载失败');
+  // 后台懒加载完整数据（用于搜索等需要全局数据的场景）
+  async function loadFullInBackground() {
+    try {
+      const resp = await fetch('data/kg_data.json');
+      if (resp.ok) {
+        fullData = await resp.json();
+        console.log('✅ 完整数据后台加载完成:', fullData.meta);
+      }
+    } catch(e) {
+      console.warn('完整数据后台加载失败:', e);
+    }
+  }
+
+  // 按需加载行业分片
+  async function loadIndustryData(indName) {
+    const safeName = safeIndustryName(indName);
+    const resp = await fetch(`data/industries/${safeName}.json`);
+    if (!resp.ok) throw new Error(`行业数据加载失败: ${indName} (${resp.status})`);
     return resp.json();
   }
 
@@ -103,7 +117,6 @@
       item.className = 'nav-item industry-nav-item';
       item.dataset.industry = ind.name;
       item.onclick = () => navigateTo(2, ind.name);
-
       const color = getIndustryColor(ind.count, data.industries[0].count);
       item.innerHTML = `
         <span class="nav-indicator" style="background:${color}"></span>
@@ -121,7 +134,6 @@
     const totalFw = data.meta.total_frameworks || 0;
     const totalLc = data.meta.total_logic_chains || 0;
     const totalIndicators = data.meta.total_indicators || 0;
-
     els.statsSummary.innerHTML = `
       <div class="attr-row"><span class="attr-key">📦 实体</span><span class="attr-val">${totalEnt}</span></div>
       <div class="attr-row"><span class="attr-key">🔗 关系</span><span class="attr-val">${totalRel}</span></div>
@@ -177,48 +189,65 @@
     return map[type] || map[type.toUpperCase()] || type;
   }
 
-  // ── 导航逻辑 ──
-  function navigateTo(level, name) {
+  // ── 导航 ──
+  async function navigateTo(level, name) {
     breadcrumbPath = breadcrumbPath.slice(0, level - 1);
 
     if (level === 1) {
-      // 回到 Level 1
       Level1Circular.init('viz-canvas', summaryData, fullData);
       currentLevel = 1;
+      currentIndustryData = null;
       setLevelBadge(1, 'Level 1 · 行业全景');
       breadcrumbPath.push({ level: 1, name: '行业全景', type: 'root' });
       setStatus('Level 1 · 行业全景', `${summaryData.industries.length} 个行业 | ${summaryData.meta.total_entities} 实体`);
       Level3Detail.hide();
       renderIndustryNav(summaryData);
       updateBreadcrumb();
-    } else if (level === 2) {
-      // 进入 Level 2
-      showLoading(`加载 ${name} ...`);
-      setTimeout(() => {
-        Level2Progressive.loadIndustry(name, fullData, 'viz-canvas', (msg) => {
-          els.loadingText.textContent = msg;
-        }).then(() => {
-          hideLoading();
-          currentLevel = 2;
-          setLevelBadge(2, `Level 2 · ${name}`);
-          if (breadcrumbPath.length === 0) {
-            breadcrumbPath.push({ level: 1, name: '行业全景', type: 'root' });
-          }
-          breadcrumbPath.push({ level: 2, name: name, type: 'industry' });
-          const im = fullData.industries_map[name] || {};
-          setStatus(`Level 2 · ${name}`,
-            `${im.entity_count || 0} 实体 · ${im.relation_count || 0} 关系 · ${im.framework_count || 0} 框架 · ${im.logic_count || 0} 逻辑 · ${im.indicator_count || 0} 指标`);
-          Level3Detail.hide();
-          updateBreadcrumb();
 
-          // 高亮导航栏
-          document.querySelectorAll('.industry-nav-item').forEach(item => {
-            item.classList.toggle('active', item.dataset.industry === name);
-          });
+    } else if (level === 2) {
+      showLoading(`加载 ${name} ...`);
+      try {
+        // 按需加载行业分片数据
+        const indData = await loadIndustryData(name);
+        currentIndustryData = indData;
+        window._currentIndustryData = indData;
+
+        // 为 Level 3 详情面板设置行业数据
+        Level3Detail.setIndustryData(indData);
+
+        // 构建 fakeFullData 供 Level2Progressive 兼容使用
+        const fakeFullData = {
+          logic_entity_edges: indData.logic_entity_edges || [],
+          indicator_entity_edges: indData.indicator_entity_edges || [],
+        };
+
+        await Level2Progressive.loadIndustry(name, fakeFullData, 'viz-canvas', (msg) => {
+          els.loadingText.textContent = msg;
         });
-      }, 100);
+
+        hideLoading();
+        currentLevel = 2;
+        setLevelBadge(2, `Level 2 · ${name}`);
+        if (breadcrumbPath.length === 0) {
+          breadcrumbPath.push({ level: 1, name: '行业全景', type: 'root' });
+        }
+        breadcrumbPath.push({ level: 2, name: name, type: 'industry' });
+        const c = indData.counts || {};
+        setStatus(`Level 2 · ${name}`,
+          `${c.entity_count || 0} 实体 · ${c.relation_count || 0} 关系 · ${c.framework_count || 0} 框架 · ${c.logic_count || 0} 逻辑 · ${c.indicator_count || 0} 指标`);
+        Level3Detail.hide();
+        updateBreadcrumb();
+        document.querySelectorAll('.industry-nav-item').forEach(item => {
+          item.classList.toggle('active', item.dataset.industry === name);
+        });
+      } catch(err) {
+        hideLoading();
+        console.error('行业数据加载失败:', err);
+        setStatus('错误', err.message);
+        alert('行业数据加载失败: ' + err.message);
+      }
+
     } else if (level === 3) {
-      // Level 3 在详情面板中，不改变主视图
       updateBreadcrumb();
     }
   }
@@ -229,31 +258,24 @@
     }
   }
 
-  // ── 全局事件回调 ──
+  // ── 全局事件 ──
   window.onEnterLevel2 = function(industryName, count) {
     navigateTo(2, industryName);
   };
-
   window.onEnterLevel3 = function(entity) {
     Level3Detail.showDetail(entity, 'detail-body', () => {
       breadcrumbPath.push({ level: 3, name: entity.name, type: 'entity' });
       updateBreadcrumb();
     });
   };
-
   window.onToggleIsolatedNodes = function() {
     window._showIsolatedNodes = document.getElementById('toggle-isolated').checked;
     if (currentLevel === 2 && breadcrumbPath.length >= 2) {
-      const industryName = breadcrumbPath[breadcrumbPath.length - 1]?.name;
-      if (industryName) {
-        navigateTo(2, industryName);
-      }
+      navigateTo(2, breadcrumbPath[breadcrumbPath.length - 1]?.name);
     }
   };
-
   window.onHighlightEntity = function(entityId, relType) {
     Level2Progressive.highlightEntity(entityId);
-    // 在详情面板中高亮对应关系项
     document.querySelectorAll('.relation-item').forEach(item => {
       if (item.dataset.entityId === entityId && item.dataset.relType === relType) {
         item.style.background = 'rgba(29,155,240,0.3)';
@@ -264,15 +286,11 @@
   };
 
   function toggleRelFilter(type, active) {
-    // TODO: 实现关系类型筛选
     console.log('Toggle relation filter:', type, active);
   }
 
-  // ── 按钮事件 ──
-  els.btnReset.onclick = function() {
-    navigateTo(1, null);
-  };
-
+  // ── 按钮 ──
+  els.btnReset.onclick = () => navigateTo(1, null);
   els.btnFit.onclick = function() {
     if (currentLevel === 1 && Level1Circular.getNetwork()) {
       Level1Circular.getNetwork().fit({ animation: { duration: 400 } });
@@ -280,7 +298,6 @@
       Level2Progressive.getNetwork().fit({ animation: { duration: 400 } });
     }
   };
-
   els.btnExport.onclick = function() {
     const canvas = document.querySelector('#viz-canvas canvas');
     if (canvas) {
@@ -290,7 +307,6 @@
       link.click();
     }
   };
-
   els.btnCloseDetail.onclick = function() {
     Level3Detail.close();
     Level2Progressive.clearHighlight();
@@ -299,31 +315,29 @@
   // ── 初始化 ──
   async function init() {
     try {
-      // 并行加载摘要和完整数据
-      const [summary, full] = await Promise.all([loadSummary(), loadFullData()]);
-      summaryData = summary;
-      fullData = full;
+      summaryData = await loadSummary();
+      fullData = null; // 暂时不用完整数据
 
-      // 设置 Level 3 数据源
-      Level3Detail.setData(fullData);
+      Level3Detail.setData(null); // 初始无数据，Level3按需传入
 
-      // 渲染导航
       renderIndustryNav(summaryData);
       renderStats(summaryData);
       renderTypeLegend(summaryData);
       renderRelFilters(summaryData);
 
-      // 初始化 Level 1
-      Level1Circular.init('viz-canvas', summaryData, fullData);
+      Level1Circular.init('viz-canvas', summaryData, null);
 
       currentLevel = 1;
       setLevelBadge(1, 'Level 1 · 行业全景');
       breadcrumbPath = [{ level: 1, name: '行业全景', type: 'root' }];
-      setStatus('就绪', `${summaryData.industries.length} 行业 | ${summaryData.meta.total_entities} 实体 | ${summaryData.meta.total_relations} 关系`);
+      setStatus('就绪', `${summaryData.industries.length} 行业 | ${summaryData.meta.total_entities} 实体`);
       updateBreadcrumb();
-
       hideLoading();
-      console.log('✅ 知识图谱 v3 分层可视化已就绪');
+
+      // 后台懒加载完整数据（不阻塞首次渲染）
+      loadFullInBackground();
+
+      console.log('✅ 知识图谱 v4.1 分片加载已就绪');
     } catch (err) {
       hideLoading();
       console.error('❌ 初始化失败:', err);
@@ -332,6 +346,5 @@
     }
   }
 
-  // 启动
   init();
 })();

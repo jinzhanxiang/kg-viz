@@ -475,15 +475,31 @@ const Level2Progressive = (function() {
   }
 
   // 渐进式加载
-  async function loadIndustry(industryName, fullData, container, onProgress) {
+  async function loadIndustry(industryName, edgeData, container, onProgress) {
     currentIndustry = industryName;
-    currentData = fullData;
+    currentData = edgeData;
+
+    if (onProgress) onProgress(`加载 ${industryName} 数据...`);
+
+    // 获取行业数据分片（从 app.js 的 window._currentIndustryData）
+    let industryData = window._currentIndustryData;
+    if (!industryData || industryData.name !== industryName) {
+      // 兼容旧版 fullData.industries_map
+      if (edgeData.industries_map && edgeData.industries_map[industryName]) {
+        industryData = edgeData.industries_map[industryName];
+      } else {
+        console.error('行业数据未加载:', industryName);
+        if (onProgress) onProgress('数据未准备');
+        return;
+      }
+    }
+
+    if (onProgress) onProgress(`${industryName}: 构建节点和边...`);
+    const showIsolated = window._showIsolatedNodes === true;
+    const full = buildNodesFromComponents(industryName, industryData, edgeData, showIsolated);
 
     const containerEl = document.getElementById(container);
-    containerEl.innerHTML = '';
-
-    const showIsolated = window._showIsolatedNodes === true;
-    const full = buildIndustryData(industryName, fullData, showIsolated);
+    if (!containerEl) { console.error('容器未找到:', container); return; }
 
     // 阶段1：仅加载核心实体和框架（先展示骨架）
     const coreNodes = full.nodes.filter(n => n.is_core || n.nodeType === 'framework');

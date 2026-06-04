@@ -10,6 +10,7 @@
 const Level3Detail = (function() {
   let currentEntity = null;
   let fullData = null;
+  let industryData = null; // 当前行业数据分片
 
   const TYPE_LABELS = {
     ORG: '组织机构', PERSON: '人物', PRODUCT: '产品',
@@ -375,6 +376,13 @@ const Level3Detail = (function() {
 
   function setData(data) {
     fullData = data;
+    industryData = null;
+  }
+
+  // 设置行业分片数据（分片加载模式用）
+  function setIndustryData(data) {
+    industryData = data;
+    fullData = data; // 兼容旧版查找逻辑
   }
 
   function getCurrentEntity() { return currentEntity; }
@@ -384,6 +392,7 @@ const Level3Detail = (function() {
     hide,
     close,
     setData,
+    setIndustryData,
     getCurrentEntity,
   };
 })();

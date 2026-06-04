@@ -1,0 +1,6630 @@
+{
+ "name": "低空经济",
+ "entities": [
+  {
+   "id": "ent_b992e2ec6238",
+   "name": "5G网络",
+   "type": "TECH",
+   "industry": "低空经济",
+   "desc": "5G网络作为新一代移动通信技术的核心载体，在金融科技与产业数字化进程中扮演着关键的基础设施角色。其具备超高带宽、超低时延及海量连接的技术特性，能够支撑高频交易、实时风控及物联网金融等场景对数据即时性与稳定性的严苛要求。截至2025年2月，中国5G基站总数已达432.5万个，构建了全球规模最大的独立组网网络，显著提升了数字经济的运行效率。该网络不仅是保障低空飞行器实时通信与数据传输的关键支撑，更通过持续加密西部地区山区、河谷等信号薄弱区域的覆盖，进一步消除了数字鸿沟，为普惠金融下沉及区域均衡发展提供了坚实的技术底座。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_abf26a7d6c9a",
+   "name": "eVTOL电动垂直起降航空器",
+   "type": "PRODUCT",
+   "industry": "低空经济",
+   "desc": "eVTOL（电动垂直起降航空器）是低空经济领域的核心创新产品，旨在通过全电力驱动技术重构城市空中交通体系，解决传统航空器噪音大、基础设施依赖度高的痛点。其核心优势在于零排放、低噪音及无需长跑道即可垂直起降的特性，能够高效连接城市密集区域，显著提升短途通勤与物流配送的效率。作为未来立体交通网络的关键载体，eVTOL正推动全球航空产业从传统制造向智能化、绿色化转型，尽管目前面临高成本与监管探索期的挑战，但其巨大的市场潜力已吸引众多科技巨头与航空企业布局，有望成为重塑未来出行生态的重要力量。",
+   "attrs": "{\"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_d9f2332de309",
+   "name": "eVTOL电动垂直起降飞行器",
+   "type": "PRODUCT",
+   "industry": "低空经济",
+   "desc": "eVTOL（电动垂直起降飞行器）是城市空中交通（UAM）领域的核心载具，旨在解决高密度城市环境下的短途通勤与物流痛点，推动立体交通网络的构建。该类产品采用全电动驱动系统，深度融合多旋翼、倾转旋翼及复合翼等技术路线，具备零排放、低噪音及高能效的显著特征，大幅降低了全生命周期运营成本。作为低空经济的关键基础设施，eVTOL正加速从研发测试向商业化运营过渡，有望重塑未来城市出行格局，成为继地面交通之后的又一重要战略赛道，对航空制造、电池技术及空域管理产业链产生深远影响。",
+   "attrs": "{\"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_701b03a0cd98",
+   "name": "eVTOL（电动垂直起降飞行器）",
+   "type": "PRODUCT",
+   "industry": "低空经济",
+   "desc": "eVTOL（电动垂直起降飞行器）是城市空中交通（UAM）领域的核心产品，旨在通过电动化与智能化技术重构未来立体出行网络。该类产品主要涵盖多旋翼、倾转旋翼及复合翼三大技术路线，凭借零排放、低噪音及高灵活性等优势，显著提升了城市交通效率并降低了运营成本。作为低空经济的关键载体，eVTOL正加速从研发测试向商业化运营过渡，其中亿航EH216-S获颁全球首张载人适航证，标志着行业在安全监管与标准化方面取得里程碑式突破，确立了其在全球航空创新领域的领先地位。",
+   "attrs": "{\"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_3037c8f13130",
+   "name": "PPP模式",
+   "type": "POLICY",
+   "industry": "低空经济",
+   "desc": "PPP模式（政府和社会资本合作）是一种创新的公共基础设施投融资及建设管理模式，旨在通过引入社会资本参与公共服务供给，实现政府职能转变与提升效率。其核心优势在于有效缓解政府财政压力，利用市场机制优化资源配置，特别适用于兼具公共产品属性与商业运营潜力的领域，如低空经济基础设施等新兴基建项目。在区域发展层面，该模式在西部地区展现出极高的渗透率，项目数量与投资额占全国比重接近半数，成为推动区域平衡发展的重要政策工具。作为连接公共部门与私营资本的关键桥梁，PPP模式在促进重大基础设施建设、激发市场活力及优化公共服务供给方面具有深远的影响力，是构建现代化经济体系的重要制度创新。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_e45c765ed503",
+   "name": "三江源保护区",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "三江源保护区作为“中华水塔”，承担着长江、黄河、澜沧江三大河流源头的生态保护重任，其生态状况直接关系到下游数亿人口的生存发展。通过部署先进的无人机遥感监测系统，实现了，对重点区域85%覆盖率的全天候监控",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_84fe3e50d2a1",
+   "name": "中航（成都）无人机系统股份有限公司",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "中航（成都）无人机系统股份有限公司是中国航空工业集团旗下的核心无人机研发与制造主体，专注于中大型察打一体无人机的技术创新与产业化应用。公司凭借在气动设计、飞控系统及任务载荷领域的深厚技术积累，成功研制出翼龙系列高端无人机，其中翼龙-3具备超过40小时的超长续航能力，显著提升了持久监视与精确打击效能。作为全球无人机行业的领军企业，该公司产品已出口至多个国家和地区，占据全球中大型察打一体无人机市场约20%的份额，在国际防务市场中具有显著的竞争力和品牌影响力。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_574c4f84e4db",
+   "name": "云南普者黑景区",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "云南普者黑景区位于云南省文山壮族苗族自治州丘北县，是集喀斯特山水风光、湿地生态与壮族文化于一体的国家5A级旅游景区。该景区以“水上田园”的独特地貌为核心吸引力，近年来积极拥抱数字化转型，通过引入无人机编队表演等科技赋能项目，将传统民族文化与现代视听技术深度融合，显著提升了游客体验与品牌科技感。凭借这一创新举措，景区在暑期旺季实现了客流量40%的显著增长，有效带动了周边餐饮、住宿及交通等关联产业的协同发展。作为西南地区文旅融合发展的标杆案例，普者黑景区不仅巩固了其在国内高端度假目的地的领先地位，也为传统景区的智能化升级提供了可复制的成功范式。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_a5931595d7d1",
+   "name": "云南省",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "云南省作为中国西南地区的核心枢纽，正依托其独特的高原山地地形与丰富的自然资源，积极构建以低空经济为特色的现代化产业体系。该省将地面交通相对不便的地理约束转化为发展优势，重点培育无人机物流、高原特色农业智能化服务以及世界级低空观光旅游等新兴业态，形成差异化的产业竞争力。凭借在喀斯特地貌区域应用技术的先发优势及深厚的文旅资源积淀，云南已成为国内低空经济创新应用的重要示范区。这一战略定位不仅推动了区域交通与农业的数字化转型，更确立了其在国家低空经济发展版图中的关键节点地位，对促进西南边疆地区的高质量发展具有深远影响。",
+   "attrs": "{\"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_e84767e63202",
+   "name": "京东集团",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "京东集团是中国领先的技术驱动型电商及供应链服务商，业务涵盖零售、科技、物流及健康等多个领域。其核心竞争优势在于构建了强大的智能供应链体系，通过自营模式与高效物流网络，实现了从采购到交付的全链路数字化管理。在物流创新方面，京东率先布局无人机配送与智能服务站，如在江苏建成全球首个无人机智能配送港，日均处理订单超1.2万单，展现了其在即时物流领域的技术领先地位。作为全球最具价值的零售商之一，京东集团不仅重塑了传统零售业态，更通过技术赋能推动产业互联网发展，对全球电子商务及智慧物流行业具有深远的影响力。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_8d86c10e0828",
+   "name": "亿航智能设备（广州）有限公司",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "亿航智能设备（广州）有限公司是专注于智能无人驾驶航空器研发、制造及运营的高新技术企业，深耕低空经济与eVTOL（电动垂直起降飞行器）赛道。公司凭借EH216-S等核心产品，成功突破续航与安全性技术瓶颈，成为全球首家获得中国民航局颁发的载人eVTOL型号合格证、生产许可证及标准适航证的科技企业，确立了其在智能低空飞行领域的全球领先地位。目前，该公司已在深圳、北京等多个城市开展商业化运营试点，推动低空交通从概念走向现实，对重塑未来城市空中出行格局具有深远影响。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_2092a9dea078",
+   "name": "《低空空域使用管理办法（试行）》",
+   "type": "POLICY",
+   "industry": "低空经济",
+   "desc": "《低空空域使用管理办法（试行）》是2024年12月发布的低空经济领域关键监管政策，旨在规范空域资源的高效利用与安全运行。该办法在安徽、湖南等7个试点省份率先推行空域动态申请与实时审批的数字化管理模式，实现了审批流程从传统3个工作日向2小时的显著压缩。这一创新举措极大提升了空域使用效率，为无人机物流、eVTOL等新兴业态提供了制度保障。作为低空经济基础设施建设的核心政策，它标志着我国低空空域管理从静态规划向动态智能调控的重大转型，对推动行业规模化发展具有深远影响力。",
+   "attrs": "{\"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_70e4ef8a5315",
+   "name": "内蒙古自治区",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "地域广袤、空域资源丰富、地势相对平坦开阔，拥有大面积的农田、牧场和边境线，为大规模、长航时无人机作业提供了理想的物理空间。政策充分利用广阔空域、丰富算力资源和多样应用场景，计划到2027年通用机场数量达到33个，标准化临时起降场（点）达到100个。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_c15bc70f78db",
+   "name": "内蒙古自治区政府办公厅",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "内蒙古自治区政府办公厅是自治区人民政府的综合办事机构，承担着协助领导同志处理日常政务、协调各职能部门工作以及督促检查重大决策落实的核心职能。作为连接自治区政府与下级机关及社会各界的关键枢纽，该机构在政策制定、行政协调及公共服务优化方面发挥着不可替代的中枢作用，确保政令畅通与高效执行。凭借其在区域治理体系中的核心地位，该办公厅深度参与内蒙古自治区经济社会发展规划，如在低空经济等新兴领域推动顶层设计，有力支撑了区域产业结构升级与高质量发展战略的实施。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_0f63160d3c8d",
+   "name": "四川省",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "四川省作为中国西部重要的经济枢纽，正积极构建以低空经济为核心的现代化产业体系，重点聚焦中大型无人机制造及通用航空服务领域。凭借深厚的工业基础与政策扶持，该省在中大型无人机产业规模上稳居全国首位，2024年全省无人机产业产值已突破800亿元大关，展现出强劲的增长动能。此外，成都率先建成全国首个城市低空通信网络，为低空飞行提供了关键的基础设施支撑，确立了其在行业技术迭代与应用场景拓展中的领先地位。这一系列举措不仅巩固了四川省在全国无人机产业链中的核心影响力，也为其向全球领先的低空经济高地迈进奠定了坚实基础。",
+   "attrs": "{\"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_4084c25cb9c7",
+   "name": "四川省",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "四川省作为中国西部的经济高地，正加速构建以低空经济为核心的战略性新兴产业体系。依托成都等核心城市的科技优势，该省率先建成全国首个城市低空通信网络，为无人机规模化应用提供了关键的基础设施支撑。凭借在研发制造、测试验证及场景应用方面的全方位布局，四川省中大型无人机产业规模稳居全国首位，展现出极强的产业集聚效应与技术领先性。2024年全省无人机产业产值突破800亿元，标志着其已从传统制造业向高附加值、高技术含量的智能装备领域成功转型。这一成就不仅确立了四川省在全国低空经济版图中的领跑地位，也为推动区域产业结构优化升级及培育新质生产力提供了重要示范。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_b3edcd0f6873",
+   "name": "四川省低空空域协同管理委员会",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "四川省低空空域协同管理委员会是专注于低空空域资源统筹规划与运行管理的区域性权威机构，旨在构建高效、安全的通用航空服务体系。该机构在全国率先打破传统军民航“分块管理”壁垒，创新实施军地民“协同管理”机制，通过大幅简化审批流程，显著提升了空域使用效率与资源配置灵活性。作为西部地区低空经济领域管理模式改革的重要探索者，其建立的协同治理体系不仅形成了显著的先发优势，也为全国低空空域管理改革提供了可复制的示范经验，在推动区域通用航空产业高质量发展及低空经济生态构建中发挥着关键引领作用。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_1646cd9122f2",
+   "name": "国家发展改革委",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "2024年修订发布《西部地区鼓励类产业目录（2025年本）》，首次将“低空经济”明确列为西部地区新增的鼓励类产业，使西部地区从事相关产业的企业可享受减按15%征收企业所得税的优惠政策，为西部地区吸引投资、集聚产业要素创造了前所未有的政策洼地。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_cf98402dfdbf",
+   "name": "大疆创新",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "大疆创新（DJI）是一家总部位于中国深圳的全球领先智能无人机及影像系统制造商，深耕于航空航天与人工智能领域。公司凭借在飞控算法、云台稳定技术及高性能传感器等核心硬件领域的自主研发优势，构建了极高的技术壁垒和产品竞争力。作为全球消费级无人机市场的绝对主导者，大疆不仅占据约70%的市场份额，更在农业植保、电力巡检、安防监控等专业应用领域确立了行业标准。其创新的技术解决方案深刻推动了低空经济的发展，对全球无人机产业格局具有深远的影响力。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_7fa3597e9d16",
+   "name": "小鹏汇天",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "小鹏汇天是专注于低空飞行器的创新科技企业，致力于推动eVTOL（电动垂直起降飞行器）技术的商业化落地与普及。公司依托母公司小鹏汽车在智能驾驶领域的深厚技术积累，构建了涵盖整机设计、飞控系统及动力总成的全栈自研能力，其代表性产品X3飞行汽车已实现量产交付，展现了卓越的技术创新实力与工程化能力。作为国内eVTOL领域的领军企业，小鹏汇天不仅在国内市场占据先发优势，更凭借符合国际适航标准的产品体系，在全球低空经济赛道中具备显著的竞争力和行业影响力。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_ef77d1ab82a0",
+   "name": "川西地震带",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "川西地震带位于中国西南青藏高原东缘，是构造运动活跃、地震频发的关键地质区域，在金融保险及应急科技行业中被视为高风险灾害场景的典型代表。该区域地质构造复杂，地震引发的通信中断、道路损毁及电力瘫痪等次生灾害严重，对传统基础设施构成巨大挑战。作为应急通信保障的核心应用场景，系留无人机技术在此展现出显著优势，能够提供72小时连续不间断的通信支持，有效填补灾后信息真空。这一特性使其成为金融风控模型中评估灾害恢复能力的重要指标，凸显了其在提升区域韧性及保障金融业务连续性方面的行业影响力。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_2cefe347e461",
+   "name": "敦煌月牙泉景区",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "敦煌月牙泉景区作为甘肃敦煌市的核心文化地标，正通过引入eVTOL电动垂直起降飞行器，率先探索低空经济与文旅产业的深度融合。该景区推出的空中观光服务以598元/人次的定价策略，成功实现了92%的高上座率，显著验证了市场对高品质、差异化旅游体验的强劲需求。这一创新举措不仅突破了传统地面观光的局限，更确立了其在智慧旅游和低空应用场景中的行业标杆地位。通过打造独特的空中视角，景区有效提升了品牌溢价能力，为文旅产业数字化转型提供了可复制的商业范式，展现了其在推动区域旅游消费升级中的关键影响力。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_fa2e98de9e5a",
+   "name": "新华网低空经济研究院",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "新华网低空经济研究院是依托新华社权威媒体背景设立的专业智库机构，专注于低空经济领域的深度研究、产业分析及政策咨询。该机构凭借国家级媒体的信息资源优势与严谨的调研能力，在低空飞行器应用、空域管理改革及产业链生态构建等方面具备显著的专业壁垒与数据洞察力。作为行业内的关键知识生产主体，其主导编制的《2025西部地区低空经济发展研究报告》等成果，为政府决策、产业布局及投资方向提供了重要的参考依据。凭借在区域低空经济规划中的前瞻性视野，该研究院已成为推动中国低空经济标准化、规模化发展的重要智力支撑力量，在行业内享有较高的公信力与影响力。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_cec4ff63c938",
+   "name": "新疆维吾尔自治区",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "地域辽阔资源丰富，共同特点是地域广袤、空域资源丰富、地势相对平坦开阔，拥有大面积的农田、牧场和漫长边境线。重点鼓励通用航空器、无人机及其零部件的组装、维修、运营和制造，发展面向中亚的航空制造与服务枢纽。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_ae229b08eb82",
+   "name": "《无人驾驶航空器飞行管理暂行条例》",
+   "type": "POLICY",
+   "industry": "低空经济",
+   "desc": "《无人驾驶航空器飞行管理暂行条例》是我国首部专门针对低空经济领域的行政法规，标志着无人机行业正式进入法治化、规范化管理的新阶段。该条例确立了分类分级管控体系，明确将空域划分为管制与非管制区域，并规定真高120米以下空域无需审批即可飞行，极大降低了合规成本与运营门槛。这一政策不仅厘清了监管职责边界，还通过简化空域申请流程，有效激发了商业应用活力，为物流配送、城市治理等场景提供了制度保障。作为低空经济的基础性法律框架，该条例对推动产业标准化发展、促进技术创新与市场规模扩张具有深远影响，是构建现代低空治理体系的核心基石。",
+   "attrs": "{\"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_35fa74554759",
+   "name": "深圳市",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "深圳市作为中国低空经济产业的标杆城市，在无人机研发制造及商业化应用领域占据核心地位。该市汇聚了超过1500家无人机相关企业，占据了全国35%的市场份额，形成了极具竞争力的产业集群优势。凭借建成全国首个低空通信网络等基础设施创新，深圳在物流配送等场景实现了规模化落地，累计无人机配送订单突破千万单。这一系列成就确立了深圳在全球低空经济产业链中的领先地位，使其成为推动行业标准化、智能化发展的重要引擎，对全国乃至全球低空产业的演进具有深远影响力。",
+   "attrs": "{\"industry\": \"\\u4f4e\\u7a7a\\u7ecf\\u6d4e\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_31e17a906b07",
+   "name": "甘肃酒泉风电集群",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "甘肃酒泉风电集群是中国乃至全球规模最大的集中式风电基地之一，在国家能源战略中占据核心地位，承担着推动西部清洁能源大规模开发与外送的关键使命。该集群依托得天独厚的风能资源禀赋，构建了超大型风电场群，形成了显著的规模效应和产业集聚优势，是“西电东送”工程的重要电源点。面对极端气候下的运维挑战，集群积极引入智能运维系统，通过无人机搭载高精度传感器与AI识别算法，实现了对风机叶片裂纹、变形及积冰等异常状况的全天候精准监测。这一技术升级不仅大幅提升了运维效率与安全性，更确立了其在智慧能源管理领域的行业标杆地位，对推动风电产业的高质量可持续发展具有深远影响。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_7fc3d0e392b9",
+   "name": "祁连山地区",
+   "type": "PLACE",
+   "industry": "低空经济",
+   "desc": "祁连山地区作为西北地区重要的生态屏障和水源涵养区，其冰川资源的变化趋势直接影响着河西走廊乃至整个西北地区的水资源安全。通过机载激光雷达系统对祁连山冰川进行定期扫描测量，能够实现±0.1米精度的冰川年退缩量监测",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_c711ca566cd9",
+   "name": "秦汉通航",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "秦汉通航是陕西投资集团旗下专注于通用航空运营的专业化企业，致力于提供高效、安全的低空飞行服务与综合解决方案。公司核心资产包括20余架贝尔系列直升机，凭借先进的机队配置与成熟的运维体系，在应急救援、医疗转运及特种作业等领域具备显著的技术优势与快速响应能力。作为区域通用航空领域的骨干力量，秦汉通航深度参与甘肃积石山地震等重大灾害救援行动，累计成功转运被困群众300余人，展现了卓越的社会责任感与实战能力。其在公共安全与紧急救援领域的突出贡献，确立了其在西北地区通用航空行业中的领先地位与广泛影响力。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_6c525f22d337",
+   "name": "绵阳市低空经济研究院",
+   "type": "ORG",
+   "industry": "低空经济",
+   "desc": "绵阳市低空经济研究院定位为西部地区高能级的技术创新与战略研究平台，致力于推动低空经济产业链的深度融合与高质量发展。该机构聚焦西部特色应用场景，重点突破复杂环境下自主飞行、高可靠性通信导航、集群协同作业及智能探测与反制等核心关键技术，构建了从基础研发到应用落地的完整技术体系。作为区域低空产业的重要智库与技术引擎，研究院不仅为地方政府提供决策支持，还通过产学研协同创新加速技术成果转化，显著提升了西部在低空经济领域的核心竞争力。其研究成果对完善区域低空空域管理体系、促进通用航空产业规模化发展具有深远影响力，是引领西部低空经济创新发展的关键力量。",
+   "attrs": "",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  }
+ ],
+ "relations": [
+  {
+   "from": "ent_e84767e63202",
+   "to": "ent_2d668e2637a2",
+   "type": "客户",
+   "from_name": "京东集团",
+   "to_name": "低空物流配送",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_266ab6e48360",
+   "to": "ent_d9f2332de309",
+   "type": "上下游",
+   "from_name": "顺丰速运",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8d86c10e0828",
+   "to": "ent_d9f2332de309",
+   "type": "客户",
+   "from_name": "亿航智能设备（广州）有限公司",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7fa3597e9d16",
+   "to": "ent_8d86c10e0828",
+   "type": "对比",
+   "from_name": "小鹏汇天",
+   "to_name": "亿航智能设备（广州）有限公司",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_84fe3e50d2a1",
+   "to": "ent_40cb5c47eee7",
+   "type": "上下游",
+   "from_name": "中航（成都）无人机系统股份有限公司",
+   "to_name": "翼龙系列无人机",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_c711ca566cd9",
+   "to": "ent_0cc9536a850c",
+   "type": "合作",
+   "from_name": "秦汉通航",
+   "to_name": "陕西省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ac81b38dd3e9",
+   "to": "ent_d9f2332de309",
+   "type": "监管",
+   "from_name": "JobyAviation",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_da84e8708c3f",
+   "to": "ent_5b1a77ac4bfd",
+   "type": "合作",
+   "from_name": "数字孪生空域",
+   "to_name": "UTM无人机交通管理系统",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "TECH",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_fa2e98de9e5a",
+   "to": "ent_577a59c1ecc8",
+   "type": "合作",
+   "from_name": "新华网低空经济研究院",
+   "to_name": "西北工业大学电子信息学院",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e84767e63202",
+   "to": "ent_4d856a9052c5",
+   "type": "投资",
+   "from_name": "京东集团",
+   "to_name": "西部地区",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_266ab6e48360",
+   "to": "ent_4d856a9052c5",
+   "type": "投资",
+   "from_name": "顺丰速运",
+   "to_name": "西部地区",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4d856a9052c5",
+   "to": "ent_35fa74554759",
+   "type": "对比",
+   "from_name": "西部地区",
+   "to_name": "深圳市",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_40cb5c47eee7",
+   "to": "ent_89ed68d8a418",
+   "type": "上下游",
+   "from_name": "翼龙系列无人机",
+   "to_name": "应急救援",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0cc9536a850c",
+   "to": "ent_d9f2332de309",
+   "type": "上下游",
+   "from_name": "陕西省",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d9f2332de309",
+   "to": "ent_40cb5c47eee7",
+   "type": "竞争",
+   "from_name": "eVTOL电动垂直起降飞行器",
+   "to_name": "翼龙系列无人机",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_fa2e98de9e5a",
+   "to": "ent_2b93b040e53a",
+   "type": "合作",
+   "from_name": "新华网低空经济研究院",
+   "to_name": "中国信息协会低空经济分会",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_c711ca566cd9",
+   "to": "ent_4d856a9052c5",
+   "type": "客户",
+   "from_name": "秦汉通航",
+   "to_name": "西部地区",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_7fa3597e9d16",
+   "to": "ent_d9f2332de309",
+   "type": "上下游",
+   "from_name": "小鹏汇天",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_1646cd9122f2",
+   "to": "ent_2092a9dea078",
+   "type": "监管",
+   "from_name": "国家发展改革委",
+   "to_name": "《低空空域使用管理办法（试行）》",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_e84767e63202",
+   "to": "ent_2d668e2637a2",
+   "type": "监管",
+   "from_name": "京东集团",
+   "to_name": "低空物流配送",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_266ab6e48360",
+   "to": "ent_2d668e2637a2",
+   "type": "监管",
+   "from_name": "顺丰速运",
+   "to_name": "低空物流配送",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_35fa74554759",
+   "to": "ent_d9f2332de309",
+   "type": "合作",
+   "from_name": "深圳市",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_ac81b38dd3e9",
+   "to": "ent_8d86c10e0828",
+   "type": "对比",
+   "from_name": "JobyAviation",
+   "to_name": "亿航智能设备（广州）有限公司",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_cec4ff63c938",
+   "to": "ent_2d668e2637a2",
+   "type": "投资",
+   "from_name": "新疆维吾尔自治区",
+   "to_name": "低空物流配送",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_1646cd9122f2",
+   "to": "ent_2138b48be7e8",
+   "type": "监管",
+   "from_name": "国家发展改革委",
+   "to_name": "西部地区鼓励类产业目录（2025年本）",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0cc9536a850c",
+   "to": "ent_284cb39d6e80",
+   "type": "监管",
+   "from_name": "陕西省",
+   "to_name": "《航空产业高质量发展三年行动计划》",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_40cb5c47eee7",
+   "to": "ent_89ed68d8a418",
+   "type": "合作",
+   "from_name": "翼龙系列无人机",
+   "to_name": "应急救援",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d20f0f62471b",
+   "to": "ent_a1de07435a35",
+   "type": "上下游",
+   "from_name": "亿航智能",
+   "to_name": "城市空中交通（UAM）",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4acb8cd284ad",
+   "to": "ent_4444d2919c6b",
+   "type": "上下游",
+   "from_name": "无人机交通管理系统（UTM）",
+   "to_name": "无人机",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "TECH",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_701b03a0cd98",
+   "to": "ent_a1de07435a35",
+   "type": "供应",
+   "from_name": "eVTOL（电动垂直起降飞行器）",
+   "to_name": "城市空中交通（UAM）",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_40cb5c47eee7",
+   "to": "ent_fede44004621",
+   "type": "监管",
+   "from_name": "翼龙系列无人机",
+   "to_name": "应急通信",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0cc9536a850c",
+   "to": "ent_e1b7a43b880c",
+   "type": "合作",
+   "from_name": "陕西省",
+   "to_name": "定边县",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a5931595d7d1",
+   "to": "ent_4c3cc3966d70",
+   "type": "合作",
+   "from_name": "云南省",
+   "to_name": "低空物流",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_3567cc39143d",
+   "to": "ent_0a7842b7e07e",
+   "type": "合作",
+   "from_name": "重庆市",
+   "to_name": "低空文旅",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_3567cc39143d",
+   "to": "ent_c2c038d62915",
+   "type": "合作",
+   "from_name": "重庆市",
+   "to_name": "长江经济带",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0cc9536a850c",
+   "to": "ent_27ca6b492d7d",
+   "type": "投资",
+   "from_name": "陕西省",
+   "to_name": "航空产业",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_04de579fe027",
+   "to": "ent_0ab0430dbad1",
+   "type": "监管",
+   "from_name": "长江-1000A发动机",
+   "to_name": "《西部地区鼓励类产业目录（2025年本）》",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_abf26a7d6c9a",
+   "to": "ent_0ab0430dbad1",
+   "type": "监管",
+   "from_name": "eVTOL电动垂直起降航空器",
+   "to_name": "《西部地区鼓励类产业目录（2025年本）》",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f261a346f3df",
+   "to": "ent_a48bfff8d46c",
+   "type": "合作",
+   "from_name": "呼包鄂低空经济发展圈",
+   "to_name": "赤通锡低空应用集聚区",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b83e848cbe7f",
+   "to": "ent_3567cc39143d",
+   "type": "合作",
+   "from_name": "成都市",
+   "to_name": "重庆市",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4d856a9052c5",
+   "to": "ent_3da447300dc5",
+   "type": "投资",
+   "from_name": "西部地区",
+   "to_name": "通用机场",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0ab0430dbad1",
+   "to": "ent_4d856a9052c5",
+   "type": "监管",
+   "from_name": "《西部地区鼓励类产业目录（2025年本）》",
+   "to_name": "西部地区",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "POLICY",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0b81e5b33cfc",
+   "to": "ent_3037c8f13130",
+   "type": "投资",
+   "from_name": "西安市",
+   "to_name": "PPP模式",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4d856a9052c5",
+   "to": "ent_b992e2ec6238",
+   "type": "上下游",
+   "from_name": "西部地区",
+   "to_name": "5G网络",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6c525f22d337",
+   "to": "ent_0a9143c3161a",
+   "type": "合作",
+   "from_name": "绵阳市低空经济研究院",
+   "to_name": "西北工业大学",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f261a346f3df",
+   "to": "ent_4d856a9052c5",
+   "type": "战略联盟",
+   "from_name": "呼包鄂低空经济发展圈",
+   "to_name": "西部地区",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_3567cc39143d",
+   "to": "ent_b83e848cbe7f",
+   "type": "战略联盟",
+   "from_name": "重庆市",
+   "to_name": "成都市",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_3037c8f13130",
+   "to": "ent_0b81e5b33cfc",
+   "type": "监管",
+   "from_name": "PPP模式",
+   "to_name": "西安市",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "POLICY",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a48bfff8d46c",
+   "to": "ent_f261a346f3df",
+   "type": "合作",
+   "from_name": "赤通锡低空应用集聚区",
+   "to_name": "呼包鄂低空经济发展圈",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b992e2ec6238",
+   "to": "ent_abf26a7d6c9a",
+   "type": "上下游",
+   "from_name": "5G网络",
+   "to_name": "eVTOL电动垂直起降航空器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "TECH",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4d856a9052c5",
+   "to": "ent_0ab0430dbad1",
+   "type": "监管",
+   "from_name": "西部地区",
+   "to_name": "《西部地区鼓励类产业目录（2025年本）》",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_87c023718081",
+   "to": "ent_abf26a7d6c9a",
+   "type": "上下游",
+   "from_name": "北斗+GPS双系统导航",
+   "to_name": "eVTOL电动垂直起降航空器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "TECH",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_35fa74554759",
+   "to": "ent_abf26a7d6c9a",
+   "type": "监管",
+   "from_name": "深圳市",
+   "to_name": "eVTOL电动垂直起降航空器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_04de579fe027",
+   "to": "ent_abf26a7d6c9a",
+   "type": "上下游",
+   "from_name": "长江-1000A发动机",
+   "to_name": "eVTOL电动垂直起降航空器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_f261a346f3df",
+   "to": "ent_3da447300dc5",
+   "type": "上下游",
+   "from_name": "呼包鄂低空经济发展圈",
+   "to_name": "通用机场",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b83e848cbe7f",
+   "to": "ent_3da447300dc5",
+   "type": "投资",
+   "from_name": "成都市",
+   "to_name": "通用机场",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_3567cc39143d",
+   "to": "ent_3da447300dc5",
+   "type": "投资",
+   "from_name": "重庆市",
+   "to_name": "通用机场",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b992e2ec6238",
+   "to": "ent_4d856a9052c5",
+   "type": "投资",
+   "from_name": "5G网络",
+   "to_name": "西部地区",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "TECH",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_3567cc39143d",
+   "to": "ent_b83e848cbe7f",
+   "type": "竞争",
+   "from_name": "重庆市",
+   "to_name": "成都市",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0cc9536a850c",
+   "to": "ent_4084c25cb9c7",
+   "type": "竞争",
+   "from_name": "陕西省",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_3567cc39143d",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "重庆市",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_a5931595d7d1",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "云南省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_0cc9536a850c",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "陕西省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_c4740028bbeb",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "九寨沟风景区",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_0771886abad8",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "成都",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_40cb5c47eee7",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "翼龙系列无人机",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6c525f22d337",
+   "to": "ent_4084c25cb9c7",
+   "type": "合作",
+   "from_name": "绵阳市低空经济研究院",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a5931595d7d1",
+   "to": "ent_4084c25cb9c7",
+   "type": "合作",
+   "from_name": "云南省",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_3567cc39143d",
+   "type": "战略联盟",
+   "from_name": "四川省",
+   "to_name": "重庆市",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_40cb5c47eee7",
+   "to": "ent_4084c25cb9c7",
+   "type": "投资",
+   "from_name": "翼龙系列无人机",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_d9f2332de309",
+   "type": "投资",
+   "from_name": "四川省",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_0ab0430dbad1",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "《西部地区鼓励类产业目录（2025年本）》",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_5a604128f08b",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "《关于支持通用航空产业发展的若干政策措施》",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_91b2a0bb7424",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "低空空域",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_4d2917c3eda5",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "低空基础设施",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b7f976ed8fd8",
+   "to": "ent_4084c25cb9c7",
+   "type": "监管",
+   "from_name": "低空空域协同管理委员会",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "POLICY",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_b7f976ed8fd8",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "低空空域协同管理委员会",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_4084c25cb9c7",
+   "to": "ent_6c525f22d337",
+   "type": "投资",
+   "from_name": "四川省",
+   "to_name": "绵阳市低空经济研究院",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_3567cc39143d",
+   "type": "战略联盟",
+   "from_name": "四川省",
+   "to_name": "重庆市",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_40cb5c47eee7",
+   "to": "ent_0f63160d3c8d",
+   "type": "投资",
+   "from_name": "翼龙系列无人机",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PRODUCT",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0cc9536a850c",
+   "to": "ent_0f63160d3c8d",
+   "type": "竞争",
+   "from_name": "陕西省",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_d9f2332de309",
+   "type": "投资",
+   "from_name": "四川省",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_0ab0430dbad1",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "《西部地区鼓励类产业目录（2025年本）》",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_3567cc39143d",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "重庆市",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_5a604128f08b",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "《关于支持通用航空产业发展的若干政策措施》",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_a5931595d7d1",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "云南省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_91b2a0bb7424",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "低空空域",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_0cc9536a850c",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "陕西省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_c4740028bbeb",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "九寨沟风景区",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_4d2917c3eda5",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "低空基础设施",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_0771886abad8",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "成都",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_40cb5c47eee7",
+   "type": "合作",
+   "from_name": "四川省",
+   "to_name": "翼龙系列无人机",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_6c525f22d337",
+   "to": "ent_0f63160d3c8d",
+   "type": "合作",
+   "from_name": "绵阳市低空经济研究院",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b7f976ed8fd8",
+   "to": "ent_0f63160d3c8d",
+   "type": "监管",
+   "from_name": "低空空域协同管理委员会",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "POLICY",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_b7f976ed8fd8",
+   "type": "监管",
+   "from_name": "四川省",
+   "to_name": "低空空域协同管理委员会",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_0f63160d3c8d",
+   "to": "ent_6c525f22d337",
+   "type": "投资",
+   "from_name": "四川省",
+   "to_name": "绵阳市低空经济研究院",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a5931595d7d1",
+   "to": "ent_0f63160d3c8d",
+   "type": "合作",
+   "from_name": "云南省",
+   "to_name": "四川省",
+   "from_ind": "低空经济",
+   "to_ind": "低空经济",
+   "from_type": "PLACE",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  }
+ ],
+ "frameworks": [
+  {
+   "id": "fw_fw_3626e9d1b2894c07",
+   "name": "低空经济四维立体金字塔体系架构",
+   "type": "core_architecture",
+   "category": "行业分析",
+   "industry": "低空经济",
+   "steps": "[\"\\u57fa\\u7840\\u5c42\\u5efa\\u8bbe\\uff1a\\u6784\\u5efa'\\u7a7a\\u5730\\u4e00\\u4f53'\\u7684\\u4f4e\\u7a7a\\u57fa\\u7840\\u8bbe\\u65bd\\u7f51\\u7edc\\uff0c\\u5305\\u62ec\\u5730\\u9762\\u4e09\\u7ea7\\u7f51\\u7edc\\uff08\\u901a\\u7528\\u673a\\u573a-\\u8d77\\u964d\\u70b9-\\u670d\\u52a1\\u7ad9\\uff09\\u548c\\u7a7a\\u4e2d'\\u7a7a\\u5929\\u5730\\u4e00\\u4f53\\u5316'\\u901a\\u4fe1\\u5bfc\\u822a\\u4f53\\u7cfb\", \"\\u6838\\u5fc3\\u5c42\\u7a81\\u7834\\uff1a\\u805a\\u7126\\u822a\\u7a7a\\u5668\\u7814\\u53d1\\u5236\\u9020\\uff0c\\u5f62\\u6210\\u6709\\u4eba\\u9a7e\\u9a76\\u4e0e\\u65e0\\u4eba\\u9a7e\\u9a76\\u4e24\\u5927\\u54c1\\u7c7b\\uff0c\\u8986\\u76d6\\u76f4\\u5347\\u673a\\u3001eVTOL\\u3001\\u6d88\\u8d39\\u7ea7/\\u5de5\\u4e1a\\u7ea7/\\u884c\\u4e1a\\u7ea7\\u65e0\\u4eba\\u673a\", \"\\u5e94\\u7528\\u5c42\\u62d3\\u5c55\\uff1a\\u53d1\\u5c55\\u4f4e\\u7a7a\\u8fd0\\u8f93\\u670d\\u52a1\\uff08\\u7a7a\\u4e2d\\u901a\\u52e4+\\u7269\\u6d41\\u914d\\u9001\\uff09\\u3001\\u4f4e\\u7a7a\\u4f5c\\u4e1a\\u670d\\u52a1\\uff08\\u519c\\u4e1a\\u690d\\u4fdd/\\u7535\\u529b\\u5de1\\u68c0/\\u6d4b\\u7ed8\\u52d8\\u63a2\\uff09\\u3001\\u4f4e\\u7a7a\\u6587\\u65c5\\u670d\\u52a1\\u548c\\u6559\\u80b2\\u57f9\\u8bad\\u670d\\u52a1\", \"\\u4fdd\\u969c\\u5c42\\u5b8c\\u5584\\uff1a\\u5efa\\u7acb\\u9002\\u822a\\u5ba1\\u5b9a\\u4f53\\u7cfb\\u3001\\u5b89\\u5168\\u76d1\\u7ba1\\u4f53\\u7cfb\\u3001\\u52a8\\u6001\\u7a7a\\u57df\\u7ba1\\u7406\\u673a\\u5236\\u548c\\u4ea7\\u4e1a\\u670d\\u52a1\\u4f53\\u7cfb\\uff08\\u4fdd\\u9669/\\u91d1\\u878d/\\u4eba\\u624d\\uff09\"]",
+   "confidence": 0.8,
+   "content": "框架名称：低空经济四维立体金字塔体系架构\n描述：低空经济体系架构呈现四维立体金字塔结构，由基础层（低空基础设施网络）、核心层（航空器研发制造）、应用层（低空运营服务生态）和保障层（综合管理体系）构成，各层级通过数据交互与业务协同形成动态平衡的生态系统\n核心维度：基础层、核心层、应用层、保障层\n步骤：基础层建设：构建'空地一体'的低空基础设施网络，包括地面三级网络（通用机场-起降点-服务站）和空中'空天地一体化'通信导航体系, 核心层突破：聚焦航空器研发制造，形成有人驾驶与无人驾驶两大品类，覆盖直升机、eVTOL、消费级/工业级/行业级无人机, 应用层拓展：发展低空运输服务（空中通勤+物流配送）、低空作业服务（农业植保/电力巡检/测绘勘探）、低空文旅服务和教育培训服务, 保障层完善：建立适航审定体系、安全监管体系、动态空域管理机制和产业服务体系（保险/金融/人才）",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_df23aebe7e054689",
+   "name": "低空经济产业链结构分析框架",
+   "type": "methodology",
+   "category": "行业分析",
+   "industry": "低空经济",
+   "steps": "[\"\\u4e0a\\u6e38\\u73af\\u8282\\u8bc6\\u522b\\uff1a\\u660e\\u786e\\u6750\\u6599\\u7814\\u53d1\\uff08\\u78b3\\u7ea4\\u7ef4\\u590d\\u5408\\u6750\\u6599\\u3001\\u822a\\u7a7a\\u94dd\\u5408\\u91d1\\uff09\\u3001\\u96f6\\u90e8\\u4ef6\\u5236\\u9020\\uff08\\u822a\\u7a7a\\u53d1\\u52a8\\u673a\\u53f6\\u7247\\u3001\\u71c3\\u70e7\\u5ba4\\u7ec4\\u4ef6\\u3001\\u822a\\u7535\\u7cfb\\u7edf\\u4f20\\u611f\\u5668\\u3001\\u98de\\u63a7\\u8ba1\\u7b97\\u673a\\uff09\\u548c\\u5206\\u7cfb\\u7edf\\u96c6\\u6210\\uff08\\u822a\\u7a7a\\u7535\\u5b50\\u7cfb\\u7edf\\u3001\\u52a8\\u529b\\u7cfb\\u7edf\\u3001\\u8d77\\u843d\\u67b6\\u7cfb\\u7edf\\uff09\", \"\\u4e2d\\u6e38\\u73af\\u8282\\u5206\\u6790\\uff1a\\u5206\\u6790\\u6574\\u673a\\u5236\\u9020\\u9886\\u57df\\uff0c\\u5305\\u62ec\\u76f4\\u5347\\u673a\\u5236\\u9020\\uff08\\u8f7b\\u578b\\u6c11\\u7528/\\u5927\\u578b\\u76f4\\u5347\\u673a\\uff09\\u3001\\u65e0\\u4eba\\u673a\\u5236\\u9020\\uff08\\u591a\\u65cb\\u7ffc/\\u56fa\\u5b9a\\u7ffc/\\u5782\\u76f4\\u8d77\\u964d\\u56fa\\u5b9a\\u7ffc\\uff09\\u548ceVTOL\\u5236\\u9020\", \"\\u4e0b\\u6e38\\u73af\\u8282\\u62d3\\u5c55\\uff1a\\u8bc6\\u522b\\u8fd0\\u8425\\u670d\\u52a1\\u9886\\u57df\\u7684\\u56db\\u5927\\u670d\\u52a1\\u7c7b\\u578b\\u53ca\\u5176\\u5177\\u4f53\\u5e94\\u7528\\u573a\\u666f\"]",
+   "confidence": 0.8,
+   "content": "框架名称：低空经济产业链结构分析框架\n描述：基于产业链视角，低空经济产业分为上游核心研发与制造（材料研发、零部件制造、分系统集成）、中游整机制造与系统集成（直升机制造、无人机制造、eVTOL制造、测试试飞）、下游运营服务与应用场景（低空运输服务、低空作业服务、低空旅游服务、教育培训服务）\n核心维度：上游、中游、下游\n步骤：上游环节识别：明确材料研发（碳纤维复合材料、航空铝合金）、零部件制造（航空发动机叶片、燃烧室组件、航电系统传感器、飞控计算机）和分系统集成（航空电子系统、动力系统、起落架系统）, 中游环节分析：分析整机制造领域，包括直升机制造（轻型民用/大型直升机）、无人机制造（多旋翼/固定翼/垂直起降固定翼）和eVTOL制造, 下游环节拓展：识别运营服务领域的四大服务类型及其具体应用场景",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_1a90e3c2ea2348ed",
+   "name": "西部地区低空经济发展瓶颈与挑战分析框架",
+   "type": "risk",
+   "category": "行业分析",
+   "industry": "低空经济",
+   "steps": "[\"\\u81ea\\u7136\\u6761\\u4ef6\\u5206\\u6790\\uff1a\\u8bc6\\u522b\\u5730\\u5f62\\u590d\\u6742\\u6027\\u4e0e\\u4ea4\\u901a\\u66ff\\u4ee3\\u9700\\u6c42\\u3001\\u4e30\\u5bcc\\u6587\\u65c5\\u8d44\\u6e90\\u4e0e\\u4f4e\\u7a7a\\u89c2\\u5149\\u6f5c\\u529b\\u3001\\u591a\\u53d8\\u6c14\\u8c61\\u6761\\u4ef6\\u4e0e\\u9ad8\\u6d77\\u62d4\\u73af\\u5883\\u5bf9\\u98de\\u884c\\u5668\\u7684\\u7279\\u6b8a\\u8981\\u6c42\", \"\\u4ea7\\u4e1a\\u751f\\u6001\\u74f6\\u9888\\uff1a\\u5206\\u6790\\u4ea7\\u4e1a\\u94fe\\u5b8c\\u5584\\u7a0b\\u5ea6\\u3001\\u6838\\u5fc3\\u6280\\u672f\\u7a81\\u7834\\u3001\\u4eba\\u624d\\u57f9\\u517b\\u7b49\\u4ea7\\u4e1a\\u5c42\\u9762\\u7684\\u5236\\u7ea6\\u56e0\\u7d20\", \"\\u653f\\u7b56\\u56e0\\u7d20\\u6311\\u6218\\uff1a\\u8bc4\\u4f30\\u653f\\u7b56\\u5b9e\\u65bd\\u9762\\u4e34\\u7684\\u5173\\u952e\\u6311\\u6218\\u4e0e\\u6280\\u672f\\u58c1\\u5792\\uff0c\\u63d0\\u51fa\\u7528\\u597d\\u7528\\u8db3\\u300a\\u897f\\u90e8\\u5730\\u533a\\u9f13\\u52b1\\u7c7b\\u4ea7\\u4e1a\\u76ee\\u5f55\\u300b\\u7b49\\u653f\\u7b56\\u5efa\\u8bae\"]",
+   "confidence": 0.8,
+   "content": "框架名称：西部地区低空经济发展瓶颈与挑战分析框架\n描述：西部地区自然禀赋对低空经济发展具有二元性影响，需辩证分析其机遇与挑战，从自然条件、产业生态、政策因素三个维度识别发展瓶颈并制定适应性策略\n核心维度：自然条件、产业生态、政策因素\n步骤：自然条件分析：识别地形复杂性与交通替代需求、丰富文旅资源与低空观光潜力、多变气象条件与高海拔环境对飞行器的特殊要求, 产业生态瓶颈：分析产业链完善程度、核心技术突破、人才培养等产业层面的制约因素, 政策因素挑战：评估政策实施面临的关键挑战与技术壁垒，提出用好用足《西部地区鼓励类产业目录》等政策建议",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_efcedc9f26284684",
+   "name": "低空经济四维立体金字塔体系架构",
+   "type": "core_architecture",
+   "category": "行业分析",
+   "industry": "低空经济",
+   "steps": "[\"\\u57fa\\u7840\\u5c42\\u5efa\\u8bbe\\uff1a\\u6784\\u5efa'\\u7a7a\\u5730\\u4e00\\u4f53'\\u7684\\u4f4e\\u7a7a\\u57fa\\u7840\\u8bbe\\u65bd\\u7f51\\u7edc\\uff0c\\u5305\\u62ec\\u5730\\u9762\\u4e09\\u7ea7\\u7f51\\u7edc\\uff08\\u901a\\u7528\\u673a\\u573a-\\u8d77\\u964d\\u70b9-\\u670d\\u52a1\\u7ad9\\uff09\\u548c\\u7a7a\\u4e2d'\\u7a7a\\u5929\\u5730\\u4e00\\u4f53\\u5316'\\u901a\\u4fe1\\u5bfc\\u822a\\u4f53\\u7cfb\", \"\\u6838\\u5fc3\\u5c42\\u7a81\\u7834\\uff1a\\u805a\\u7126\\u822a\\u7a7a\\u5668\\u7814\\u53d1\\u5236\\u9020\\uff0c\\u5f62\\u6210\\u6709\\u4eba\\u9a7e\\u9a76\\u4e0e\\u65e0\\u4eba\\u9a7e\\u9a76\\u4e24\\u5927\\u54c1\\u7c7b\\uff0c\\u8986\\u76d6\\u76f4\\u5347\\u673a\\u3001eVTOL\\u3001\\u6d88\\u8d39\\u7ea7/\\u5de5\\u4e1a\\u7ea7/\\u884c\\u4e1a\\u7ea7\\u65e0\\u4eba\\u673a\", \"\\u5e94\\u7528\\u5c42\\u62d3\\u5c55\\uff1a\\u53d1\\u5c55\\u4f4e\\u7a7a\\u8fd0\\u8f93\\u670d\\u52a1\\uff08\\u7a7a\\u4e2d\\u901a\\u52e4+\\u7269\\u6d41\\u914d\\u9001\\uff09\\u3001\\u4f4e\\u7a7a\\u4f5c\\u4e1a\\u670d\\u52a1\\uff08\\u519c\\u4e1a\\u690d\\u4fdd/\\u7535\\u529b\\u5de1\\u68c0/\\u6d4b\\u7ed8\\u52d8\\u63a2\\uff09\\u3001\\u4f4e\\u7a7a\\u6587\\u65c5\\u670d\\u52a1\\u548c\\u6559\\u80b2\\u57f9\\u8bad\\u670d\\u52a1\", \"\\u4fdd\\u969c\\u5c42\\u5b8c\\u5584\\uff1a\\u5efa\\u7acb\\u9002\\u822a\\u5ba1\\u5b9a\\u4f53\\u7cfb\\u3001\\u5b89\\u5168\\u76d1\\u7ba1\\u4f53\\u7cfb\\u3001\\u52a8\\u6001\\u7a7a\\u57df\\u7ba1\\u7406\\u673a\\u5236\\u548c\\u4ea7\\u4e1a\\u670d\\u52a1\\u4f53\\u7cfb\\uff08\\u4fdd\\u9669/\\u91d1\\u878d/\\u4eba\\u624d\\uff09\"]",
+   "confidence": 0.8,
+   "content": "框架名称：低空经济四维立体金字塔体系架构\n描述：低空经济体系架构呈现四维立体金字塔结构，由基础层（低空基础设施网络）、核心层（航空器研发制造）、应用层（低空运营服务生态）和保障层（综合管理体系）构成，各层级通过数据交互与业务协同形成动态平衡的生态系统\n核心维度：基础层、核心层、应用层、保障层\n步骤：基础层建设：构建'空地一体'的低空基础设施网络，包括地面三级网络（通用机场-起降点-服务站）和空中'空天地一体化'通信导航体系, 核心层突破：聚焦航空器研发制造，形成有人驾驶与无人驾驶两大品类，覆盖直升机、eVTOL、消费级/工业级/行业级无人机, 应用层拓展：发展低空运输服务（空中通勤+物流配送）、低空作业服务（农业植保/电力巡检/测绘勘探）、低空文旅服务和教育培训服务, 保障层完善：建立适航审定体系、安全监管体系、动态空域管理机制和产业服务体系（保险/金融/人才）",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_8bb74fd9d92f4d4f",
+   "name": "低空经济产业链结构分析框架",
+   "type": "methodology",
+   "category": "行业分析",
+   "industry": "低空经济",
+   "steps": "[\"\\u4e0a\\u6e38\\u73af\\u8282\\u8bc6\\u522b\\uff1a\\u660e\\u786e\\u6750\\u6599\\u7814\\u53d1\\uff08\\u78b3\\u7ea4\\u7ef4\\u590d\\u5408\\u6750\\u6599\\u3001\\u822a\\u7a7a\\u94dd\\u5408\\u91d1\\uff09\\u3001\\u96f6\\u90e8\\u4ef6\\u5236\\u9020\\uff08\\u822a\\u7a7a\\u53d1\\u52a8\\u673a\\u53f6\\u7247\\u3001\\u71c3\\u70e7\\u5ba4\\u7ec4\\u4ef6\\u3001\\u822a\\u7535\\u7cfb\\u7edf\\u4f20\\u611f\\u5668\\u3001\\u98de\\u63a7\\u8ba1\\u7b97\\u673a\\uff09\\u548c\\u5206\\u7cfb\\u7edf\\u96c6\\u6210\\uff08\\u822a\\u7a7a\\u7535\\u5b50\\u7cfb\\u7edf\\u3001\\u52a8\\u529b\\u7cfb\\u7edf\\u3001\\u8d77\\u843d\\u67b6\\u7cfb\\u7edf\\uff09\", \"\\u4e2d\\u6e38\\u73af\\u8282\\u5206\\u6790\\uff1a\\u5206\\u6790\\u6574\\u673a\\u5236\\u9020\\u9886\\u57df\\uff0c\\u5305\\u62ec\\u76f4\\u5347\\u673a\\u5236\\u9020\\uff08\\u8f7b\\u578b\\u6c11\\u7528/\\u5927\\u578b\\u76f4\\u5347\\u673a\\uff09\\u3001\\u65e0\\u4eba\\u673a\\u5236\\u9020\\uff08\\u591a\\u65cb\\u7ffc/\\u56fa\\u5b9a\\u7ffc/\\u5782\\u76f4\\u8d77\\u964d\\u56fa\\u5b9a\\u7ffc\\uff09\\u548ceVTOL\\u5236\\u9020\", \"\\u4e0b\\u6e38\\u73af\\u8282\\u62d3\\u5c55\\uff1a\\u8bc6\\u522b\\u8fd0\\u8425\\u670d\\u52a1\\u9886\\u57df\\u7684\\u56db\\u5927\\u670d\\u52a1\\u7c7b\\u578b\\u53ca\\u5176\\u5177\\u4f53\\u5e94\\u7528\\u573a\\u666f\"]",
+   "confidence": 0.8,
+   "content": "框架名称：低空经济产业链结构分析框架\n描述：基于产业链视角，低空经济产业分为上游核心研发与制造（材料研发、零部件制造、分系统集成）、中游整机制造与系统集成（直升机制造、无人机制造、eVTOL制造、测试试飞）、下游运营服务与应用场景（低空运输服务、低空作业服务、低空旅游服务、教育培训服务）\n核心维度：上游、中游、下游\n步骤：上游环节识别：明确材料研发（碳纤维复合材料、航空铝合金）、零部件制造（航空发动机叶片、燃烧室组件、航电系统传感器、飞控计算机）和分系统集成（航空电子系统、动力系统、起落架系统）, 中游环节分析：分析整机制造领域，包括直升机制造（轻型民用/大型直升机）、无人机制造（多旋翼/固定翼/垂直起降固定翼）和eVTOL制造, 下游环节拓展：识别运营服务领域的四大服务类型及其具体应用场景",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_dfb4958921044050",
+   "name": "西部地区低空经济发展瓶颈与挑战分析框架",
+   "type": "risk",
+   "category": "行业分析",
+   "industry": "低空经济",
+   "steps": "[\"\\u81ea\\u7136\\u6761\\u4ef6\\u5206\\u6790\\uff1a\\u8bc6\\u522b\\u5730\\u5f62\\u590d\\u6742\\u6027\\u4e0e\\u4ea4\\u901a\\u66ff\\u4ee3\\u9700\\u6c42\\u3001\\u4e30\\u5bcc\\u6587\\u65c5\\u8d44\\u6e90\\u4e0e\\u4f4e\\u7a7a\\u89c2\\u5149\\u6f5c\\u529b\\u3001\\u591a\\u53d8\\u6c14\\u8c61\\u6761\\u4ef6\\u4e0e\\u9ad8\\u6d77\\u62d4\\u73af\\u5883\\u5bf9\\u98de\\u884c\\u5668\\u7684\\u7279\\u6b8a\\u8981\\u6c42\", \"\\u4ea7\\u4e1a\\u751f\\u6001\\u74f6\\u9888\\uff1a\\u5206\\u6790\\u4ea7\\u4e1a\\u94fe\\u5b8c\\u5584\\u7a0b\\u5ea6\\u3001\\u6838\\u5fc3\\u6280\\u672f\\u7a81\\u7834\\u3001\\u4eba\\u624d\\u57f9\\u517b\\u7b49\\u4ea7\\u4e1a\\u5c42\\u9762\\u7684\\u5236\\u7ea6\\u56e0\\u7d20\", \"\\u653f\\u7b56\\u56e0\\u7d20\\u6311\\u6218\\uff1a\\u8bc4\\u4f30\\u653f\\u7b56\\u5b9e\\u65bd\\u9762\\u4e34\\u7684\\u5173\\u952e\\u6311\\u6218\\u4e0e\\u6280\\u672f\\u58c1\\u5792\\uff0c\\u63d0\\u51fa\\u7528\\u597d\\u7528\\u8db3\\u300a\\u897f\\u90e8\\u5730\\u533a\\u9f13\\u52b1\\u7c7b\\u4ea7\\u4e1a\\u76ee\\u5f55\\u300b\\u7b49\\u653f\\u7b56\\u5efa\\u8bae\"]",
+   "confidence": 0.8,
+   "content": "框架名称：西部地区低空经济发展瓶颈与挑战分析框架\n描述：西部地区自然禀赋对低空经济发展具有二元性影响，需辩证分析其机遇与挑战，从自然条件、产业生态、政策因素三个维度识别发展瓶颈并制定适应性策略\n核心维度：自然条件、产业生态、政策因素\n步骤：自然条件分析：识别地形复杂性与交通替代需求、丰富文旅资源与低空观光潜力、多变气象条件与高海拔环境对飞行器的特殊要求, 产业生态瓶颈：分析产业链完善程度、核心技术突破、人才培养等产业层面的制约因素, 政策因素挑战：评估政策实施面临的关键挑战与技术壁垒，提出用好用足《西部地区鼓励类产业目录》等政策建议",
+   "is_core": true,
+   "node_type": "framework"
+  }
+ ],
+ "logics": [
+  {
+   "id": "log_fa742cdbbeff94c6",
+   "logic_id": "fa742cdbbeff94c6",
+   "type": "因果",
+   "premise": "《西部地区鼓励类产业目录（2025年本）》明确将低空经济，包括通用航空器、无人机及其零部件组装、维修、运营和制造纳入其中",
+   "conclusion": "这意味着在西部地区从事相关产业的企业可享受减按15%征收企业所得税的优惠政策，为西部地区吸引投资、集聚产业要素创造了前所未有的政策洼地",
+   "text": "基于《西部地区鼓励类产业目录（2025年本）》明确将低空经济，包,推导出这意味着在西部地区从事相关产业的企业可享受减按15%征收企业",
+   "dimension": "5",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_6bf654b4d0aef553",
+   "logic_id": "6bf654b4d0aef553",
+   "type": "因果",
+   "premise": "西部地区地形复杂多样，包含高原、山地、盆地、沙漠等多种地貌，气候类型涵盖高寒、高原、山地等，西部十二省区内部自然条件差异巨大，部分地区地面交通建设成本高、可达性差",
+   "conclusion": "西部地区低空经济发展必须因地制宜，不能采用统一模式，应根据各省份具体自然条件制定差异化发展策略",
+   "text": "基于西部地区地形复杂多样，包含高原、山地、盆地、沙漠等多种地貌，,推导出西部地区低空经济发展必须因地制宜，不能采用统一模式，应根据各",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_1e42a341196022d8",
+   "logic_id": "1e42a341196022d8",
+   "type": "因果",
+   "premise": "《西部地区鼓励类产业目录（2025年本）》首次将低空经济明确列为西部12省区市新增鼓励类产业，覆盖通用航空器、无人机及其零部件组装、维修、运营和制造全产业链",
+   "conclusion": "国家政策顶层设计为西部地区低空经济发展提供了战略合法性、税收优惠和方向指引，省级政策跟进形成政策合力，共同推动产业实质性发展",
+   "text": "基于《西部地区鼓励类产业目录（2025年本）》首次将低空经济明确,推导出国家政策顶层设计为西部地区低空经济发展提供了战略合法性、税收",
+   "dimension": "5",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_abac84938848d37d",
+   "logic_id": "abac84938848d37d",
+   "type": "因果",
+   "premise": "2024年全国通用机场数量分布中，西北地区仅占5%，新疆占4%，整个西部地区占比仅为16%。深圳计划到2025年建成超1000个低空起降平台。",
+   "conclusion": "西部地区与东部沿海地区在标准化起降点方面存在巨大缺口比例，直接限制低空航线的开辟和服务的规模化",
+   "text": "基于2024年全国通用机场数量分布中，西北地区仅占5%，新疆占4,推导出西部地区与东部沿海地区在标准化起降点方面存在巨大缺口比例，直",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_91ead8fab5e612a7",
+   "logic_id": "91ead8fab5e612a7",
+   "type": "对比",
+   "premise": "西部地区通用机场数量占比仅16%，西北地区5%，新疆4%，而深圳计划到2025年建成超1000个低空起降平台",
+   "conclusion": "西部地区低空基础设施严重滞后于东部发达地区，存在巨大的“缺口比例”，是制约低空经济发展的首要瓶颈",
+   "text": "通过对比西部地区通用机场数量占比仅16%，西北地区5%，新疆4%，而,得出西部地区低空基础设施严重滞后于东部发达地区，存在巨大的“缺口",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_98d18826cd0c87e6",
+   "logic_id": "98d18826cd0c87e6",
+   "type": "对比",
+   "premise": "西部地区通用机场数量占比仅16%，西北地区5%，新疆4%，而深圳计划到2025年建成超1000个低空起降平台",
+   "conclusion": "西部地区低空基础设施严重滞后于东部发达地区，存在巨大的“缺口比例”，是制约低空经济发展的首要瓶颈",
+   "text": "通过对比西部地区通用机场数量占比仅16%，西北地区5%，新疆4%，而,得出西部地区低空基础设施严重滞后于东部发达地区，存在巨大的“缺口",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_678991d7eb69bc43",
+   "logic_id": "678991d7eb69bc43",
+   "type": "因果",
+   "premise": "《西部地区鼓励类产业目录（2025年本）》明确将低空经济，包括通用航空器、无人机及其零部件组装、维修、运营和制造纳入其中",
+   "conclusion": "这意味着在西部地区从事相关产业的企业可享受减按15%征收企业所得税的优惠政策，为西部地区吸引投资、集聚产业要素创造了前所未有的政策洼地",
+   "text": "基于《西部地区鼓励类产业目录（2025年本）》明确将低空经济，包,推导出这意味着在西部地区从事相关产业的企业可享受减按15%征收企业",
+   "dimension": "5",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_0fee71acb1399d19",
+   "logic_id": "0fee71acb1399d19",
+   "type": "因果",
+   "premise": "2010年安阳作为首个低空开放试点城市开启地方探索，2021年低空经济纳入国家交通网络体系，2023年列为战略性新兴产业，2024年《无人驾驶航空器飞行管理暂行条例》实施，《低空空域使用管理办法（试行",
+   "conclusion": "在政策体系持续完善的推动下，我国低空经济市场规模从2015年不足千亿元跃升至2024年的6800亿元，年均复合增长率达23%，2026年有望突破1万亿元",
+   "text": "政策密度与落地效能持续提升，审批时间从3个工作日压缩至2小时，标志性项目加速落地（沪苏跨省低空航线单程18分钟较地面交通缩短75%，珠三角阶梯式空域使无人机物流配送效率提升3倍），形成'政策驱动—技术突破—场景爆发'的递进态势",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_05c9189972c9fb57",
+   "logic_id": "05c9189972c9fb57",
+   "type": "因果",
+   "premise": "西部地区地形复杂多样，包含高原、山地、盆地、沙漠等多种地貌，气候类型涵盖高寒、高原、山地等，西部十二省区内部自然条件差异巨大，部分地区地面交通建设成本高、可达性差",
+   "conclusion": "西部地区低空经济发展必须因地制宜，不能采用统一模式，应根据各省份具体自然条件制定差异化发展策略",
+   "text": "基于西部地区地形复杂多样，包含高原、山地、盆地、沙漠等多种地貌，,推导出西部地区低空经济发展必须因地制宜，不能采用统一模式，应根据各",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_6de480627ad08bf6",
+   "logic_id": "6de480627ad08bf6",
+   "type": "因果",
+   "premise": "《西部地区鼓励类产业目录（2025年本）》首次将低空经济明确列为西部12省区市新增鼓励类产业，覆盖通用航空器、无人机及其零部件组装、维修、运营和制造全产业链",
+   "conclusion": "国家政策顶层设计为西部地区低空经济发展提供了战略合法性、税收优惠和方向指引，省级政策跟进形成政策合力，共同推动产业实质性发展",
+   "text": "基于《西部地区鼓励类产业目录（2025年本）》首次将低空经济明确,推导出国家政策顶层设计为西部地区低空经济发展提供了战略合法性、税收",
+   "dimension": "5",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_27222c03d1a30d7c",
+   "logic_id": "27222c03d1a30d7c",
+   "type": "因果",
+   "premise": "2024年全国通用机场数量分布中，西北地区仅占5%，新疆占4%，整个西部地区占比仅为16%。深圳计划到2025年建成超1000个低空起降平台。",
+   "conclusion": "西部地区与东部沿海地区在标准化起降点方面存在巨大缺口比例，直接限制低空航线的开辟和服务的规模化",
+   "text": "基于2024年全国通用机场数量分布中，西北地区仅占5%，新疆占4,推导出西部地区与东部沿海地区在标准化起降点方面存在巨大缺口比例，直",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_a34df1707dfa3e45",
+   "logic_id": "a34df1707dfa3e45",
+   "type": "因果",
+   "premise": "2010年安阳作为首个低空开放试点城市开启地方探索，2021年低空经济纳入国家交通网络体系，2023年列为战略性新兴产业，2024年《无人驾驶航空器飞行管理暂行条例》实施，《低空空域使用管理办法（试行",
+   "conclusion": "在政策体系持续完善的推动下，我国低空经济市场规模从2015年不足千亿元跃升至2024年的6800亿元，年均复合增长率达23%，2026年有望突破1万亿元",
+   "text": "政策密度与落地效能持续提升，审批时间从3个工作日压缩至2小时，标志性项目加速落地（沪苏跨省低空航线单程18分钟较地面交通缩短75%，珠三角阶梯式空域使无人机物流配送效率提升3倍），形成'政策驱动—技术突破—场景爆发'的递进态势",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_2ef2c910c5c9e0ea",
+   "logic_id": "2ef2c910c5c9e0ea",
+   "type": "递进",
+   "premise": "低空物流配送覆盖'最后一公里'，深圳美团无人机覆盖15个商圈日均2万单；城市空中交通eVTOL试点推进，亿航EH216-S获全球首张载人eVTOL适航证；智慧农业无人机植保作业面积从5亿亩增至18亿亩",
+   "conclusion": "低空经济已广泛应用于农林植保、测绘、巡检、应急救援等传统领域，并加速向快递物流、城市空中交通、旅游等新兴领域延伸，对相关产业的带动系数达1:10以上",
+   "text": "典型案例验证应用价值：深圳无人机配送时效提升50%，顺丰甘孜松茸专线时效从8小时缩短至3小时，新疆棉田每亩成本降低200元产量提升10%，四川泸定地震救援群众转移时间缩短50%",
+   "dimension": "2",
+   "confidence": 0.94,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_a5c1b759f7142357",
+   "logic_id": "a5c1b759f7142357",
+   "type": "递进",
+   "premise": "低空物流配送覆盖'最后一公里'，深圳美团无人机覆盖15个商圈日均2万单；城市空中交通eVTOL试点推进，亿航EH216-S获全球首张载人eVTOL适航证；智慧农业无人机植保作业面积从5亿亩增至18亿亩",
+   "conclusion": "低空经济已广泛应用于农林植保、测绘、巡检、应急救援等传统领域，并加速向快递物流、城市空中交通、旅游等新兴领域延伸，对相关产业的带动系数达1:10以上",
+   "text": "典型案例验证应用价值：深圳无人机配送时效提升50%，顺丰甘孜松茸专线时效从8小时缩短至3小时，新疆棉田每亩成本降低200元产量提升10%，四川泸定地震救援群众转移时间缩短50%",
+   "dimension": "2",
+   "confidence": 0.94,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_e7ef9d1690a3eef1",
+   "logic_id": "e7ef9d1690a3eef1",
+   "type": "对比",
+   "premise": "西部地区依托空域资源富集、地理场景多元、产业基础扎实的独特优势，陕西聚集全国30%航空科研资源，四川中大型无人机产业全国第一，形成以陕西、四川为核心，重庆、新疆等多节点协同的产业格局",
+   "conclusion": "西部地区低空经济呈现'梯度崛起、特色鲜明'的发展态势，成为区域经济转型的重要增长极，其'山地低空物流''高原应急救援''特色低空文旅'等模式已成为全国标杆",
+   "text": "陕西2024年航空和无人机制造业产值达1980亿元，西安航空基地入驻企业210家；四川无人机产业产值突破800亿元，中大型占比65%全国第一；成渝联合发布低空经济协同发展规划，共建'成渝低空走廊'",
+   "dimension": "2",
+   "confidence": 0.93,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_ea9d65f0304932c1",
+   "logic_id": "ea9d65f0304932c1",
+   "type": "对比",
+   "premise": "西部地区依托空域资源富集、地理场景多元、产业基础扎实的独特优势，陕西聚集全国30%航空科研资源，四川中大型无人机产业全国第一，形成以陕西、四川为核心，重庆、新疆等多节点协同的产业格局",
+   "conclusion": "西部地区低空经济呈现'梯度崛起、特色鲜明'的发展态势，成为区域经济转型的重要增长极，其'山地低空物流''高原应急救援''特色低空文旅'等模式已成为全国标杆",
+   "text": "陕西2024年航空和无人机制造业产值达1980亿元，西安航空基地入驻企业210家；四川无人机产业产值突破800亿元，中大型占比65%全国第一；成渝联合发布低空经济协同发展规划，共建'成渝低空走廊'",
+   "dimension": "2",
+   "confidence": 0.93,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_8ff2122cca7702cc",
+   "logic_id": "8ff2122cca7702cc",
+   "type": "因果",
+   "premise": "预计到2035年全国起降场等基础设施投资将达1.8万亿元。中央预算内投资对西部地区补助比例最高可达80%。典型PPP股权结构为政府20%-30%持股。",
+   "conclusion": "中央补助80%叠加社会资本参与，可将地方政府实际出资比例降至4%以下，大幅降低西部地区财政压力",
+   "text": "基于预计到2035年全国起降场等基础设施投资将达1.8万亿元。中,推导出中央补助80%叠加社会资本参与，可将地方政府实际出资比例降至",
+   "dimension": "6",
+   "confidence": 0.92,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_9a9063db282ce490",
+   "logic_id": "9a9063db282ce490",
+   "type": "趋势",
+   "premise": "美国通过AAM战略构建完整政策体系，欧盟依托IAM框架在德国慕尼黑等城市开展空中出租车常态化运营试点，2024年欧洲无人机物流市场规模突破80亿欧元，巴西农业无人机植保渗透率70%",
+   "conclusion": "全球低空经济进入'绿色化、智能化、场景化'转型期，各国根据自身优势形成差异化发展路径",
+   "text": "从美国通过AAM战略构建完整政策体系，欧盟依托IAM框架在德国的趋势分析,判断全球低空经济进入'绿色化、智能化、场景化'转型期，各国根据自",
+   "dimension": "2",
+   "confidence": 0.92,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_f1c49d577cbefade",
+   "logic_id": "f1c49d577cbefade",
+   "type": "趋势",
+   "premise": "美国通过AAM战略构建完整政策体系，欧盟依托IAM框架在德国慕尼黑等城市开展空中出租车常态化运营试点，2024年欧洲无人机物流市场规模突破80亿欧元，巴西农业无人机植保渗透率70%",
+   "conclusion": "全球低空经济进入'绿色化、智能化、场景化'转型期，各国根据自身优势形成差异化发展路径",
+   "text": "从美国通过AAM战略构建完整政策体系，欧盟依托IAM框架在德国的趋势分析,判断全球低空经济进入'绿色化、智能化、场景化'转型期，各国根据自",
+   "dimension": "2",
+   "confidence": 0.92,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_d31b6a3b69ff72d7",
+   "logic_id": "d31b6a3b69ff72d7",
+   "type": "因果",
+   "premise": "三江源保护区面积达4.6万平方公里，传统的人工巡护方式在面对这一广袤区域时显得力不从心，特别是在打击盗猎活动和监测植被退化方面存在明显的时空局限性",
+   "conclusion": "通过部署先进的无人机遥感监测系统，保护区实现了对重点区域85%覆盖率的全天候监控，这一技术突破不仅大幅提升了反盗猎工作的时效性和准确性，更为植被退化的早期识别和干预提供了科学依据",
+   "text": "4.6万平方公里中，重点区域覆盖率85%，即约3.91万平方公里实现无人机监测覆盖，相比传统人力巡护覆盖率不足30%，覆盖率提升超过55个百分点，监测效率提升约2.8倍",
+   "dimension": "4",
+   "confidence": 0.92,
+   "is_core": true,
+   "node_type": "logic"
+  }
+ ],
+ "indicators": [
+  {
+   "id": "ind_ind_2401669ce156",
+   "indicator_id": "ind_2401669ce156",
+   "name": "2026年低空经济市场规模预测",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "10000",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c7df780d1b6b",
+   "indicator_id": "ind_c7df780d1b6b",
+   "name": "三江源保护区无人机监测覆盖率",
+   "type": "营运",
+   "unit": "%",
+   "value": "85",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_909066c7d31d",
+   "indicator_id": "ind_909066c7d31d",
+   "name": "三江源保护区面积",
+   "type": "规模",
+   "unit": "万平方公里",
+   "value": "4.6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_b27a62b97c34",
+   "indicator_id": "ind_b27a62b97c34",
+   "name": "中国5G基站总数-截至2025年2月",
+   "type": "规模",
+   "unit": "万个",
+   "value": "432.5",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_fffb25645dd5",
+   "indicator_id": "ind_fffb25645dd5",
+   "name": "云南普者黑景区暑期旺季客流量增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "40%",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_90ad43df0a51",
+   "indicator_id": "ind_90ad43df0a51",
+   "name": "云南普者黑暑期客流量增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "40",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c4e7c7f08dc2",
+   "indicator_id": "ind_c4e7c7f08dc2",
+   "name": "企业所得税优惠税率",
+   "type": "财务",
+   "unit": "%",
+   "value": "15%",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_224277dc90b8",
+   "indicator_id": "ind_224277dc90b8",
+   "name": "低空经济产业链关键领域对外依存度",
+   "type": "成本",
+   "unit": "定性",
+   "value": "较高",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_686e6cfcd75b",
+   "indicator_id": "ind_686e6cfcd75b",
+   "name": "低空经济人才结构性短板程度",
+   "type": "营运",
+   "unit": "定性",
+   "value": "严峻",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0d867be6dd9a",
+   "indicator_id": "ind_0d867be6dd9a",
+   "name": "低空经济市场规模",
+   "type": "规模",
+   "unit": "亿元",
+   "value": "6800",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_63f485119179",
+   "indicator_id": "ind_63f485119179",
+   "name": "低空经济市场规模年均复合增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "23",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_1ccc29e0febc",
+   "indicator_id": "ind_1ccc29e0febc",
+   "name": "低空经济带动相关产业系数",
+   "type": "其他",
+   "unit": "倍",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f6d536335242",
+   "indicator_id": "ind_f6d536335242",
+   "name": "低空经济年均复合增长率",
+   "type": "增长率",
+   "unit": "%",
+   "value": "23",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6aa816efe1c0",
+   "indicator_id": "ind_6aa816efe1c0",
+   "name": "低空经济每亿元带动就业岗位",
+   "type": "其他",
+   "unit": "个",
+   "value": "300",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c601d7b247bd",
+   "indicator_id": "ind_c601d7b247bd",
+   "name": "低空经济每亿元带动相关产业增长",
+   "type": "其他",
+   "unit": "亿元",
+   "value": "10",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_f0451b2a4051",
+   "indicator_id": "ind_f0451b2a4051",
+   "name": "全国起降场基础设施2035年投资规模",
+   "type": "财务",
+   "unit": "万亿元人民币",
+   "value": "1.8",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_e355651ae051",
+   "indicator_id": "ind_e355651ae051",
+   "name": "全国起降场等基础设施投资预测-2035年",
+   "type": "规模",
+   "unit": "亿元人民币",
+   "value": "18000",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_9fe7432894ba",
+   "indicator_id": "ind_9fe7432894ba",
+   "name": "全国通用机场数量分布-西部地区总占比",
+   "type": "份额",
+   "unit": "%",
+   "value": "16",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_5726be124277",
+   "indicator_id": "ind_5726be124277",
+   "name": "内蒙古2027年标准化临时起降场点建设目标",
+   "type": "规模",
+   "unit": "个",
+   "value": "100",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_01c78fde2469",
+   "indicator_id": "ind_01c78fde2469",
+   "name": "内蒙古2027年通用机场建设目标",
+   "type": "规模",
+   "unit": "个",
+   "value": "33",
+   "is_core": true,
+   "node_type": "indicator"
+  }
+ ],
+ "logic_entity_edges": [
+  {
+   "from": "log_0fee71acb1399d19",
+   "to": "ent_ae229b08eb82",
+   "type": "逻辑关联",
+   "from_name": "log_0fee71acb1399d19",
+   "to_name": "《无人驾驶航空器飞行管理暂行条例》",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_0fee71acb1399d19",
+   "to": "ent_2092a9dea078",
+   "type": "逻辑关联",
+   "from_name": "log_0fee71acb1399d19",
+   "to_name": "《低空空域使用管理办法（试行）》",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_a34df1707dfa3e45",
+   "to": "ent_ae229b08eb82",
+   "type": "逻辑关联",
+   "from_name": "log_a34df1707dfa3e45",
+   "to_name": "《无人驾驶航空器飞行管理暂行条例》",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_a34df1707dfa3e45",
+   "to": "ent_2092a9dea078",
+   "type": "逻辑关联",
+   "from_name": "log_a34df1707dfa3e45",
+   "to_name": "《低空空域使用管理办法（试行）》",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_d31b6a3b69ff72d7",
+   "to": "ent_e45c765ed503",
+   "type": "逻辑关联",
+   "from_name": "log_d31b6a3b69ff72d7",
+   "to_name": "三江源保护区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_5732c51a0646401c",
+   "to": "ent_e45c765ed503",
+   "type": "逻辑关联",
+   "from_name": "log_5732c51a0646401c",
+   "to_name": "三江源保护区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f14cc711845f4019",
+   "to": "ent_e45c765ed503",
+   "type": "逻辑关联",
+   "from_name": "log_f14cc711845f4019",
+   "to_name": "三江源保护区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_ce2053fe42daf6c3",
+   "to": "ent_ef77d1ab82a0",
+   "type": "逻辑关联",
+   "from_name": "log_ce2053fe42daf6c3",
+   "to_name": "川西地震带",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_561f4de18ef5ac72",
+   "to": "ent_b3edcd0f6873",
+   "type": "逻辑关联",
+   "from_name": "log_561f4de18ef5ac72",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f10ca2f3e282092b",
+   "to": "ent_574c4f84e4db",
+   "type": "逻辑关联",
+   "from_name": "log_f10ca2f3e282092b",
+   "to_name": "云南普者黑景区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f10ca2f3e282092b",
+   "to": "ent_2cefe347e461",
+   "type": "逻辑关联",
+   "from_name": "log_f10ca2f3e282092b",
+   "to_name": "敦煌月牙泉景区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f10ca2f3e282092b",
+   "to": "ent_d9f2332de309",
+   "type": "逻辑关联",
+   "from_name": "log_f10ca2f3e282092b",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_272849e4982deaa5",
+   "to": "ent_574c4f84e4db",
+   "type": "逻辑关联",
+   "from_name": "log_272849e4982deaa5",
+   "to_name": "云南普者黑景区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_971412c593e51c8b",
+   "to": "ent_3037c8f13130",
+   "type": "逻辑关联",
+   "from_name": "log_971412c593e51c8b",
+   "to_name": "PPP模式",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_26e9b79d71138095",
+   "to": "ent_e45c765ed503",
+   "type": "逻辑关联",
+   "from_name": "log_26e9b79d71138095",
+   "to_name": "三江源保护区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f5b85820153d8dea",
+   "to": "ent_3037c8f13130",
+   "type": "逻辑关联",
+   "from_name": "log_f5b85820153d8dea",
+   "to_name": "PPP模式",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_793d65a1a8a2c74e",
+   "to": "ent_574c4f84e4db",
+   "type": "逻辑关联",
+   "from_name": "log_793d65a1a8a2c74e",
+   "to_name": "云南普者黑景区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_4fe91a3ff5f53c9a",
+   "to": "ent_0f63160d3c8d",
+   "type": "逻辑关联",
+   "from_name": "log_4fe91a3ff5f53c9a",
+   "to_name": "四川省",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_ed39c697ba60237b",
+   "to": "ent_d9f2332de309",
+   "type": "逻辑关联",
+   "from_name": "log_ed39c697ba60237b",
+   "to_name": "eVTOL电动垂直起降飞行器",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_ed39c697ba60237b",
+   "to": "ent_2cefe347e461",
+   "type": "逻辑关联",
+   "from_name": "log_ed39c697ba60237b",
+   "to_name": "敦煌月牙泉景区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_ed39c697ba60237b",
+   "to": "ent_574c4f84e4db",
+   "type": "逻辑关联",
+   "from_name": "log_ed39c697ba60237b",
+   "to_name": "云南普者黑景区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_4fe91a3ff5f53c9a",
+   "to": "ent_4084c25cb9c7",
+   "type": "逻辑关联",
+   "from_name": "log_4fe91a3ff5f53c9a",
+   "to_name": "四川省",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_4fe91a3ff5f53c9a",
+   "to": "ent_b3edcd0f6873",
+   "type": "逻辑关联",
+   "from_name": "log_4fe91a3ff5f53c9a",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_9109dedc4e3ed163",
+   "to": "ent_ef77d1ab82a0",
+   "type": "逻辑关联",
+   "from_name": "log_9109dedc4e3ed163",
+   "to_name": "川西地震带",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_d5c52c03ac81c7bc",
+   "to": "ent_4084c25cb9c7",
+   "type": "逻辑关联",
+   "from_name": "log_d5c52c03ac81c7bc",
+   "to_name": "四川省",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_d5c52c03ac81c7bc",
+   "to": "ent_0f63160d3c8d",
+   "type": "逻辑关联",
+   "from_name": "log_d5c52c03ac81c7bc",
+   "to_name": "四川省",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_6f1390d214dc4459",
+   "to": "ent_35fa74554759",
+   "type": "逻辑关联",
+   "from_name": "log_log_6f1390d214dc4459",
+   "to_name": "深圳市",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_33bd9e1a561346cf",
+   "to": "ent_35fa74554759",
+   "type": "逻辑关联",
+   "from_name": "log_log_33bd9e1a561346cf",
+   "to_name": "深圳市",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_fb90d4fa36df4ee1",
+   "to": "ent_35fa74554759",
+   "type": "逻辑关联",
+   "from_name": "log_log_fb90d4fa36df4ee1",
+   "to_name": "深圳市",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_28542865d192f769",
+   "to": "ent_b992e2ec6238",
+   "type": "逻辑关联",
+   "from_name": "log_28542865d192f769",
+   "to_name": "5G网络",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_dc97e4d8dba08573",
+   "to": "ent_0f63160d3c8d",
+   "type": "逻辑关联",
+   "from_name": "log_dc97e4d8dba08573",
+   "to_name": "四川省",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_dc97e4d8dba08573",
+   "to": "ent_4084c25cb9c7",
+   "type": "逻辑关联",
+   "from_name": "log_dc97e4d8dba08573",
+   "to_name": "四川省",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_302daeec11ab85e5",
+   "to": "ent_3037c8f13130",
+   "type": "逻辑关联",
+   "from_name": "log_302daeec11ab85e5",
+   "to_name": "PPP模式",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_0a15ea21e244406a",
+   "to": "ent_7fa3597e9d16",
+   "type": "逻辑关联",
+   "from_name": "log_log_0a15ea21e244406a",
+   "to_name": "小鹏汇天",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_497802a12eea4c41",
+   "to": "ent_7fa3597e9d16",
+   "type": "逻辑关联",
+   "from_name": "log_log_497802a12eea4c41",
+   "to_name": "小鹏汇天",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_b3d2312d857642d3",
+   "to": "ent_35fa74554759",
+   "type": "逻辑关联",
+   "from_name": "log_log_b3d2312d857642d3",
+   "to_name": "深圳市",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_201b95c459b248ed",
+   "to": "ent_35fa74554759",
+   "type": "逻辑关联",
+   "from_name": "log_log_201b95c459b248ed",
+   "to_name": "深圳市",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_fcbc1f3bb5dc410e",
+   "to": "ent_7fa3597e9d16",
+   "type": "逻辑关联",
+   "from_name": "log_log_fcbc1f3bb5dc410e",
+   "to_name": "小鹏汇天",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_10203771affc486c",
+   "to": "ent_35fa74554759",
+   "type": "逻辑关联",
+   "from_name": "log_log_10203771affc486c",
+   "to_name": "深圳市",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_4108865fbbca45ed",
+   "to": "ent_7fa3597e9d16",
+   "type": "逻辑关联",
+   "from_name": "log_log_4108865fbbca45ed",
+   "to_name": "小鹏汇天",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f0f490b04dc4fdff",
+   "to": "ent_3037c8f13130",
+   "type": "逻辑关联",
+   "from_name": "log_f0f490b04dc4fdff",
+   "to_name": "PPP模式",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_5d11f56db47e252a",
+   "to": "ent_b992e2ec6238",
+   "type": "逻辑关联",
+   "from_name": "log_5d11f56db47e252a",
+   "to_name": "5G网络",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_a7ecf6147f89b770",
+   "to": "ent_70e4ef8a5315",
+   "type": "逻辑关联",
+   "from_name": "log_a7ecf6147f89b770",
+   "to_name": "内蒙古自治区",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_f620b7a75c222a6d",
+   "to": "ent_70e4ef8a5315",
+   "type": "逻辑关联",
+   "from_name": "log_f620b7a75c222a6d",
+   "to_name": "内蒙古自治区",
+   "edge_type": "logic_entity"
+  }
+ ],
+ "indicator_entity_edges": [
+  {
+   "from": "ind_ind_2401669ce156",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_2401669ce156",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2401669ce156",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_2401669ce156",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2401669ce156",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_2401669ce156",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c7df780d1b6b",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_c7df780d1b6b",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c7df780d1b6b",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_c7df780d1b6b",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c7df780d1b6b",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_c7df780d1b6b",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_909066c7d31d",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_909066c7d31d",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_909066c7d31d",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_909066c7d31d",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_909066c7d31d",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_909066c7d31d",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b27a62b97c34",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_b27a62b97c34",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b27a62b97c34",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_b27a62b97c34",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b27a62b97c34",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_b27a62b97c34",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fffb25645dd5",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_fffb25645dd5",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fffb25645dd5",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_fffb25645dd5",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fffb25645dd5",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_fffb25645dd5",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_90ad43df0a51",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_90ad43df0a51",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_90ad43df0a51",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_90ad43df0a51",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_90ad43df0a51",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_90ad43df0a51",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c4e7c7f08dc2",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_c4e7c7f08dc2",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c4e7c7f08dc2",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_c4e7c7f08dc2",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c4e7c7f08dc2",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_c4e7c7f08dc2",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_224277dc90b8",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_224277dc90b8",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_224277dc90b8",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_224277dc90b8",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_224277dc90b8",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_224277dc90b8",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_686e6cfcd75b",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_686e6cfcd75b",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_686e6cfcd75b",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_686e6cfcd75b",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_686e6cfcd75b",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_686e6cfcd75b",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0d867be6dd9a",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_0d867be6dd9a",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0d867be6dd9a",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_0d867be6dd9a",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0d867be6dd9a",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_0d867be6dd9a",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_63f485119179",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_63f485119179",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_63f485119179",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_63f485119179",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_63f485119179",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_63f485119179",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ccc29e0febc",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ccc29e0febc",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ccc29e0febc",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ccc29e0febc",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ccc29e0febc",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ccc29e0febc",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f6d536335242",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_f6d536335242",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f6d536335242",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_f6d536335242",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f6d536335242",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_f6d536335242",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6aa816efe1c0",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_6aa816efe1c0",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6aa816efe1c0",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_6aa816efe1c0",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6aa816efe1c0",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_6aa816efe1c0",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c601d7b247bd",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_c601d7b247bd",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c601d7b247bd",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_c601d7b247bd",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c601d7b247bd",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_c601d7b247bd",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f0451b2a4051",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_f0451b2a4051",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f0451b2a4051",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_f0451b2a4051",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f0451b2a4051",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_f0451b2a4051",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e355651ae051",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_e355651ae051",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e355651ae051",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_e355651ae051",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e355651ae051",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_e355651ae051",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9fe7432894ba",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_9fe7432894ba",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9fe7432894ba",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_9fe7432894ba",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9fe7432894ba",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_9fe7432894ba",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5726be124277",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_5726be124277",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5726be124277",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_5726be124277",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5726be124277",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_5726be124277",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_01c78fde2469",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_01c78fde2469",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_01c78fde2469",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_01c78fde2469",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_01c78fde2469",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_01c78fde2469",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_53181d9d8f56",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_53181d9d8f56",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_53181d9d8f56",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_53181d9d8f56",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_53181d9d8f56",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_53181d9d8f56",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ddcdcadc295a",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_ddcdcadc295a",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ddcdcadc295a",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_ddcdcadc295a",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ddcdcadc295a",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_ddcdcadc295a",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dca2c6ee43c8",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_dca2c6ee43c8",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dca2c6ee43c8",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_dca2c6ee43c8",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dca2c6ee43c8",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_dca2c6ee43c8",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f3d5f89738df",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_f3d5f89738df",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f3d5f89738df",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_f3d5f89738df",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f3d5f89738df",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_f3d5f89738df",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a631c27588f2",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_a631c27588f2",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a631c27588f2",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_a631c27588f2",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a631c27588f2",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_a631c27588f2",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9d4b2ce16f12",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_9d4b2ce16f12",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9d4b2ce16f12",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_9d4b2ce16f12",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9d4b2ce16f12",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_9d4b2ce16f12",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_210589e15bbe",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_210589e15bbe",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_210589e15bbe",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_210589e15bbe",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_210589e15bbe",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_210589e15bbe",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_230ccc2ccc73",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_230ccc2ccc73",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_230ccc2ccc73",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_230ccc2ccc73",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_230ccc2ccc73",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_230ccc2ccc73",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f128ba632cb3",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_f128ba632cb3",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f128ba632cb3",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_f128ba632cb3",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f128ba632cb3",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_f128ba632cb3",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bd17ee6fac2c",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_bd17ee6fac2c",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bd17ee6fac2c",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_bd17ee6fac2c",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bd17ee6fac2c",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_bd17ee6fac2c",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e1f176cb2e11",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_e1f176cb2e11",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e1f176cb2e11",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_e1f176cb2e11",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e1f176cb2e11",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_e1f176cb2e11",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2976a2bd9800",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_2976a2bd9800",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2976a2bd9800",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_2976a2bd9800",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2976a2bd9800",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_2976a2bd9800",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb43d905ec9d",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb43d905ec9d",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb43d905ec9d",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb43d905ec9d",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb43d905ec9d",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb43d905ec9d",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f6c41ed303f9",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_f6c41ed303f9",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f6c41ed303f9",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_f6c41ed303f9",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f6c41ed303f9",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_f6c41ed303f9",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6fc758db9565",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_6fc758db9565",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6fc758db9565",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_6fc758db9565",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6fc758db9565",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_6fc758db9565",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e36e0e0f5c08",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_e36e0e0f5c08",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e36e0e0f5c08",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_e36e0e0f5c08",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e36e0e0f5c08",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_e36e0e0f5c08",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f2fa5560fa09",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_f2fa5560fa09",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f2fa5560fa09",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_f2fa5560fa09",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f2fa5560fa09",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_f2fa5560fa09",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4de0b4106abb",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_4de0b4106abb",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4de0b4106abb",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_4de0b4106abb",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4de0b4106abb",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_4de0b4106abb",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_96d80b464c20",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_96d80b464c20",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_96d80b464c20",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_96d80b464c20",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_96d80b464c20",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_96d80b464c20",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_034f7370f0bb",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_034f7370f0bb",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_034f7370f0bb",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_034f7370f0bb",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_034f7370f0bb",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_034f7370f0bb",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_04babf4c7be5",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_04babf4c7be5",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_04babf4c7be5",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_04babf4c7be5",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_04babf4c7be5",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_04babf4c7be5",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f00d5d657560",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_f00d5d657560",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f00d5d657560",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_f00d5d657560",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f00d5d657560",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_f00d5d657560",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_88dacff0e0e3",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_88dacff0e0e3",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_88dacff0e0e3",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_88dacff0e0e3",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_88dacff0e0e3",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_88dacff0e0e3",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6164cd41e28b",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_6164cd41e28b",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6164cd41e28b",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_6164cd41e28b",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6164cd41e28b",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_6164cd41e28b",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7f8f47742a50",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_7f8f47742a50",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7f8f47742a50",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_7f8f47742a50",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7f8f47742a50",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_7f8f47742a50",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d5a9c499cfa3",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_d5a9c499cfa3",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d5a9c499cfa3",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_d5a9c499cfa3",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d5a9c499cfa3",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_d5a9c499cfa3",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0e78eef92301",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_0e78eef92301",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0e78eef92301",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_0e78eef92301",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0e78eef92301",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_0e78eef92301",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30dd89db1655",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_30dd89db1655",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30dd89db1655",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_30dd89db1655",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30dd89db1655",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_30dd89db1655",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de72107869cd",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_de72107869cd",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de72107869cd",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_de72107869cd",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de72107869cd",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_de72107869cd",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5ece3931c4a6",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_5ece3931c4a6",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5ece3931c4a6",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_5ece3931c4a6",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5ece3931c4a6",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_5ece3931c4a6",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8f2220b94ad9",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_8f2220b94ad9",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8f2220b94ad9",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_8f2220b94ad9",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8f2220b94ad9",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_8f2220b94ad9",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dcc008b8d7bc",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_dcc008b8d7bc",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dcc008b8d7bc",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_dcc008b8d7bc",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dcc008b8d7bc",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_dcc008b8d7bc",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_68f154f22ee1",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_68f154f22ee1",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_68f154f22ee1",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_68f154f22ee1",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_68f154f22ee1",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_68f154f22ee1",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_baab4b1b5956",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_baab4b1b5956",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_baab4b1b5956",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_baab4b1b5956",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_baab4b1b5956",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_baab4b1b5956",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b8bcb0698e8c",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_b8bcb0698e8c",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b8bcb0698e8c",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_b8bcb0698e8c",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b8bcb0698e8c",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_b8bcb0698e8c",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ffc8396dc0e0",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_ffc8396dc0e0",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ffc8396dc0e0",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_ffc8396dc0e0",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ffc8396dc0e0",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_ffc8396dc0e0",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_973de0fa8279",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_973de0fa8279",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_973de0fa8279",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_973de0fa8279",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_973de0fa8279",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_973de0fa8279",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8882acf38bb3",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_8882acf38bb3",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8882acf38bb3",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_8882acf38bb3",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8882acf38bb3",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_8882acf38bb3",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_85c6e02365cf",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_85c6e02365cf",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_85c6e02365cf",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_85c6e02365cf",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_85c6e02365cf",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_85c6e02365cf",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4f15ae17766e",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_4f15ae17766e",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4f15ae17766e",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_4f15ae17766e",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4f15ae17766e",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_4f15ae17766e",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_adce70633eaf",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_adce70633eaf",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_adce70633eaf",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_adce70633eaf",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_adce70633eaf",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_adce70633eaf",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cc48f5b8e542",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_cc48f5b8e542",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cc48f5b8e542",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_cc48f5b8e542",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cc48f5b8e542",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_cc48f5b8e542",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_166853165b96",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_166853165b96",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_166853165b96",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_166853165b96",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_166853165b96",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_166853165b96",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_947e22205057",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_947e22205057",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_947e22205057",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_947e22205057",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_947e22205057",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_947e22205057",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a5d192be4caa",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_a5d192be4caa",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a5d192be4caa",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_a5d192be4caa",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a5d192be4caa",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_a5d192be4caa",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_002e967e556e",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_002e967e556e",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_002e967e556e",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_002e967e556e",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_002e967e556e",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_002e967e556e",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d3447db3367f",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_d3447db3367f",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d3447db3367f",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_d3447db3367f",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_d3447db3367f",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_d3447db3367f",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3ef9377e83f4",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_3ef9377e83f4",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3ef9377e83f4",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_3ef9377e83f4",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3ef9377e83f4",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_3ef9377e83f4",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6615dadc90a2",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_6615dadc90a2",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6615dadc90a2",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_6615dadc90a2",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6615dadc90a2",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_6615dadc90a2",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_811e88fe4284",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_811e88fe4284",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_811e88fe4284",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_811e88fe4284",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_811e88fe4284",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_811e88fe4284",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_28c3967fd878",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_28c3967fd878",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_28c3967fd878",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_28c3967fd878",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_28c3967fd878",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_28c3967fd878",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9aa5f6f8d1e",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9aa5f6f8d1e",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9aa5f6f8d1e",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9aa5f6f8d1e",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f9aa5f6f8d1e",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_f9aa5f6f8d1e",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4066cf237a7f",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_4066cf237a7f",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4066cf237a7f",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_4066cf237a7f",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4066cf237a7f",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_4066cf237a7f",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bf9373c589fd",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_bf9373c589fd",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bf9373c589fd",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_bf9373c589fd",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_bf9373c589fd",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_bf9373c589fd",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_229c8fbb34cb",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_229c8fbb34cb",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_229c8fbb34cb",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_229c8fbb34cb",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_229c8fbb34cb",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_229c8fbb34cb",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9d0fbca4cf79",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_9d0fbca4cf79",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9d0fbca4cf79",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_9d0fbca4cf79",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9d0fbca4cf79",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_9d0fbca4cf79",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_06cdbfe9fb43",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_06cdbfe9fb43",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_06cdbfe9fb43",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_06cdbfe9fb43",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_06cdbfe9fb43",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_06cdbfe9fb43",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cb8a37ed967f",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_cb8a37ed967f",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cb8a37ed967f",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_cb8a37ed967f",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cb8a37ed967f",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_cb8a37ed967f",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9cb4a327d58e",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_9cb4a327d58e",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9cb4a327d58e",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_9cb4a327d58e",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9cb4a327d58e",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_9cb4a327d58e",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_31544a77df76",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_31544a77df76",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_31544a77df76",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_31544a77df76",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_31544a77df76",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_31544a77df76",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30f5c37b8cd1",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_30f5c37b8cd1",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30f5c37b8cd1",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_30f5c37b8cd1",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30f5c37b8cd1",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_30f5c37b8cd1",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_effaf2bd201b",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_effaf2bd201b",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_effaf2bd201b",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_effaf2bd201b",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_effaf2bd201b",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_effaf2bd201b",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_90b083f16a76",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_90b083f16a76",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_90b083f16a76",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_90b083f16a76",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_90b083f16a76",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_90b083f16a76",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_663cb7013041",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_663cb7013041",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_663cb7013041",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_663cb7013041",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_663cb7013041",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_663cb7013041",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a76f06a93ca0",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_a76f06a93ca0",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a76f06a93ca0",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_a76f06a93ca0",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a76f06a93ca0",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_a76f06a93ca0",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dfb171101ee5",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_dfb171101ee5",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dfb171101ee5",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_dfb171101ee5",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dfb171101ee5",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_dfb171101ee5",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2969ce7b2c47",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_2969ce7b2c47",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2969ce7b2c47",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_2969ce7b2c47",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2969ce7b2c47",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_2969ce7b2c47",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b1cbd7dda461",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_b1cbd7dda461",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b1cbd7dda461",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_b1cbd7dda461",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b1cbd7dda461",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_b1cbd7dda461",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e2f017ae1207",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_e2f017ae1207",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e2f017ae1207",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_e2f017ae1207",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e2f017ae1207",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_e2f017ae1207",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9de2fa58a372",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_9de2fa58a372",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9de2fa58a372",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_9de2fa58a372",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9de2fa58a372",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_9de2fa58a372",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fae2a33f91ea",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_fae2a33f91ea",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fae2a33f91ea",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_fae2a33f91ea",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fae2a33f91ea",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_fae2a33f91ea",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a62508a98c27",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_a62508a98c27",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a62508a98c27",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_a62508a98c27",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a62508a98c27",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_a62508a98c27",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_922e34662587",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_922e34662587",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_922e34662587",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_922e34662587",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_922e34662587",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_922e34662587",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0aaa034c66d3",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_0aaa034c66d3",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0aaa034c66d3",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_0aaa034c66d3",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0aaa034c66d3",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_0aaa034c66d3",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_12aadb37b618",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_12aadb37b618",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_12aadb37b618",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_12aadb37b618",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_12aadb37b618",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_12aadb37b618",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dfbf304a9e85",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_dfbf304a9e85",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dfbf304a9e85",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_dfbf304a9e85",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dfbf304a9e85",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_dfbf304a9e85",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_48bccfa7c250",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_48bccfa7c250",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_48bccfa7c250",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_48bccfa7c250",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_48bccfa7c250",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_48bccfa7c250",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3e3b4dac2735",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_3e3b4dac2735",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3e3b4dac2735",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_3e3b4dac2735",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3e3b4dac2735",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_3e3b4dac2735",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e9e808c1e7ad",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_e9e808c1e7ad",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e9e808c1e7ad",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_e9e808c1e7ad",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e9e808c1e7ad",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_e9e808c1e7ad",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_03c1b1b6d45d",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_03c1b1b6d45d",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_03c1b1b6d45d",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_03c1b1b6d45d",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_03c1b1b6d45d",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_03c1b1b6d45d",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8fc87053e09a",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_8fc87053e09a",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8fc87053e09a",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_8fc87053e09a",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8fc87053e09a",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_8fc87053e09a",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5f01f9306c39",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_5f01f9306c39",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5f01f9306c39",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_5f01f9306c39",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5f01f9306c39",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_5f01f9306c39",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c296b12f55a0",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_c296b12f55a0",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c296b12f55a0",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_c296b12f55a0",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c296b12f55a0",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_c296b12f55a0",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ee18e8208472",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_ee18e8208472",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ee18e8208472",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_ee18e8208472",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ee18e8208472",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_ee18e8208472",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0b79ac77c21d",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_0b79ac77c21d",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0b79ac77c21d",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_0b79ac77c21d",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0b79ac77c21d",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_0b79ac77c21d",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_deeccc70d8f5",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_deeccc70d8f5",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_deeccc70d8f5",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_deeccc70d8f5",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_deeccc70d8f5",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_deeccc70d8f5",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7e45c2d43868",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_7e45c2d43868",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7e45c2d43868",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_7e45c2d43868",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7e45c2d43868",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_7e45c2d43868",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1623ea2fe015",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_1623ea2fe015",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1623ea2fe015",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_1623ea2fe015",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1623ea2fe015",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_1623ea2fe015",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1a8f3cc01f06",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_1a8f3cc01f06",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1a8f3cc01f06",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_1a8f3cc01f06",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1a8f3cc01f06",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_1a8f3cc01f06",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_df358d3254d2",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_df358d3254d2",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_df358d3254d2",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_df358d3254d2",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_df358d3254d2",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_df358d3254d2",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_49a5ded806ed",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_49a5ded806ed",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_49a5ded806ed",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_49a5ded806ed",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_49a5ded806ed",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_49a5ded806ed",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ece6e31fd4d3",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_ece6e31fd4d3",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ece6e31fd4d3",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_ece6e31fd4d3",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ece6e31fd4d3",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_ece6e31fd4d3",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3619986e44e8",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_3619986e44e8",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3619986e44e8",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_3619986e44e8",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3619986e44e8",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_3619986e44e8",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_85f70812e6a2",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_85f70812e6a2",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_85f70812e6a2",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_85f70812e6a2",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_85f70812e6a2",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_85f70812e6a2",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c481e49cde8",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c481e49cde8",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c481e49cde8",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c481e49cde8",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c481e49cde8",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c481e49cde8",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a8b8944eec18",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_a8b8944eec18",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a8b8944eec18",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_a8b8944eec18",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a8b8944eec18",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_a8b8944eec18",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a745e2c36e9d",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_a745e2c36e9d",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a745e2c36e9d",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_a745e2c36e9d",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a745e2c36e9d",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_a745e2c36e9d",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_72ac7d975a13",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_72ac7d975a13",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_72ac7d975a13",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_72ac7d975a13",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_72ac7d975a13",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_72ac7d975a13",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4ff7e407cc0c",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_4ff7e407cc0c",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4ff7e407cc0c",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_4ff7e407cc0c",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4ff7e407cc0c",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_4ff7e407cc0c",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b4274e50f02a",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_b4274e50f02a",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b4274e50f02a",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_b4274e50f02a",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b4274e50f02a",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_b4274e50f02a",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a1ef8e102b45",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_a1ef8e102b45",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a1ef8e102b45",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_a1ef8e102b45",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a1ef8e102b45",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_a1ef8e102b45",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e48e8299b530",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_e48e8299b530",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e48e8299b530",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_e48e8299b530",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e48e8299b530",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_e48e8299b530",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eba04c235553",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_eba04c235553",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eba04c235553",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_eba04c235553",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eba04c235553",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_eba04c235553",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_583de39d73c5",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_583de39d73c5",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_583de39d73c5",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_583de39d73c5",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_583de39d73c5",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_583de39d73c5",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7ca438fd0794",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_7ca438fd0794",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7ca438fd0794",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_7ca438fd0794",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7ca438fd0794",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_7ca438fd0794",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ded6f036d99e",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_ded6f036d99e",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ded6f036d99e",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_ded6f036d99e",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ded6f036d99e",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_ded6f036d99e",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_180435812266",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_180435812266",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_180435812266",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_180435812266",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_180435812266",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_180435812266",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_abfc7ba45ab2",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_abfc7ba45ab2",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_abfc7ba45ab2",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_abfc7ba45ab2",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_abfc7ba45ab2",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_abfc7ba45ab2",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_23a93bbfa28a",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_23a93bbfa28a",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_23a93bbfa28a",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_23a93bbfa28a",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_23a93bbfa28a",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_23a93bbfa28a",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3031971b7bc7",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_3031971b7bc7",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3031971b7bc7",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_3031971b7bc7",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3031971b7bc7",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_3031971b7bc7",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3d11367357c",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3d11367357c",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3d11367357c",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3d11367357c",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3d11367357c",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3d11367357c",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9490716767de",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_9490716767de",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9490716767de",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_9490716767de",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9490716767de",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_9490716767de",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f297f9f5e312",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_f297f9f5e312",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f297f9f5e312",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_f297f9f5e312",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f297f9f5e312",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_f297f9f5e312",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_383b4076912b",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_383b4076912b",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_383b4076912b",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_383b4076912b",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_383b4076912b",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_383b4076912b",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2681839cbe4a",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_2681839cbe4a",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2681839cbe4a",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_2681839cbe4a",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2681839cbe4a",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_2681839cbe4a",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30a43d308d10",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_30a43d308d10",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30a43d308d10",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_30a43d308d10",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_30a43d308d10",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_30a43d308d10",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2831fa6ce92e",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_2831fa6ce92e",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2831fa6ce92e",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_2831fa6ce92e",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2831fa6ce92e",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_2831fa6ce92e",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_72e35ae39b75",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_72e35ae39b75",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_72e35ae39b75",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_72e35ae39b75",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_72e35ae39b75",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_72e35ae39b75",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6f5a704dbc24",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_6f5a704dbc24",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6f5a704dbc24",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_6f5a704dbc24",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6f5a704dbc24",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_6f5a704dbc24",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_52528a267b85",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_52528a267b85",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_52528a267b85",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_52528a267b85",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_52528a267b85",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_52528a267b85",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_898ecf7fa613",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_898ecf7fa613",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_898ecf7fa613",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_898ecf7fa613",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_898ecf7fa613",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_898ecf7fa613",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a49adae7a007",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_a49adae7a007",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a49adae7a007",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_a49adae7a007",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a49adae7a007",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_a49adae7a007",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3ae2a0d4bc00",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_3ae2a0d4bc00",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3ae2a0d4bc00",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_3ae2a0d4bc00",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3ae2a0d4bc00",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_3ae2a0d4bc00",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2769fd26e998",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_2769fd26e998",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2769fd26e998",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_2769fd26e998",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2769fd26e998",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_2769fd26e998",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_71d4baf714e5",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_71d4baf714e5",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_71d4baf714e5",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_71d4baf714e5",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_71d4baf714e5",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_71d4baf714e5",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ce2f63b7ab57",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_ce2f63b7ab57",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ce2f63b7ab57",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_ce2f63b7ab57",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ce2f63b7ab57",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_ce2f63b7ab57",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3761e1d433b0",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_3761e1d433b0",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3761e1d433b0",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_3761e1d433b0",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3761e1d433b0",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_3761e1d433b0",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_112c20d89648",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_112c20d89648",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_112c20d89648",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_112c20d89648",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_112c20d89648",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_112c20d89648",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e3fa26e02e32",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_e3fa26e02e32",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e3fa26e02e32",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_e3fa26e02e32",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e3fa26e02e32",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_e3fa26e02e32",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c8c3f57a695e",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_c8c3f57a695e",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c8c3f57a695e",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_c8c3f57a695e",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c8c3f57a695e",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_c8c3f57a695e",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_34c8b5d8cd23",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_34c8b5d8cd23",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_34c8b5d8cd23",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_34c8b5d8cd23",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_34c8b5d8cd23",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_34c8b5d8cd23",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1918d44c73c6",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_1918d44c73c6",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1918d44c73c6",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_1918d44c73c6",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1918d44c73c6",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_1918d44c73c6",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_61389cf40616",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_61389cf40616",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_61389cf40616",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_61389cf40616",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_61389cf40616",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_61389cf40616",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_97b307370af4",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_97b307370af4",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_97b307370af4",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_97b307370af4",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_97b307370af4",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_97b307370af4",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4609450f5956",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_4609450f5956",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4609450f5956",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_4609450f5956",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4609450f5956",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_4609450f5956",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_92400bedd0c6",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_92400bedd0c6",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_92400bedd0c6",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_92400bedd0c6",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_92400bedd0c6",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_92400bedd0c6",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0e105925622c",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_0e105925622c",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0e105925622c",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_0e105925622c",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0e105925622c",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_0e105925622c",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_94731113f8fd",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_94731113f8fd",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_94731113f8fd",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_94731113f8fd",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_94731113f8fd",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_94731113f8fd",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5081daf8ca28",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_5081daf8ca28",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5081daf8ca28",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_5081daf8ca28",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5081daf8ca28",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_5081daf8ca28",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_70d5cf36f2b9",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_70d5cf36f2b9",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_70d5cf36f2b9",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_70d5cf36f2b9",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_70d5cf36f2b9",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_70d5cf36f2b9",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_09b271b4307f",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_09b271b4307f",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_09b271b4307f",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_09b271b4307f",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_09b271b4307f",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_09b271b4307f",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7b71a6ca92e0",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_7b71a6ca92e0",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7b71a6ca92e0",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_7b71a6ca92e0",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7b71a6ca92e0",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_7b71a6ca92e0",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4a9563fdc35e",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_4a9563fdc35e",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4a9563fdc35e",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_4a9563fdc35e",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4a9563fdc35e",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_4a9563fdc35e",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_866e47cf36ab",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_866e47cf36ab",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_866e47cf36ab",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_866e47cf36ab",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_866e47cf36ab",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_866e47cf36ab",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea2a0160438f",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea2a0160438f",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea2a0160438f",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea2a0160438f",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea2a0160438f",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea2a0160438f",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_92e5837ac805",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_92e5837ac805",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_92e5837ac805",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_92e5837ac805",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_92e5837ac805",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_92e5837ac805",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_28e61516e44b",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_28e61516e44b",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_28e61516e44b",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_28e61516e44b",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_28e61516e44b",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_28e61516e44b",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_773ab85c912f",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_773ab85c912f",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_773ab85c912f",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_773ab85c912f",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_773ab85c912f",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_773ab85c912f",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_13d77ed28685",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_13d77ed28685",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_13d77ed28685",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_13d77ed28685",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_13d77ed28685",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_13d77ed28685",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e763c2e9ba21",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_e763c2e9ba21",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e763c2e9ba21",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_e763c2e9ba21",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e763c2e9ba21",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_e763c2e9ba21",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dc81304fd3c6",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_dc81304fd3c6",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dc81304fd3c6",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_dc81304fd3c6",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_dc81304fd3c6",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_dc81304fd3c6",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3806fd6bfd9e",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_3806fd6bfd9e",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3806fd6bfd9e",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_3806fd6bfd9e",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3806fd6bfd9e",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_3806fd6bfd9e",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1fd4dc84dedb",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_1fd4dc84dedb",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1fd4dc84dedb",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_1fd4dc84dedb",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1fd4dc84dedb",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_1fd4dc84dedb",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6545a9117e6a",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_6545a9117e6a",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6545a9117e6a",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_6545a9117e6a",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6545a9117e6a",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_6545a9117e6a",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_adc3216e2cbe",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_adc3216e2cbe",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_adc3216e2cbe",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_adc3216e2cbe",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_adc3216e2cbe",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_adc3216e2cbe",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5fce1b4e4a98",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_5fce1b4e4a98",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5fce1b4e4a98",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_5fce1b4e4a98",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5fce1b4e4a98",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_5fce1b4e4a98",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_139e59ef136c",
+   "to": "ent_c15bc70f78db",
+   "type": "指标关联",
+   "from_name": "ind_ind_139e59ef136c",
+   "to_name": "内蒙古自治区政府办公厅",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_139e59ef136c",
+   "to": "ent_b3edcd0f6873",
+   "type": "指标关联",
+   "from_name": "ind_ind_139e59ef136c",
+   "to_name": "四川省低空空域协同管理委员会",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_139e59ef136c",
+   "to": "ent_6c525f22d337",
+   "type": "指标关联",
+   "from_name": "ind_ind_139e59ef136c",
+   "to_name": "绵阳市低空经济研究院",
+   "edge_type": "indicator_entity"
+  }
+ ],
+ "counts": {
+  "entity_count": 78,
+  "relation_count": 97,
+  "framework_count": 6,
+  "logic_count": 113,
+  "indicator_count": 177
+ }
+}

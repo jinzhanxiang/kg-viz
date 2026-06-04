@@ -1,0 +1,3182 @@
+{
+ "name": "光伏设备",
+ "entities": [
+  {
+   "id": "ent_27aa3bb029ea",
+   "name": "中矿资源",
+   "type": "ORG",
+   "industry": "光伏设备",
+   "desc": "中矿资源是一家专注于稀有金属及新能源材料领域的综合性企业，在铷、铯等稀贵金属的勘探、开采及深加工环节具备全链条布局能力。公司作为国内铷铯盐的核心供应商，凭借先进的提纯技术，成功为协鑫光电定制开发低杂质铷盐，其钠、钾含量严格控制在5ppm以下，显著提升了产品纯度与性能。此外，中矿资源与纤纳光电签署三年长期供应协议，其溴化铯产品被广泛应用于钙钛矿-硅叠层电池界面优化，有效推动了光伏技术的迭代升级。凭借丰富的资源储备与技术优势，中矿资源在2025年稀贵金属储量方面位居行业前列，确立了其在新能源材料供应链中的关键地位与显著的市场影响力。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_8c1d14df7fc4",
+   "name": "太空光伏产业",
+   "type": "INDUSTRY",
+   "industry": "光伏设备",
+   "desc": "太空光伏产业是新兴航天能源领域的关键组成部分，主要致力于研发、制造及部署用于低轨卫星等航天器的太阳能发电系统。随着全球低轨卫星星座建设加速，2026至2030年发射量预计以42%的年复合增长率从6430颗激增至26400颗，为该行业带来爆发式增长机遇。凭借轻量化与低成本优势，钙钛矿电池技术正逐步取代传统方案，成为太空光伏的主流技术方向，推动行业向高效能、轻量化演进。预计到2029年，全球太空光伏需求将达到100GW/年，该产业不仅将成为支撑大规模卫星互联网运行的核心基础设施，更将在航天能源供应链中占据极具战略影响力的地位。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_72043a4d1e12",
+   "name": "钙钛矿太阳能电池",
+   "type": "PRODUCT",
+   "industry": "光伏设备",
+   "desc": "钙钛矿太阳能电池是一种新兴的第三代光伏技术产品，凭借材料成本低、制备工艺简单及可柔性化等优势，被视为继晶硅电池之后的下一代主流清洁能源解决方案。该技术在光电转换效率上表现卓越，稳态效率已突破27.32%，且叠层电池效率超过28%，理论极限可达40%以上，显著优于传统晶硅电池。随着2025年国内实现平方米级组件量产，其制造成本有望降至0.5-0.6元/瓦，仅为晶硅电池的三分之一，具备极强的经济竞争力。作为光伏产业技术迭代的关键方向，钙钛矿电池正加速推动全球能源结构向高效、低成本方向转型，具有重大的行业影响力。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_c44f126d3c53",
+   "name": "钙钛矿电池行业",
+   "type": "INDUSTRY",
+   "industry": "光伏设备",
+   "desc": "具有低成本、高效率、轻量化、柔性化等优势，在光伏市场渗透率提升空间大。应用领域涵盖建筑一体化、可穿戴设备、移动电源、车载发电及太空光伏等新兴领域，2026-2030年全球装机量预计由20GW升至281.7GW，带动铷盐需求爆发。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_bba325f4f839",
+   "name": "铷盐",
+   "type": "PRODUCT",
+   "industry": "光伏设备",
+   "desc": "钙钛矿电池的核心原材料之一。2026-2030年全球需求预计由146.7吨升至2065.7吨，复合年增长率（CAGR）或达94%。作为高精尖制造与军工业无法替代的核心生产要素，其需求曲线右移推动商品定价重心持续上移。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_d546952a3419",
+   "name": "铷铯盐添加技术",
+   "type": "TECH",
+   "industry": "光伏设备",
+   "desc": "铷铯盐添加技术是光伏产业中用于优化钙钛矿太阳能电池性能的关键材料工程手段，主要应用于高效光电转换器件的研发与制造环节。该技术通过引入铷离子修饰晶格结构及调控界面特性，同时利用铯离子有效降低缺陷密度，二者协同作用显著提升了器件的光电转换效率与长期运行稳定性。据瑞士洛桑联邦理工学院研究验证，该技术可将电池效率提升至25.77%，并在连续1300小时光照测试中保持99.2%的初始效率，展现出卓越的耐久性。作为推动下一代光伏技术突破的核心工艺之一，该技术在提升能源转换效能方面具有显著的学术价值与产业应用前景，对加速钙钛矿光伏商业化进程具有重要影响力。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_09669434aff5",
+   "name": "铷铯行业",
+   "type": "INDUSTRY",
+   "industry": "光伏设备",
+   "desc": "上游矿端及原料供给显现强垄断性寡头特征，全球铷铯行业供给端具有强刚性化特征。随着钙钛矿电池渗透率提升及太空光伏发展，铷盐市场进入从1至N的结构性扩张新周期，核心生产要素的垄断性、稀缺性及定价权将在公司成长弹性中持续计入。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": true,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_9ae32660faca",
+   "name": "Bikita矿山",
+   "type": "PLACE",
+   "industry": "光伏设备",
+   "desc": "历史上为全球三大经济可采铯矿之一，位于津巴布韦。目前矿区内仍发育有多条未经验证的LCT型伟晶岩体，具备进一步扩大锂铯钽矿产资源储量的潜力。截至2025年上半年，伴生Ta2O5金属量约3814吨，新增采选线预计2025年三季度投产。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_a4fc17354aeb",
+   "name": "低温硫酸法提锂技术",
+   "type": "TECH",
+   "industry": "光伏设备",
+   "desc": "金银河自研的核心技术，结合铷铯盐重结晶生产工艺。该技术是全球首条全密闭式连续生产工艺及装备生产线，有效实现锂云母中锂、铷、铯、钾、钒和硅等全元素高值化利用，相比传统高温硫酸盐法具有更优的环保和成本优势。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_b47db4211bea",
+   "name": "加拿大Tanco矿山",
+   "type": "PLACE",
+   "industry": "光伏设备",
+   "desc": "全球现有在产的唯一以铯榴石为主矿石的矿山，也是世界上储量最大的铯榴石矿山。截至2025年上半年，合计保有CsO金属量5.56万吨，其中露天开采方案下保有原地矿石储量1074.60万吨，是中矿资源铯资源垄断优势的核心资产。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_933b3b1d5245",
+   "name": "《十四五建筑节能与绿色建筑发展规划》",
+   "type": "POLICY",
+   "industry": "光伏设备",
+   "desc": "《十四五建筑节能与绿色建筑发展规划》由住房和城乡建设部于2022年印发，是指导我国“十四五”时期建筑节能与绿色建筑发展的纲领性政策文件。该规划确立了到2025年城镇新建建筑全面执行绿色建筑标准、全国新增建筑太阳能光伏装机容量50GW以上的核心目标，重点推动光伏建筑一体化（BIPV）技术的规模化应用与产业融合。作为国家层面推动建筑行业低碳转型的关键政策，它不仅为钙钛矿等新型光伏技术在建筑领域的商业化落地提供了明确的政策导向和支持框架，还显著提升了行业对绿色建材及节能技术的重视程度。该规划在构建清洁低碳、安全高效的建筑能源体系中具有深远的影响力，是引导金融机构识别绿色基建投资机会、评估相关企业ES",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_10728540ca28",
+   "name": "张天丰",
+   "type": "PERSON",
+   "industry": "光伏设备",
+   "desc": "张天丰现任东兴证券大周期组组长及金属与金属新材料行业首席分析师，深耕大宗商品领域多年。他拥有超过十五年的金融衍生品研究、投资及团队管理经验，曾担任东兴资产管理计划投资经理，具备深厚的实战功底与宏观周期研判能力。凭借对金属产业链的深刻洞察，他荣获Wind金牌分析师及iFinD卓越金属产业研究专家称号，在行业内享有较高声誉。其研究成果以逻辑严密、数据详实著称，为投资者提供了极具价值的决策参考，是金属新材料领域备受认可的研究专家。",
+   "attrs": "{\"position\": \"\", \"company\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_00e912818ea3",
+   "name": "甲酸铯",
+   "type": "PRODUCT",
+   "industry": "光伏设备",
+   "desc": "中矿资源核心产品之一，采用生产、租售+技术服务、回收和提纯的生态产业链模式。全球储备甲酸铯产品18970bbl，折合铯金属当量4306.31吨。2022-2024年间产品价格年平均涨幅达43%，具有高附加值和高回收率特征。",
+   "attrs": "{\"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  },
+  {
+   "id": "ent_b0b1c3c843d3",
+   "name": "铷铯盐",
+   "type": "ORG",
+   "industry": "光伏设备",
+   "desc": "铷铯盐并非独立的企业法人实体，而是指含有铷（Rb）或铯（Cs）元素的无机盐类化合物，在金融知识图谱中常作为关键原材料或上游资源节点存在。这类物质主要应用于光电材料、原子钟、特种玻璃及新能源电池等高端制造领域，具有极高的技术壁垒和稀缺性特征。由于其提取工艺复杂且全球储量有限，铷铯盐市场呈现高度寡头垄断格局，价格波动对下游精密仪器及半导体产业链具有显著影响。在投资分析中，掌握铷铯盐供应链的企业往往具备较强的议价能力和护城河，是评估新材料板块价值的重要参考指标。",
+   "attrs": "{\"stock_code\": \"\", \"industry\": \"\\u5149\\u4f0f\\u8bbe\\u5907\", \"business\": \"\"}",
+   "stock": "",
+   "is_core": false,
+   "node_type": "entity"
+  }
+ ],
+ "relations": [
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_d546952a3419",
+   "type": "供应",
+   "from_name": "中矿资源",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_72043a4d1e12",
+   "type": "供应",
+   "from_name": "中矿资源",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_72043a4d1e12",
+   "type": "合作",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_933b3b1d5245",
+   "to": "ent_72043a4d1e12",
+   "type": "监管",
+   "from_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "POLICY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8c1d14df7fc4",
+   "to": "ent_72043a4d1e12",
+   "type": "上下游",
+   "from_name": "太空光伏产业",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_d546952a3419",
+   "type": "投资",
+   "from_name": "中矿资源",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_8c1d14df7fc4",
+   "type": "战略联盟",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_933b3b1d5245",
+   "to": "ent_8c1d14df7fc4",
+   "type": "上下游",
+   "from_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_8c1d14df7fc4",
+   "type": "合作",
+   "from_name": "中矿资源",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_72043a4d1e12",
+   "to": "ent_8c1d14df7fc4",
+   "type": "对比",
+   "from_name": "钙钛矿太阳能电池",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PRODUCT",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_72043a4d1e12",
+   "type": "客户",
+   "from_name": "中矿资源",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_933b3b1d5245",
+   "to": "ent_27aa3bb029ea",
+   "type": "监管",
+   "from_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "to_name": "中矿资源",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "POLICY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_27aa3bb029ea",
+   "type": "上下游",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "中矿资源",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_72043a4d1e12",
+   "type": "战略联盟",
+   "from_name": "中矿资源",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8c1d14df7fc4",
+   "to": "ent_d546952a3419",
+   "type": "合作",
+   "from_name": "太空光伏产业",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_933b3b1d5245",
+   "to": "ent_d546952a3419",
+   "type": "合作",
+   "from_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "POLICY",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_d546952a3419",
+   "type": "股东",
+   "from_name": "中矿资源",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_72043a4d1e12",
+   "to": "ent_d546952a3419",
+   "type": "客户",
+   "from_name": "钙钛矿太阳能电池",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PRODUCT",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8c1d14df7fc4",
+   "to": "ent_72043a4d1e12",
+   "type": "投资",
+   "from_name": "太空光伏产业",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_933b3b1d5245",
+   "to": "ent_8c1d14df7fc4",
+   "type": "战略联盟",
+   "from_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_72043a4d1e12",
+   "type": "上下游",
+   "from_name": "中矿资源",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_933b3b1d5245",
+   "type": "对比",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8c1d14df7fc4",
+   "to": "ent_27aa3bb029ea",
+   "type": "监管",
+   "from_name": "太空光伏产业",
+   "to_name": "中矿资源",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_72043a4d1e12",
+   "to": "ent_933b3b1d5245",
+   "type": "战略联盟",
+   "from_name": "钙钛矿太阳能电池",
+   "to_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PRODUCT",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_8c1d14df7fc4",
+   "type": "对比",
+   "from_name": "中矿资源",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_72043a4d1e12",
+   "type": "监管",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_933b3b1d5245",
+   "to": "ent_72043a4d1e12",
+   "type": "竞争",
+   "from_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "POLICY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_d546952a3419",
+   "type": "监管",
+   "from_name": "中矿资源",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8c1d14df7fc4",
+   "to": "ent_933b3b1d5245",
+   "type": "对比",
+   "from_name": "太空光伏产业",
+   "to_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_72043a4d1e12",
+   "to": "ent_27aa3bb029ea",
+   "type": "合作",
+   "from_name": "钙钛矿太阳能电池",
+   "to_name": "中矿资源",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_8c1d14df7fc4",
+   "type": "投资",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_933b3b1d5245",
+   "type": "合作",
+   "from_name": "中矿资源",
+   "to_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_72043a4d1e12",
+   "to": "ent_933b3b1d5245",
+   "type": "上下游",
+   "from_name": "钙钛矿太阳能电池",
+   "to_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PRODUCT",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_27aa3bb029ea",
+   "type": "客户",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "中矿资源",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8c1d14df7fc4",
+   "to": "ent_72043a4d1e12",
+   "type": "客户",
+   "from_name": "太空光伏产业",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_72043a4d1e12",
+   "type": "监管",
+   "from_name": "中矿资源",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_933b3b1d5245",
+   "to": "ent_27aa3bb029ea",
+   "type": "投资",
+   "from_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "to_name": "中矿资源",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "POLICY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_72043a4d1e12",
+   "to": "ent_8c1d14df7fc4",
+   "type": "监管",
+   "from_name": "钙钛矿太阳能电池",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PRODUCT",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_27aa3bb029ea",
+   "type": "监管",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "中矿资源",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_72043a4d1e12",
+   "type": "对比",
+   "from_name": "中矿资源",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8c1d14df7fc4",
+   "to": "ent_d546952a3419",
+   "type": "监管",
+   "from_name": "太空光伏产业",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_933b3b1d5245",
+   "to": "ent_72043a4d1e12",
+   "type": "收购",
+   "from_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "to_name": "钙钛矿太阳能电池",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "POLICY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_d546952a3419",
+   "type": "子公司",
+   "from_name": "中矿资源",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_933b3b1d5245",
+   "type": "合作",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_8c1d14df7fc4",
+   "to": "ent_933b3b1d5245",
+   "type": "上下游",
+   "from_name": "太空光伏产业",
+   "to_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_72043a4d1e12",
+   "to": "ent_d546952a3419",
+   "type": "监管",
+   "from_name": "钙钛矿太阳能电池",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PRODUCT",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_d546952a3419",
+   "type": "竞争",
+   "from_name": "中矿资源",
+   "to_name": "铷铯盐添加技术",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "TECH",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_72043a4d1e12",
+   "to": "ent_8c1d14df7fc4",
+   "type": "股东",
+   "from_name": "钙钛矿太阳能电池",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PRODUCT",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_933b3b1d5245",
+   "to": "ent_8c1d14df7fc4",
+   "type": "股东",
+   "from_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "to_name": "太空光伏产业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "POLICY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_d546952a3419",
+   "to": "ent_933b3b1d5245",
+   "type": "战略联盟",
+   "from_name": "铷铯盐添加技术",
+   "to_name": "《十四五建筑节能与绿色建筑发展规划》",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "POLICY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_c44f126d3c53",
+   "to": "ent_bba325f4f839",
+   "type": "上下游",
+   "from_name": "钙钛矿电池行业",
+   "to_name": "铷盐",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_09669434aff5",
+   "to": "ent_c44f126d3c53",
+   "type": "上下游",
+   "from_name": "铷铯行业",
+   "to_name": "钙钛矿电池行业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_09669434aff5",
+   "to": "ent_27aa3bb029ea",
+   "type": "上下游",
+   "from_name": "铷铯行业",
+   "to_name": "中矿资源",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_b47db4211bea",
+   "type": "投资",
+   "from_name": "中矿资源",
+   "to_name": "加拿大Tanco矿山",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_9ae32660faca",
+   "type": "投资",
+   "from_name": "中矿资源",
+   "to_name": "Bikita矿山",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_b0b1c3c843d3",
+   "type": "客户",
+   "from_name": "中矿资源",
+   "to_name": "铷铯盐",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_10728540ca28",
+   "to": "ent_09669434aff5",
+   "type": "监管",
+   "from_name": "张天丰",
+   "to_name": "铷铯行业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PERSON",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_09669434aff5",
+   "to": "ent_bba325f4f839",
+   "type": "上下游",
+   "from_name": "铷铯行业",
+   "to_name": "铷盐",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "INDUSTRY",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_00e912818ea3",
+   "type": "上下游",
+   "from_name": "中矿资源",
+   "to_name": "甲酸铯",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_09669434aff5",
+   "type": "对比",
+   "from_name": "中矿资源",
+   "to_name": "铷铯行业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_a4fc17354aeb",
+   "to": "ent_bba325f4f839",
+   "type": "上下游",
+   "from_name": "低温硫酸法提锂技术",
+   "to_name": "铷盐",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "TECH",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_b47db4211bea",
+   "to": "ent_09669434aff5",
+   "type": "上下游",
+   "from_name": "加拿大Tanco矿山",
+   "to_name": "铷铯行业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PLACE",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_9ae32660faca",
+   "to": "ent_09669434aff5",
+   "type": "上下游",
+   "from_name": "Bikita矿山",
+   "to_name": "铷铯行业",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PLACE",
+   "to_type": "INDUSTRY",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_00e912818ea3",
+   "to": "ent_27aa3bb029ea",
+   "type": "客户",
+   "from_name": "甲酸铯",
+   "to_name": "中矿资源",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "PRODUCT",
+   "to_type": "ORG",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_00e912818ea3",
+   "type": "监管",
+   "from_name": "中矿资源",
+   "to_name": "甲酸铯",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PRODUCT",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_b47db4211bea",
+   "type": "监管",
+   "from_name": "中矿资源",
+   "to_name": "加拿大Tanco矿山",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  },
+  {
+   "from": "ent_27aa3bb029ea",
+   "to": "ent_9ae32660faca",
+   "type": "监管",
+   "from_name": "中矿资源",
+   "to_name": "Bikita矿山",
+   "from_ind": "光伏设备",
+   "to_ind": "光伏设备",
+   "from_type": "ORG",
+   "to_type": "PLACE",
+   "edge_type": "entity_relation"
+  }
+ ],
+ "frameworks": [
+  {
+   "id": "fw_fw_8a5fe6a238264fcb",
+   "name": "钙钛矿电池产业化路径分析",
+   "type": "core_architecture",
+   "category": "财务分析",
+   "industry": "光伏设备",
+   "steps": "[\"\\u5206\\u6790\\u9499\\u949b\\u77ff\\u7535\\u6c60\\u6210\\u672c\\u4f18\\u52bf\\uff08\\u751f\\u4ea7\\u8017\\u65f645\\u5206\\u949f vs \\u6676\\u78454320\\u5206\\u949f\\uff09\", \"\\u8bc4\\u4f30\\u94f7\\u94ef\\u76d0\\u5bf9\\u7a33\\u5b9a\\u6027\\u7684\\u63d0\\u5347\\u6548\\u679c\\uff081300\\u5c0f\\u65f6\\u5149\\u7167\\u6d4b\\u8bd5\\u4fdd\\u630199.2%\\u6548\\u7387\\uff09\", \"\\u6d4b\\u7b972025-2030\\u5e74\\u4ea7\\u80fd\\u6269\\u5f20\\u5bf9\\u94f7\\u76d0\\u9700\\u6c42\\u7684\\u62c9\\u52a8\\u6548\\u5e94\"]",
+   "confidence": 0.8,
+   "content": "框架名称：钙钛矿电池产业化路径分析\n描述：通过对比钙钛矿与晶硅电池的生产流程、成本结构、效率潜力及稳定性数据，结合铷铯盐添加技术的实验验证结果，构建从实验室到量产的技术转化框架。\n核心维度：成本效率比, 技术成熟度, 供应链配套\n步骤：分析钙钛矿电池成本优势（生产耗时45分钟 vs 晶硅4320分钟）, 评估铷铯盐对稳定性的提升效果（1300小时光照测试保持99.2%效率）, 测算2025-2030年产能扩张对铷盐需求的拉动效应",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_69ee58819a63472a",
+   "name": "钙钛矿电池渗透率提升模型",
+   "type": "logic",
+   "category": "财务分析",
+   "industry": "光伏设备",
+   "steps": "[\"\\u8bc6\\u522b\\u9499\\u949b\\u77ff\\u7535\\u6c60\\u6280\\u672f\\u4f18\\u52bf\\u53ca\\u5e94\\u7528\\u573a\\u666f\\uff08\\u5730\\u9762/\\u592a\\u7a7a\\uff09\", \"\\u9884\\u6d4b\\u5168\\u7403\\u9499\\u949b\\u77ff\\u7535\\u6c60\\u88c5\\u673a\\u91cf\\u589e\\u957f\\u8f68\\u8ff9\", \"\\u8ba1\\u7b97\\u5bf9\\u5e94\\u94f7\\u76d0\\u9700\\u6c42\\u91cf\\u53ca\\u590d\\u5408\\u589e\\u957f\\u7387\"]",
+   "confidence": 0.8,
+   "content": "框架名称：钙钛矿电池渗透率提升模型\n描述：分析钙钛矿电池在低成本、高效率、轻量化等方面的优势，结合地面光伏与太空光伏两大应用场景，预测装机量增长对上游铷盐需求的拉动作用。通过量化2026-2030年装机量从20GW到281.7GW的扩张路径，推导出铷盐需求CAGR达94%的结构性扩张周期。\n核心维度：装机量, 铷盐需求\n步骤：识别钙钛矿电池技术优势及应用场景（地面/太空）, 预测全球钙钛矿电池装机量增长轨迹, 计算对应铷盐需求量及复合增长率",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_217412c3ae384197",
+   "name": "技术护城河与进入壁垒评估",
+   "type": "risk",
+   "category": "技术分析",
+   "industry": "光伏设备",
+   "steps": "[\"\\u5206\\u6790\\u91d1\\u94f6\\u6cb3\\u81ea\\u7814\\u6280\\u672f\\uff08\\u4f4e\\u6e29\\u786b\\u9178\\u6cd5/\\u91cd\\u7ed3\\u6676\\uff09\\u7684\\u5148\\u8fdb\\u6027\", \"\\u6d4b\\u7b97\\u65b0\\u7ade\\u4e89\\u8005\\u4ece\\u5efa\\u5382\\u5230\\u6295\\u4ea7\\u7684\\u65f6\\u95f4\\u5468\\u671f\\uff0824-36\\u6708\\u5efa\\u8bbe+12-18\\u6708\\u73af\\u8bc4\\uff09\", \"\\u5f97\\u51fa\\u81f3\\u5c1136-54\\u4e2a\\u6708\\u7684\\u8fdb\\u5165\\u58c1\\u5792\\u7ed3\\u8bba\"]",
+   "confidence": 0.8,
+   "content": "框架名称：技术护城河与进入壁垒评估\n描述：评估金银河在低温硫酸法提锂及铷铯盐重结晶工艺上的技术独占性。分析从实验室中试到工厂搭建、调试及环评所需的完整时间周期（36-54个月），论证新进入者难以在短期内形成有效竞争，从而确立现有龙头的定价权和成长弹性。\n核心维度：技术壁垒, 时间周期\n步骤：分析金银河自研技术（低温硫酸法/重结晶）的先进性, 测算新竞争者从建厂到投产的时间周期（24-36月建设+12-18月环评）, 得出至少36-54个月的进入壁垒结论",
+   "is_core": true,
+   "node_type": "framework"
+  },
+  {
+   "id": "fw_fw_2a81c00165ed451d",
+   "name": "量价齐升业绩预测模型",
+   "type": "methodology",
+   "category": "财务分析",
+   "industry": "光伏设备",
+   "steps": "[\"\\u56de\\u987e2021-2024\\u5e74\\u94ef\\u94f7\\u677f\\u5757\\u8425\\u6536\\u53ca\\u6bdb\\u5229\\u589e\\u957f\\u60c5\\u51b5\", \"\\u9884\\u6d4b2025-2027\\u5e74\\u4ea7\\u80fd\\u5229\\u7528\\u7387\\u53ca\\u4ea7\\u91cf\\u53d8\\u5316\", \"\\u7ed3\\u5408\\u4ef7\\u683c\\u6da8\\u5e45\\u9884\\u6d4b\\u672a\\u6765\\u8425\\u6536\\u548c\\u6bdb\\u5229\\u89c4\\u6a21\"]",
+   "confidence": 0.8,
+   "content": "框架名称：量价齐升业绩预测模型\n描述：结合中矿资源铯铷板块的历史财务数据（营收、毛利、毛利率）及未来产能扩张计划，预测2025-2027年的业绩表现。通过产量增长（1100-1440吨）和价格中枢上行（年涨幅24%-43%）的双重驱动，测算营收和毛利的复合增长路径。\n核心维度：产量, 价格, 营收\n步骤：回顾2021-2024年铯铷板块营收及毛利增长情况, 预测2025-2027年产能利用率及产量变化, 结合价格涨幅预测未来营收和毛利规模",
+   "is_core": true,
+   "node_type": "framework"
+  }
+ ],
+ "logics": [
+  {
+   "id": "log_log_5678053934e44b25",
+   "logic_id": "log_5678053934e44b25",
+   "type": "因果",
+   "premise": "钙钛矿电池在光伏市场渗透率提升及太空光伏等新兴领域需求增长",
+   "conclusion": "铷盐市场进入结构性扩张新周期，2026-2030年需求CAGR达94%",
+   "text": "基于钙钛矿电池在光伏市场渗透率提升及太空光伏等新兴领域需求增长,推导出铷盐市场进入结构性扩张新周期，2026-2030年需求CAG",
+   "dimension": "2",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_log_fe7430255d514c93",
+   "logic_id": "log_fe7430255d514c93",
+   "type": "因果",
+   "premise": "中矿资源控制全球80%以上铯榴石矿产及Tanco/Bikita矿山",
+   "conclusion": "中矿资源在铯盐行业具有强议价能力，产品价格持续上行",
+   "text": "基于中矿资源控制全球80%以上铯榴石矿产及Tanco/Bikit,推导出中矿资源在铯盐行业具有强议价能力，产品价格持续上行",
+   "dimension": "3",
+   "confidence": 0.95,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_log_a37cf831f5a84802",
+   "logic_id": "log_a37cf831f5a84802",
+   "type": "趋势",
+   "premise": "铯铷盐产能从1000吨扩至1500吨，且价格中枢上行",
+   "conclusion": "中矿资源铯铷板块业绩具备强成长弹性",
+   "text": "从铯铷盐产能从1000吨扩至1500吨，且价格中枢上行的趋势分析,判断中矿资源铯铷板块业绩具备强成长弹性",
+   "dimension": "3",
+   "confidence": 0.9,
+   "is_core": true,
+   "node_type": "logic"
+  },
+  {
+   "id": "log_log_404799a695b647b1",
+   "logic_id": "log_404799a695b647b1",
+   "type": "对比",
+   "premise": "金银河掌握二段硫酸低温矿相重构技术及重结晶工艺",
+   "conclusion": "金银河在铷铯盐生产上具备大规模量产化、绿色环保及低成本优势",
+   "text": "通过对比金银河掌握二段硫酸低温矿相重构技术及重结晶工艺,得出金银河在铷铯盐生产上具备大规模量产化、绿色环保及低成本优势",
+   "dimension": "4",
+   "confidence": 0.85,
+   "is_core": false,
+   "node_type": "logic"
+  }
+ ],
+ "indicators": [
+  {
+   "id": "ind_ind_8c821511924e",
+   "indicator_id": "ind_8c821511924e",
+   "name": "2026-2030全球钙钛矿电池装机量CAGR",
+   "type": "增长率",
+   "unit": "%",
+   "value": "94",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8b3594be64c0",
+   "indicator_id": "ind_8b3594be64c0",
+   "name": "2030E全球钙钛矿电池装机量",
+   "type": "规模",
+   "unit": "GW",
+   "value": "281.7",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_33ebd5d4011a",
+   "indicator_id": "ind_33ebd5d4011a",
+   "name": "2030E全球铷盐需求量",
+   "type": "规模",
+   "unit": "吨",
+   "value": "2065.7",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c2e84c37da65",
+   "indicator_id": "ind_c2e84c37da65",
+   "name": "BIPV市场CAGR",
+   "type": "增长率",
+   "unit": "%",
+   "value": "23.06",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_fe6c8e3a05a3",
+   "indicator_id": "ind_fe6c8e3a05a3",
+   "name": "BIPV市场规模（2026）",
+   "type": "规模",
+   "unit": "亿美元",
+   "value": "166.6",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_5ab1758e58aa",
+   "indicator_id": "ind_5ab1758e58aa",
+   "name": "BIPV市场规模（2031）",
+   "type": "规模",
+   "unit": "亿美元",
+   "value": "470.2",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_de2dc1e1df15",
+   "indicator_id": "ind_de2dc1e1df15",
+   "name": "中矿资源全球铯榴石矿产控制份额",
+   "type": "份额",
+   "unit": "%",
+   "value": "80",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2dd375202da2",
+   "indicator_id": "ind_2dd375202da2",
+   "name": "中矿资源甲酸铯产品价格年涨幅（2022-2024）",
+   "type": "增长率",
+   "unit": "%",
+   "value": "43",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_67b20bffb137",
+   "indicator_id": "ind_67b20bffb137",
+   "name": "中矿资源铯铷板块毛利CAGR（2021-2024）",
+   "type": "增长率",
+   "unit": "%",
+   "value": "27",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_39fa67271a5b",
+   "indicator_id": "ind_39fa67271a5b",
+   "name": "中矿资源铯铷板块毛利率（2024）",
+   "type": "利润率",
+   "unit": "%",
+   "value": "78.29",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_ed546bba957e",
+   "indicator_id": "ind_ed546bba957e",
+   "name": "中矿资源铯铷板块营收CAGR（2021-2024）",
+   "type": "增长率",
+   "unit": "%",
+   "value": "20",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_048f3bb9753c",
+   "indicator_id": "ind_048f3bb9753c",
+   "name": "中矿资源铯铷盐产能全球占比（2025E）",
+   "type": "份额",
+   "unit": "%",
+   "value": "50",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_107ed97aeee8",
+   "indicator_id": "ind_107ed97aeee8",
+   "name": "中矿资源铯铷精细化工产品价格年涨幅（2022-2024）",
+   "type": "增长率",
+   "unit": "%",
+   "value": "24",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_0d59f70b466f",
+   "indicator_id": "ind_0d59f70b466f",
+   "name": "传统硅基光伏弯折次数",
+   "type": "性能",
+   "unit": "次",
+   "value": "300",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_2239595edc97",
+   "indicator_id": "ind_2239595edc97",
+   "name": "全球钙钛矿电池装机量（2026）",
+   "type": "规模",
+   "unit": "GW",
+   "value": "20",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_5287454a7981",
+   "indicator_id": "ind_5287454a7981",
+   "name": "全球钙钛矿电池装机量（2030）",
+   "type": "规模",
+   "unit": "GW",
+   "value": "281.7",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_c62be0507b25",
+   "indicator_id": "ind_c62be0507b25",
+   "name": "全球铷盐需求CAGR（2026-2030）",
+   "type": "增长率",
+   "unit": "%",
+   "value": "94",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_8edd6021974c",
+   "indicator_id": "ind_8edd6021974c",
+   "name": "地面光伏铷盐需求CAGR",
+   "type": "增长率",
+   "unit": "%",
+   "value": "115",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_155977bcf32b",
+   "indicator_id": "ind_155977bcf32b",
+   "name": "地面光伏铷盐需求量（2025）",
+   "type": "规模",
+   "unit": "吨",
+   "value": "37",
+   "is_core": true,
+   "node_type": "indicator"
+  },
+  {
+   "id": "ind_ind_6de6162e8a7e",
+   "indicator_id": "ind_6de6162e8a7e",
+   "name": "地面光伏铷盐需求量（2030）",
+   "type": "规模",
+   "unit": "吨",
+   "value": "1696",
+   "is_core": true,
+   "node_type": "indicator"
+  }
+ ],
+ "logic_entity_edges": [
+  {
+   "from": "log_log_5678053934e44b25",
+   "to": "ent_bba325f4f839",
+   "type": "逻辑关联",
+   "from_name": "log_log_5678053934e44b25",
+   "to_name": "铷盐",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_fe7430255d514c93",
+   "to": "ent_27aa3bb029ea",
+   "type": "逻辑关联",
+   "from_name": "log_log_fe7430255d514c93",
+   "to_name": "中矿资源",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_fe7430255d514c93",
+   "to": "ent_9ae32660faca",
+   "type": "逻辑关联",
+   "from_name": "log_log_fe7430255d514c93",
+   "to_name": "Bikita矿山",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_a37cf831f5a84802",
+   "to": "ent_bba325f4f839",
+   "type": "逻辑关联",
+   "from_name": "log_log_a37cf831f5a84802",
+   "to_name": "铷盐",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_a37cf831f5a84802",
+   "to": "ent_27aa3bb029ea",
+   "type": "逻辑关联",
+   "from_name": "log_log_a37cf831f5a84802",
+   "to_name": "中矿资源",
+   "edge_type": "logic_entity"
+  },
+  {
+   "from": "log_log_404799a695b647b1",
+   "to": "ent_b0b1c3c843d3",
+   "type": "逻辑关联",
+   "from_name": "log_log_404799a695b647b1",
+   "to_name": "铷铯盐",
+   "edge_type": "logic_entity"
+  }
+ ],
+ "indicator_entity_edges": [
+  {
+   "from": "ind_ind_8c821511924e",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_8c821511924e",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8c821511924e",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_8c821511924e",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8c821511924e",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_8c821511924e",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8c821511924e",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_8c821511924e",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8b3594be64c0",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_8b3594be64c0",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8b3594be64c0",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_8b3594be64c0",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8b3594be64c0",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_8b3594be64c0",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8b3594be64c0",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_8b3594be64c0",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_33ebd5d4011a",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_33ebd5d4011a",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_33ebd5d4011a",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_33ebd5d4011a",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_33ebd5d4011a",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_33ebd5d4011a",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_33ebd5d4011a",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_33ebd5d4011a",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c2e84c37da65",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_c2e84c37da65",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c2e84c37da65",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_c2e84c37da65",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c2e84c37da65",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_c2e84c37da65",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c2e84c37da65",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_c2e84c37da65",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fe6c8e3a05a3",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_fe6c8e3a05a3",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fe6c8e3a05a3",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_fe6c8e3a05a3",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fe6c8e3a05a3",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_fe6c8e3a05a3",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fe6c8e3a05a3",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_fe6c8e3a05a3",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5ab1758e58aa",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_5ab1758e58aa",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5ab1758e58aa",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_5ab1758e58aa",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5ab1758e58aa",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_5ab1758e58aa",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5ab1758e58aa",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_5ab1758e58aa",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de2dc1e1df15",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_de2dc1e1df15",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de2dc1e1df15",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_de2dc1e1df15",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de2dc1e1df15",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_de2dc1e1df15",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_de2dc1e1df15",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_de2dc1e1df15",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2dd375202da2",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_2dd375202da2",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2dd375202da2",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_2dd375202da2",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2dd375202da2",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_2dd375202da2",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2dd375202da2",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_2dd375202da2",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_67b20bffb137",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_67b20bffb137",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_67b20bffb137",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_67b20bffb137",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_67b20bffb137",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_67b20bffb137",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_67b20bffb137",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_67b20bffb137",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_39fa67271a5b",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_39fa67271a5b",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_39fa67271a5b",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_39fa67271a5b",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_39fa67271a5b",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_39fa67271a5b",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_39fa67271a5b",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_39fa67271a5b",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ed546bba957e",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_ed546bba957e",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ed546bba957e",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_ed546bba957e",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ed546bba957e",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_ed546bba957e",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ed546bba957e",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_ed546bba957e",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_048f3bb9753c",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_048f3bb9753c",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_048f3bb9753c",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_048f3bb9753c",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_048f3bb9753c",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_048f3bb9753c",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_048f3bb9753c",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_048f3bb9753c",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_107ed97aeee8",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_107ed97aeee8",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_107ed97aeee8",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_107ed97aeee8",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_107ed97aeee8",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_107ed97aeee8",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_107ed97aeee8",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_107ed97aeee8",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0d59f70b466f",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_0d59f70b466f",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0d59f70b466f",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_0d59f70b466f",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0d59f70b466f",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_0d59f70b466f",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0d59f70b466f",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_0d59f70b466f",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2239595edc97",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_2239595edc97",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2239595edc97",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_2239595edc97",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2239595edc97",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_2239595edc97",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2239595edc97",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_2239595edc97",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5287454a7981",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_5287454a7981",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5287454a7981",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_5287454a7981",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5287454a7981",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_5287454a7981",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5287454a7981",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_5287454a7981",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c62be0507b25",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_c62be0507b25",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c62be0507b25",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_c62be0507b25",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c62be0507b25",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_c62be0507b25",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_c62be0507b25",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_c62be0507b25",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8edd6021974c",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_8edd6021974c",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8edd6021974c",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_8edd6021974c",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8edd6021974c",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_8edd6021974c",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8edd6021974c",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_8edd6021974c",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_155977bcf32b",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_155977bcf32b",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_155977bcf32b",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_155977bcf32b",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_155977bcf32b",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_155977bcf32b",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_155977bcf32b",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_155977bcf32b",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6de6162e8a7e",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_6de6162e8a7e",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6de6162e8a7e",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_6de6162e8a7e",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6de6162e8a7e",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_6de6162e8a7e",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6de6162e8a7e",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_6de6162e8a7e",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2c45764a3b47",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_2c45764a3b47",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2c45764a3b47",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_2c45764a3b47",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2c45764a3b47",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_2c45764a3b47",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_2c45764a3b47",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_2c45764a3b47",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e6bb78e6545d",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_e6bb78e6545d",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e6bb78e6545d",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_e6bb78e6545d",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e6bb78e6545d",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_e6bb78e6545d",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e6bb78e6545d",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_e6bb78e6545d",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_108078bf73da",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_108078bf73da",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_108078bf73da",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_108078bf73da",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_108078bf73da",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_108078bf73da",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_108078bf73da",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_108078bf73da",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0c973655cbac",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_0c973655cbac",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0c973655cbac",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_0c973655cbac",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0c973655cbac",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_0c973655cbac",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_0c973655cbac",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_0c973655cbac",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fbf9bb847c63",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_fbf9bb847c63",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fbf9bb847c63",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_fbf9bb847c63",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fbf9bb847c63",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_fbf9bb847c63",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_fbf9bb847c63",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_fbf9bb847c63",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e1864807271a",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_e1864807271a",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e1864807271a",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_e1864807271a",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e1864807271a",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_e1864807271a",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e1864807271a",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_e1864807271a",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_87c986c108e1",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_87c986c108e1",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_87c986c108e1",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_87c986c108e1",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_87c986c108e1",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_87c986c108e1",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_87c986c108e1",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_87c986c108e1",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb95a7194625",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb95a7194625",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb95a7194625",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb95a7194625",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb95a7194625",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb95a7194625",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_eb95a7194625",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_eb95a7194625",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3cd4b4b73775",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_3cd4b4b73775",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3cd4b4b73775",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_3cd4b4b73775",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3cd4b4b73775",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_3cd4b4b73775",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3cd4b4b73775",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_3cd4b4b73775",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ba4a79af6b4",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ba4a79af6b4",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ba4a79af6b4",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ba4a79af6b4",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ba4a79af6b4",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ba4a79af6b4",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1ba4a79af6b4",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_1ba4a79af6b4",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6d1a74db499c",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_6d1a74db499c",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6d1a74db499c",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_6d1a74db499c",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6d1a74db499c",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_6d1a74db499c",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_6d1a74db499c",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_6d1a74db499c",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3a452aa269c",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3a452aa269c",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3a452aa269c",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3a452aa269c",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3a452aa269c",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3a452aa269c",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3a452aa269c",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3a452aa269c",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_da2e97fe1fb1",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_da2e97fe1fb1",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_da2e97fe1fb1",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_da2e97fe1fb1",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_da2e97fe1fb1",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_da2e97fe1fb1",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_da2e97fe1fb1",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_da2e97fe1fb1",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ef6704611270",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_ef6704611270",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ef6704611270",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_ef6704611270",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ef6704611270",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_ef6704611270",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ef6704611270",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_ef6704611270",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1271bbe4f2a4",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_1271bbe4f2a4",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1271bbe4f2a4",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_1271bbe4f2a4",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1271bbe4f2a4",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_1271bbe4f2a4",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_1271bbe4f2a4",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_1271bbe4f2a4",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7fcada58357d",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_7fcada58357d",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7fcada58357d",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_7fcada58357d",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7fcada58357d",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_7fcada58357d",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7fcada58357d",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_7fcada58357d",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4e3b0180fb4d",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_4e3b0180fb4d",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4e3b0180fb4d",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_4e3b0180fb4d",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4e3b0180fb4d",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_4e3b0180fb4d",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4e3b0180fb4d",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_4e3b0180fb4d",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_05c9144679e8",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_05c9144679e8",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_05c9144679e8",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_05c9144679e8",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_05c9144679e8",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_05c9144679e8",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_05c9144679e8",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_05c9144679e8",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c92fa920f76",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c92fa920f76",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c92fa920f76",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c92fa920f76",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c92fa920f76",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c92fa920f76",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_4c92fa920f76",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_4c92fa920f76",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9df5549d9a24",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_9df5549d9a24",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9df5549d9a24",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_9df5549d9a24",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9df5549d9a24",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_9df5549d9a24",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_9df5549d9a24",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_9df5549d9a24",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b049aa352f8c",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_b049aa352f8c",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b049aa352f8c",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_b049aa352f8c",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b049aa352f8c",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_b049aa352f8c",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_b049aa352f8c",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_b049aa352f8c",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_29be81b6cf6e",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_29be81b6cf6e",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_29be81b6cf6e",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_29be81b6cf6e",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_29be81b6cf6e",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_29be81b6cf6e",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_29be81b6cf6e",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_29be81b6cf6e",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7fd69ecc8c6c",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_7fd69ecc8c6c",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7fd69ecc8c6c",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_7fd69ecc8c6c",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7fd69ecc8c6c",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_7fd69ecc8c6c",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7fd69ecc8c6c",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_7fd69ecc8c6c",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7d0fd2d0ceea",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_7d0fd2d0ceea",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7d0fd2d0ceea",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_7d0fd2d0ceea",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7d0fd2d0ceea",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_7d0fd2d0ceea",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_7d0fd2d0ceea",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_7d0fd2d0ceea",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e0c46fad2d74",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_e0c46fad2d74",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e0c46fad2d74",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_e0c46fad2d74",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e0c46fad2d74",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_e0c46fad2d74",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_e0c46fad2d74",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_e0c46fad2d74",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_132e20153785",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_132e20153785",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_132e20153785",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_132e20153785",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_132e20153785",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_132e20153785",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_132e20153785",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_132e20153785",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cb3ddbdbb7c3",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_cb3ddbdbb7c3",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cb3ddbdbb7c3",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_cb3ddbdbb7c3",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cb3ddbdbb7c3",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_cb3ddbdbb7c3",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_cb3ddbdbb7c3",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_cb3ddbdbb7c3",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_76cae195631b",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_76cae195631b",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_76cae195631b",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_76cae195631b",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_76cae195631b",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_76cae195631b",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_76cae195631b",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_76cae195631b",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8220895d0dd0",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_8220895d0dd0",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8220895d0dd0",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_8220895d0dd0",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8220895d0dd0",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_8220895d0dd0",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_8220895d0dd0",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_8220895d0dd0",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_023115d06ae6",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_023115d06ae6",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_023115d06ae6",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_023115d06ae6",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_023115d06ae6",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_023115d06ae6",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_023115d06ae6",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_023115d06ae6",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_767078200ae9",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_767078200ae9",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_767078200ae9",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_767078200ae9",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_767078200ae9",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_767078200ae9",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_767078200ae9",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_767078200ae9",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_57e951cb1859",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_57e951cb1859",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_57e951cb1859",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_57e951cb1859",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_57e951cb1859",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_57e951cb1859",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_57e951cb1859",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_57e951cb1859",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_45e702d0ef72",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_45e702d0ef72",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_45e702d0ef72",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_45e702d0ef72",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_45e702d0ef72",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_45e702d0ef72",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_45e702d0ef72",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_45e702d0ef72",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f79a31ef879f",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_f79a31ef879f",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f79a31ef879f",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_f79a31ef879f",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f79a31ef879f",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_f79a31ef879f",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_f79a31ef879f",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_f79a31ef879f",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3260bcf07a3f",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_3260bcf07a3f",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3260bcf07a3f",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_3260bcf07a3f",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3260bcf07a3f",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_3260bcf07a3f",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_3260bcf07a3f",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_3260bcf07a3f",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea282b3ad1e9",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea282b3ad1e9",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea282b3ad1e9",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea282b3ad1e9",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea282b3ad1e9",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea282b3ad1e9",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_ea282b3ad1e9",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_ea282b3ad1e9",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5931c4938a64",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_5931c4938a64",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5931c4938a64",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_5931c4938a64",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5931c4938a64",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_5931c4938a64",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_5931c4938a64",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_5931c4938a64",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3453aabf718",
+   "to": "ent_10728540ca28",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3453aabf718",
+   "to_name": "张天丰",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3453aabf718",
+   "to": "ent_bba325f4f839",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3453aabf718",
+   "to_name": "铷盐",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3453aabf718",
+   "to": "ent_09669434aff5",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3453aabf718",
+   "to_name": "铷铯行业",
+   "edge_type": "indicator_entity"
+  },
+  {
+   "from": "ind_ind_a3453aabf718",
+   "to": "ent_72043a4d1e12",
+   "type": "指标关联",
+   "from_name": "ind_ind_a3453aabf718",
+   "to_name": "钙钛矿太阳能电池",
+   "edge_type": "indicator_entity"
+  }
+ ],
+ "counts": {
+  "entity_count": 14,
+  "relation_count": 67,
+  "framework_count": 4,
+  "logic_count": 4,
+  "indicator_count": 58
+ }
+}
