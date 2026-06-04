@@ -90,97 +90,160 @@ const Level2Progressive = (function() {
     return TYPE_SHAPES[type] || TYPE_SHAPES[type.toUpperCase()] || 'dot';
   }
 
-  // 构建行业内部节点和边（使用 all_nodes/all_edges 或兼容旧数据）
+  // 构建行业内部节点和边（从组件数组组合，避免数据冗余）
   function buildIndustryData(industryName, fullData, showIsolated) {
     const industryMap = fullData.industries_map[industryName];
     if (!industryMap) return { nodes: [], edges: [], entityCount: 0, relationCount: 0 };
 
-    // 新数据：使用 all_nodes 和 all_edges
-    if (industryMap.all_nodes && industryMap.all_edges) {
-      return buildNodesFromAllData(industryMap, showIsolated);
-    }
-
-    // 旧数据兼容：使用 entities + relations
-    return buildNodesFromLegacyData(industryMap, showIsolated);
+    // 从组件构建节点和边
+    return buildNodesFromComponents(industryName, industryMap, fullData, showIsolated);
   }
 
-  // 新数据版本（v4+）
-  function buildNodesFromAllData(industryMap, showIsolated) {
-    const allNodes = industryMap.all_nodes || [];
-    const allEdges = industryMap.all_edges || [];
+  // 从组件数组构建节点和边（无冗余版本）
+  function buildNodesFromComponents(industryName, industryMap, fullData, showIsolated) {
+    const entities = industryMap.entities || [];
+    const relations = industryMap.relations || [];
+    const frameworks = industryMap.frameworks || [];
+    const logics = industryMap.logics || [];
+    const indicators = industryMap.indicators || [];
 
-    // 统计有关系的节点 ID
-    const connectedIds = new Set();
-    allEdges.forEach(e => {
-      connectedIds.add(e.from);
-      connectedIds.add(e.to);
+    // 从全局获取关联边
+    const logicEdges = (fullData.logic_entity_edges || []).filter(e => {
+      const targetEntity = entities.find(ent => ent.id === e.to);
+      return !!targetEntity;
     });
+    const indicatorEdges = (fullData.indicator_entity_edges || []).filter(e => {
+      const targetEntity = entities.find(ent => ent.id === e.to);
+      return !!targetEntity;
+    });
+
+    // 统计有关系的实体 ID
+    const connectedIds = new Set();
+    relations.forEach(r => {
+      connectedIds.add(r.from);
+      connectedIds.add(r.to);
+    });
+    logicEdges.forEach(e => connectedIds.add(e.from));
+    indicatorEdges.forEach(e => connectedIds.add(e.from));
 
     const entityNodes = [];
     const edgeMap = new Map();
 
-    allNodes.forEach(n => {
-      // 可选过滤孤立节点
-      if (showIsolated !== true && !connectedIds.has(n.id)) return;
-
-      const color = getEntityColor(n.type);
-      const isFramework = n.node_type === 'framework';
-      const isLogic = n.node_type === 'logic';
-      const isIndicator = n.node_type === 'indicator';
-
-      // 节点大小：核心实体和框架较大，逻辑链和指标较小
-      let size = 12;
-      if (n.is_core && n.node_type === 'entity') size = 20;
-      else if (isFramework) size = 18;
-      else if (isLogic) size = 10;
-      else if (isIndicator) size = 8;
-
+    // ── 构建节点 ──
+    entities.forEach(e => {
+      if (showIsolated !== true && !connectedIds.has(e.id)) return;
+      const color = getEntityColor(e.type);
       entityNodes.push({
-        id: n.id,
-        label: n.label.length > 15 ? n.label.slice(0, 15) + '…' : n.label,
-        title: buildTooltip(n, industryMap),
-        shape: getShape(n.type),
-        group: n.node_type || 'entity',
+        id: e.id,
+        label: e.name.length > 15 ? e.name.slice(0, 15) + '…' : e.name,
+        title: buildTooltip(e, industryMap),
+        shape: getShape(e.type),
+        group: 'entity',
         color: {
           background: color,
           border: adjustColor(color, -40),
           highlight: { background: '#fff', border: '#1d9bf0' },
         },
-        size: size,
-        level: n.is_core ? 0 : 1,
-        type: n.type,
-        nodeType: n.node_type,
-        name: n.label,
-        is_core: n.is_core,
-        industry: n.industry || '',
+        size: e.is_core ? 20 : 12,
+        level: e.is_core ? 0 : 1,
+        type: e.type,
+        nodeType: 'entity',
+        name: e.name,
+        is_core: e.is_core,
+        industry: industryName,
       });
     });
 
-    // 边
-    allEdges.forEach(e => {
-      const key = `${e.from}|${e.to}|${e.type}`;
+    frameworks.forEach(fw => {
+      if (!connectedIds.has(fw.id) && showIsolated !== true) return;
+      entityNodes.push({
+        id: fw.id,
+        label: fw.name.length > 15 ? fw.name.slice(0, 15) + '…' : fw.name,
+        title: buildTooltip(fw, industryMap),
+        shape: 'square',
+        group: 'framework',
+        color: {
+          background: getEntityColor('framework'),
+          border: adjustColor(getEntityColor('framework'), -40),
+          highlight: { background: '#fff', border: '#1d9bf0' },
+        },
+        size: 18,
+        type: 'framework',
+        nodeType: 'framework',
+        name: fw.name,
+        is_core: true,
+        industry: industryName,
+      });
+    });
+
+    logics.forEach(lc => {
+      if (!connectedIds.has(lc.id) && showIsolated !== true) return;
+      entityNodes.push({
+        id: lc.id,
+        label: `${lc.type || '逻辑链'}`,
+        title: buildTooltip(lc, industryMap),
+        shape: 'triangle',
+        group: 'logic',
+        color: {
+          background: getEntityColor('logic'),
+          border: adjustColor(getEntityColor('logic'), -40),
+          highlight: { background: '#fff', border: '#1d9bf0' },
+        },
+        size: 10,
+        type: 'logic',
+        nodeType: 'logic',
+        name: lc.type || '逻辑链',
+        is_core: false,
+        industry: industryName,
+      });
+    });
+
+    indicators.forEach(ind => {
+      if (!connectedIds.has(ind.id) && showIsolated !== true) return;
+      entityNodes.push({
+        id: ind.id,
+        label: (ind.name || '').length > 12 ? (ind.name || '').slice(0, 12) + '…' : (ind.name || '指标'),
+        title: buildTooltip(ind, industryMap),
+        shape: 'diamond',
+        group: 'indicator',
+        color: {
+          background: getEntityColor('indicator'),
+          border: adjustColor(getEntityColor('indicator'), -40),
+          highlight: { background: '#fff', border: '#1d9bf0' },
+        },
+        size: 8,
+        type: 'indicator',
+        nodeType: 'indicator',
+        name: ind.name || '指标',
+        is_core: ind.is_core || false,
+        industry: industryName,
+      });
+    });
+
+    // ── 构建边 ──
+    const addEdge = function(from, to, type, edgeType, opacity, dashes) {
+      const key = `${from}|${to}|${type}`;
       if (!edgeMap.has(key)) {
-        edgeMap.set(key, { from: e.from, to: e.to, type: e.type, count: 1, edgeType: e.edge_type || 'entity_relation' });
+        edgeMap.set(key, { from, to, type, count: 1, edgeType });
       } else {
         edgeMap.get(key).count++;
       }
-    });
+    };
+    relations.forEach(r => addEdge(r.from, r.to, r.type, 'entity_relation', 0.8, false));
+    logicEdges.forEach(e => addEdge(e.from, e.to, e.type, e.edge_type || 'logic_entity', 0.4, true));
+    indicatorEdges.forEach(e => addEdge(e.from, e.to, e.type, e.edge_type || 'indicator_entity', 0.4, true));
 
     const industryEdges = [];
     edgeMap.forEach(edge => {
       const color = getRelationColor(edge.type);
-      const isNonEntityEdge = edge.edgeType === 'logic_entity' || edge.edgeType === 'indicator_entity';
+      const isNonEntity = edge.edgeType !== 'entity_relation';
       industryEdges.push({
         from: edge.from,
         to: edge.to,
         label: edge.count > 1 ? `${edge.count}` : '',
-        color: {
-          color: color,
-          highlight: '#1d9bf0',
-          opacity: isNonEntityEdge ? 0.4 : 0.8,
-        },
-        width: isNonEntityEdge ? 0.8 : Math.min(edge.count / 2 + 1, 3),
-        dashes: isNonEntityEdge ? [5, 3] : false,  // 非实体关系用虚线
+        color: { color, highlight: '#1d9bf0', opacity: isNonEntity ? 0.4 : 0.8 },
+        width: isNonEntity ? 0.8 : Math.min(edge.count / 2 + 1, 3),
+        dashes: isNonEntity ? [5, 3] : false,
         smooth: { type: 'continuous', roundness: 0.15 },
       });
     });

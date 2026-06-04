@@ -268,13 +268,15 @@ const Level3Detail = (function() {
 
   // 关联实体卡片
   function buildRelatedEntities(entity, edgeType) {
-    if (!fullData || !fullData.all_edges) return '';
-    const edges = fullData.all_edges.filter(e => 
-      e.edge_type === edgeType && (e.from === entity.id || e.to === entity.id)
+    // edgeType 是 'logic_entity' 或 'indicator_entity'
+    const edgeKey = edgeType === 'framework_entity' ? '' : edgeType === 'logic_entity' ? 'logic_entity_edges' : 'indicator_entity_edges';
+    if (!edgeKey || !fullData || !fullData[edgeKey]) return '';
+    const edges = fullData[edgeKey].filter(e => 
+      e.from === entity.id || e.to === entity.id
     );
     if (edges.length === 0) return '';
     const typeLabels = {
-      'framework_entity': '关联实体', 'logic_entity': '关联实体', 'indicator_entity': '关联实体',
+      'logic_entity': '关联实体', 'indicator_entity': '关联实体',
     };
     const label = typeLabels[edgeType] || '关联实体';
 
