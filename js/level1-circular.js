@@ -96,9 +96,13 @@ const Level1Circular = (function() {
     });
 
     // 行业之间用边连接（基于跨行业关系）
-    const crossIndustryRelations = data.all_relations.filter(r =>
-      r.from_ind && r.to_ind && r.from_ind !== r.to_ind
-    );
+    // 如果全量数据未加载（分片模式），跳过跨行业边
+    let crossIndustryRelations = [];
+    if (data && data.all_relations) {
+      crossIndustryRelations = data.all_relations.filter(r =>
+        r.from_ind && r.to_ind && r.from_ind !== r.to_ind
+      );
+    }
     const crossPairs = new Map();
     crossIndustryRelations.forEach(r => {
       const key = [r.from_ind, r.to_ind].sort().join('|');
