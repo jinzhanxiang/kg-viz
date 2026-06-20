@@ -435,3 +435,37 @@ html, body {
   width: 100% !important;
   height: 100% !important;
 }
+
+/* ═══════════════════════════════════
+   移动端适配
+   ═══════════════════════════════════ */
+@media (max-width: 768px) {
+  :root {
+    --nav-width: 0px;
+    --detail-width: 0px;
+  }
+  .app-nav { display: none; }
+  .app-detail {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw;
+    z-index: 1000;
+    transform: translateX(100%);
+  }
+  .app-detail.hidden { transform: translateX(100%); }
+  .app-detail:not(.hidden) { transform: translateX(0); }
+  .app-visual { grid-column: 1 / -1; }
+  .app-header h1 { font-size: 14px; gap: 4px; }
+  .app-header h1 .level-badge { font-size: 9px; padding: 1px 6px; }
+  .header-right .btn { padding: 4px 10px; font-size: 11px; }
+  .toggle-label { font-size: 10px; padding: 2px 6px; }
+  .toggle-label span { display: none; }
+  .status-bar {
+    left: 0;
+    right: 0;
+  }
+  .breadcrumb {
+    left: 10px !important;
+    top: 54px !important;
+  }
+}
