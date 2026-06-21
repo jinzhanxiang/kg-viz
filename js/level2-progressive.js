@@ -99,6 +99,16 @@ const Level2Progressive = (function() {
     return buildNodesFromComponents(industryName, industryMap, fullData, showIsolated);
   }
 
+  // 节点标签策略：只有关键节点显示标签，小节点只显示颜色/形状
+  function getNodeLabel(node, type, size) {
+    // indicator/logic 节点默认不显示标签（太小，满屏文字）
+    if (type === 'indicator' || type === 'logic') return '';
+    // 非核心实体节点不显示标签
+    if (node.nodeType === 'entity' && !node.is_core && size <= 12) return '';
+    // 其他节点显示标签
+    return node.label || node.name || '';
+  }
+
   // 从组件数组构建节点和边（无冗余版本）
   function buildNodesFromComponents(industryName, industryMap, fullData, showIsolated) {
     const entities = industryMap.entities || [];
@@ -133,9 +143,10 @@ const Level2Progressive = (function() {
     entities.forEach(e => {
       if (showIsolated !== true && !connectedIds.has(e.id)) return;
       const color = getEntityColor(e.type);
+      const size = e.is_core ? 20 : 12;
       entityNodes.push({
         id: e.id,
-        label: e.name.length > 15 ? e.name.slice(0, 15) + '…' : e.name,
+        label: getNodeLabel(e, e.type, size),
         title: buildTooltip(e, industryMap),
         shape: getShape(e.type),
         group: 'entity',
@@ -144,7 +155,7 @@ const Level2Progressive = (function() {
           border: adjustColor(color, -40),
           highlight: { background: '#fff', border: '#1d9bf0' },
         },
-        size: e.is_core ? 20 : 12,
+        size: size,
         level: e.is_core ? 0 : 1,
         type: e.type,
         nodeType: 'entity',
@@ -158,7 +169,7 @@ const Level2Progressive = (function() {
       if (!connectedIds.has(fw.id) && showIsolated !== true) return;
       entityNodes.push({
         id: fw.id,
-        label: fw.name.length > 15 ? fw.name.slice(0, 15) + '…' : fw.name,
+        label: getNodeLabel(fw, 'framework', 18),
         title: buildTooltip(fw, industryMap),
         shape: 'square',
         group: 'framework',
@@ -180,7 +191,7 @@ const Level2Progressive = (function() {
       if (!connectedIds.has(lc.id) && showIsolated !== true) return;
       entityNodes.push({
         id: lc.id,
-        label: `${lc.type || '逻辑链'}`,
+        label: getNodeLabel(lc, 'logic', 10),
         title: buildTooltip(lc, industryMap),
         shape: 'triangle',
         group: 'logic',
@@ -202,7 +213,7 @@ const Level2Progressive = (function() {
       if (!connectedIds.has(ind.id) && showIsolated !== true) return;
       entityNodes.push({
         id: ind.id,
-        label: (ind.name || '').length > 12 ? (ind.name || '').slice(0, 12) + '…' : (ind.name || '指标'),
+        label: getNodeLabel(ind, 'indicator', 8),
         title: buildTooltip(ind, industryMap),
         shape: 'diamond',
         group: 'indicator',
@@ -307,9 +318,10 @@ const Level2Progressive = (function() {
     industryMap.entities.forEach(e => {
       if (showIsolated !== true && !connectedIds.has(e.id)) return;
       const color = getEntityColor(e.type);
+      const size = e.is_core ? 20 : 12;
       entityNodes.push({
         id: e.id,
-        label: e.name.length > 12 ? e.name.slice(0, 12) + '…' : e.name,
+        label: getNodeLabel(e, e.type, size),
         title: `${e.name}\n类型: ${getEntityTypeLabel(e.type)}\n${e.desc}`,
         shape: getShape(e.type),
         group: 'entity',
@@ -318,7 +330,7 @@ const Level2Progressive = (function() {
           border: adjustColor(color, -30),
           highlight: { background: '#fff', border: '#1d9bf0' },
         },
-        size: e.is_core ? 20 : 12,
+        size: size,
         level: e.is_core ? 0 : 1,
         type: e.type,
         nodeType: 'entity',

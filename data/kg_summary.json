@@ -1,1 +1,203 @@
-{"meta": {"timestamp": "2026-06-04 08:05:27", "total_entities": 3544, "total_frameworks": 1621, "total_logic_chains": 6748, "total_indicators": 7814}, "industries": [{"name": "新能源电池行业", "count": 1899}, {"name": "电力设备/储能", "count": 658}, {"name": "医药/医疗", "count": 251}, {"name": "机械设备", "count": 162}, {"name": "人工智能", "count": 131}, {"name": "电力/风电/光伏", "count": 114}, {"name": "军工", "count": 105}, {"name": "汽车零部件", "count": 86}, {"name": "低空经济", "count": 78}, {"name": "光伏设备", "count": 14}, {"name": "消费/食品饮料", "count": 12}], "industry_counts": {"新能源电池行业": 1899, "电力设备/储能": 658, "医药/医疗": 251, "机械设备": 162, "人工智能": 131, "电力/风电/光伏": 114, "军工": 105, "汽车零部件": 86, "低空经济": 78, "光伏设备": 14, "消费/食品饮料": 12}, "entity_types": [{"type": "indicator", "count": 7814, "color": "#2ECC71"}, {"type": "logic", "count": 6748, "color": "#9B59B6"}, {"type": "framework", "count": 1621, "color": "#F39C12"}, {"type": "ORG", "count": 1465, "color": "#4A90D9"}, {"type": "PRODUCT", "count": 584, "color": "#FFB347"}, {"type": "TECH", "count": 522, "color": "#FF6B6B"}, {"type": "POLICY", "count": 349, "color": "#FF8C42"}, {"type": "INDUSTRY", "count": 309, "color": "#FFD700"}, {"type": "PLACE", "count": 222, "color": "#48C9B0"}, {"type": "PERSON", "count": 93, "color": "#50C878"}], "relation_types": [{"type": "上下游", "count": 1788, "color": "#E67E22"}, {"type": "监管", "count": 1122, "color": "#00BCD4"}, {"type": "合作", "count": 979, "color": "#E74C3C"}, {"type": "供应", "count": 864, "color": "#2ECC71"}, {"type": "对比", "count": 639, "color": "#E74C3C"}, {"type": "竞争", "count": 617, "color": "#E91E63"}, {"type": "投资", "count": 504, "color": "#E91E63"}, {"type": "战略联盟", "count": 469, "color": "#8E44AD"}, {"type": "客户", "count": 429, "color": "#00ACC1"}, {"type": "股东", "count": 85, "color": "#1ABC9C"}, {"type": "子公司", "count": 80, "color": "#00ACC1"}, {"type": "收购", "count": 27, "color": "#3498DB"}, {"type": "技术链", "count": 23, "color": "#7E57C2"}, {"type": "应用", "count": 8, "color": "#00ACC1"}, {"type": "供应商", "count": 4, "color": "#E67E22"}, {"type": "市场化", "count": 1, "color": "#7E57C2"}]}
+{
+  "meta": {
+    "timestamp": "2026-06-04 08:05:27",
+    "total_entities": 3544,
+    "total_frameworks": 1621,
+    "total_logic_chains": 6748,
+    "total_indicators": 7814,
+    "total_relations": 7639
+  },
+  "industries": [
+    {
+      "name": "新能源电池行业",
+      "count": 1899
+    },
+    {
+      "name": "电力设备/储能",
+      "count": 658
+    },
+    {
+      "name": "医药/医疗",
+      "count": 251
+    },
+    {
+      "name": "机械设备",
+      "count": 162
+    },
+    {
+      "name": "人工智能",
+      "count": 131
+    },
+    {
+      "name": "电力/风电/光伏",
+      "count": 114
+    },
+    {
+      "name": "军工",
+      "count": 105
+    },
+    {
+      "name": "汽车零部件",
+      "count": 86
+    },
+    {
+      "name": "低空经济",
+      "count": 78
+    },
+    {
+      "name": "光伏设备",
+      "count": 14
+    },
+    {
+      "name": "消费/食品饮料",
+      "count": 12
+    }
+  ],
+  "industry_counts": {
+    "新能源电池行业": 1899,
+    "电力设备/储能": 658,
+    "医药/医疗": 251,
+    "机械设备": 162,
+    "人工智能": 131,
+    "电力/风电/光伏": 114,
+    "军工": 105,
+    "汽车零部件": 86,
+    "低空经济": 78,
+    "光伏设备": 14,
+    "消费/食品饮料": 12
+  },
+  "entity_types": [
+    {
+      "type": "indicator",
+      "count": 7814,
+      "color": "#2ECC71"
+    },
+    {
+      "type": "logic",
+      "count": 6748,
+      "color": "#9B59B6"
+    },
+    {
+      "type": "framework",
+      "count": 1621,
+      "color": "#F39C12"
+    },
+    {
+      "type": "ORG",
+      "count": 1465,
+      "color": "#4A90D9"
+    },
+    {
+      "type": "PRODUCT",
+      "count": 584,
+      "color": "#FFB347"
+    },
+    {
+      "type": "TECH",
+      "count": 522,
+      "color": "#FF6B6B"
+    },
+    {
+      "type": "POLICY",
+      "count": 349,
+      "color": "#FF8C42"
+    },
+    {
+      "type": "INDUSTRY",
+      "count": 309,
+      "color": "#FFD700"
+    },
+    {
+      "type": "PLACE",
+      "count": 222,
+      "color": "#48C9B0"
+    },
+    {
+      "type": "PERSON",
+      "count": 93,
+      "color": "#50C878"
+    }
+  ],
+  "relation_types": [
+    {
+      "type": "上下游",
+      "count": 1788,
+      "color": "#E67E22"
+    },
+    {
+      "type": "监管",
+      "count": 1122,
+      "color": "#00BCD4"
+    },
+    {
+      "type": "合作",
+      "count": 979,
+      "color": "#E74C3C"
+    },
+    {
+      "type": "供应",
+      "count": 864,
+      "color": "#2ECC71"
+    },
+    {
+      "type": "对比",
+      "count": 639,
+      "color": "#E74C3C"
+    },
+    {
+      "type": "竞争",
+      "count": 617,
+      "color": "#E91E63"
+    },
+    {
+      "type": "投资",
+      "count": 504,
+      "color": "#E91E63"
+    },
+    {
+      "type": "战略联盟",
+      "count": 469,
+      "color": "#8E44AD"
+    },
+    {
+      "type": "客户",
+      "count": 429,
+      "color": "#00ACC1"
+    },
+    {
+      "type": "股东",
+      "count": 85,
+      "color": "#1ABC9C"
+    },
+    {
+      "type": "子公司",
+      "count": 80,
+      "color": "#00ACC1"
+    },
+    {
+      "type": "收购",
+      "count": 27,
+      "color": "#3498DB"
+    },
+    {
+      "type": "技术链",
+      "count": 23,
+      "color": "#7E57C2"
+    },
+    {
+      "type": "应用",
+      "count": 8,
+      "color": "#00ACC1"
+    },
+    {
+      "type": "供应商",
+      "count": 4,
+      "color": "#E67E22"
+    },
+    {
+      "type": "市场化",
+      "count": 1,
+      "color": "#7E57C2"
+    }
+  ]
+}
